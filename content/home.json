@@ -1,0 +1,60 @@
+{
+  "heroSlides": [
+    {
+      "title": "Delivering Technological Solutions",
+      "subtitle": "Empower your enterprise with our experienced, industry-best IT professionals.",
+      "cta": "Explore Services",
+      "ctaLink": "/services/it-professionals"
+    },
+    {
+      "title": "Logistics Application Suites",
+      "subtitle": "Easy to use, configured based on your enterprise needs.",
+      "cta": "View Logistics Suite",
+      "ctaLink": "/services/logistics"
+    }
+  ],
+  "highlights": [
+    "Logistics Solutions Suite",
+    "Staffing Solutions",
+    "Microsoft Technology Solutions",
+    "ERP Solutions",
+    "Mobility Solutions",
+    "Applications Development"
+  ],
+  "services": [
+    {
+      "id": "bpo",
+      "title": "Business Process Outsourcing",
+      "excerpt": "Global companies are increasingly embracing outsourcing across a wider range of front and back-office processes to help transform their businesses. In addition to significant cost savings, BPO has become a lever for driving business growth and innovation.",
+      "link": "/services/bpo",
+      "icon": "workflow"
+    },
+    {
+      "id": "it-professionals",
+      "title": "IT Professionals",
+      "excerpt": "Leading companies know that a commitment to human capital is a key competitive advantage. Attracting, developing and retaining talent has always been crucial to an organization's success.",
+      "link": "/services/it-professionals",
+      "icon": "users"
+    },
+    {
+      "id": "logistics",
+      "title": "Logistics App Suites",
+      "excerpt": "Information to help you manage critical mobile resource management challenges including compliance, route planning and performance management.",
+      "link": "/services/logistics",
+      "icon": "truck"
+    },
+    {
+      "id": "staffing",
+      "title": "Staffing Solutions",
+      "excerpt": "At the forefront of the MSP/VMS revolution, Heritage InfoTech delivers quality professionals on a time-sensitive basis across all 50 states.",
+      "link": "/services/staffing",
+      "icon": "briefcase"
+    }
+  ],
+  "cta": {
+    "title": "Ready to Transform Your Business?",
+    "subtitle": "Partner with Heritage InfoTech for technology solutions that deliver measurable results.",
+    "buttonText": "Get in Touch",
+    "buttonLink": "/contact"
+  }
+}

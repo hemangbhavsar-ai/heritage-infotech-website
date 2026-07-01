@@ -1,0 +1,83 @@
+{
+  "vision": {
+    "title": "Our Vision",
+    "subtitle": "People matter. Results count.",
+    "sections": [
+      {
+        "heading": "Company Vision",
+        "body": "At Heritage InfoTech, we live and breathe the philosophy that people matter and results count."
+      },
+      {
+        "heading": "The Business Value of Technology Comes Through People",
+        "body": "Heritage InfoTech understands that business value cannot be achieved through technology alone. It starts with people: experts working together to get to the heart of your individual business objectives and develop the most adapted solutions to fit these requirements. We believe this human-centered approach to technology is what sets us apart."
+      }
+    ],
+    "values": [
+      { "title": "Innovation", "description": "Pioneering solutions that keep your business ahead of the curve.", "icon": "lightbulb" },
+      { "title": "Collaboration", "description": "Working alongside your team to achieve shared goals.", "icon": "handshake" },
+      { "title": "Delivery", "description": "Results-driven execution with measurable outcomes.", "icon": "target" }
+    ]
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "Trusted by organizations nationwide",
+    "body": "From staff augmentation and project/business specific solutions to direct (permanent) placement services, Heritage InfoTech's dedicated team of recruiting and staffing experts consistently delivers quality professionals on a time-sensitive basis. Heritage InfoTech places contractors in all 50 states by seamlessly coordinating recruiting resources in local and regional markets with our National Recruiting & Delivery team.",
+    "industries": ["Healthcare & Pharma", "Financial Services", "Technology", "Logistics & Supply Chain", "Manufacturing", "Government"]
+  },
+  "itProfessionals": {
+    "title": "IT Professional Services & Consulting",
+    "subtitle": "National IT staffing and consulting excellence",
+    "body": "Heritage InfoTech Technologies, Heritage InfoTech Staffing Group's technology specialty division, is a national IT staffing organization operating across industries. We provide contract, direct (permanent), consulting and project management services to top companies and their IT departments.",
+    "capabilities": [
+      "Staff Augmentation",
+      "Project & Business Solutions",
+      "Direct (Permanent) Placement",
+      "Consulting Services",
+      "Project Management",
+      "Microsoft Technology Solutions",
+      "ERP Solutions",
+      "Mobility Solutions",
+      "Applications Development"
+    ]
+  },
+  "logistics": {
+    "title": "Logistic Solutions Suite",
+    "subtitle": "Route Planning Software Suite",
+    "body": "Operating an efficient fleet and mobile workforce that meets customer service expectations begins with proper planning for pickups, deliveries and/or service calls. Heritage InfoTech's Route Planning solutions give logistics professionals the tools to maximize fleet and mobile resource utilization and efficiency.",
+    "features": [
+      { "title": "Advanced Route Optimization", "description": "Optimize routes across a wide variety of planning scenarios to reduce costs and improve delivery times.", "icon": "route" },
+      { "title": "Compliance Management", "description": "Stay compliant with regulatory requirements while managing your mobile workforce.", "icon": "shield-check" },
+      { "title": "Performance Management", "description": "Track and improve fleet performance with real-time analytics and reporting.", "icon": "bar-chart" },
+      { "title": "Mobile Resource Management", "description": "Manage critical mobile resource challenges with enterprise-grade tools.", "icon": "smartphone" }
+    ]
+  },
+  "staffing": {
+    "title": "Staffing Solutions",
+    "subtitle": "MSP/VMS excellence with nationwide reach",
+    "body": "Heritage InfoTech exists at the forefront of the MSP/VMS revolution, serving to embrace the process rather than follow suit of competitors. As a top supplier for the Managed Supplier Program, and operating an international network of talent that assures compliance, we have developed a transactional service delivery process.",
+    "highlights": [
+      "Managed Supplier Program (MSP) expertise",
+      "International talent network with compliance assurance",
+      "Transactional service delivery process",
+      "Contractors placed in all 50 states",
+      "National Recruiting & Delivery team"
+    ]
+  },
+  "bpo": {
+    "title": "Business Process Outsourcing",
+    "subtitle": "BPO services — Outsourcing to India and China",
+    "body": "Global companies are increasingly embracing outsourcing across a wider range of front and back-office processes to help transform their businesses. In addition to significant cost savings, Business Process Outsourcing (BPO) has become a lever for driving business growth and innovation.",
+    "benefits": [
+      { "title": "Cost Savings", "description": "Significant operational cost reductions through strategic outsourcing.", "icon": "trending-down" },
+      { "title": "Business Growth", "description": "BPO as a lever for driving growth and innovation across your organization.", "icon": "trending-up" },
+      { "title": "Process Automation", "description": "Automate, standardize and improve business processes on a global level.", "icon": "cog" },
+      { "title": "Analytics & Insights", "description": "BPO integrates tools, analytics and experience to provide deeper business insight.", "icon": "pie-chart" }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We look forward to hearing from you",
+    "body": "Please contact us at any of our locations. Our team is ready to discuss how Heritage InfoTech can support your business objectives.",
+    "email": "info@heritageinfotech.com"
+  }
+}

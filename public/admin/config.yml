@@ -1,0 +1,167 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+site_url: https://heritageinfotech.com
+display_url: https://heritageinfotech.com
+logo_url: /favicon.svg
+
+collections:
+  - name: site
+    label: Site Settings
+    files:
+      - name: settings
+        label: Company Info
+        file: content/site.json
+        fields:
+          - { label: Company Name, name: companyName, widget: string }
+          - { label: Tagline, name: tagline, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Phone, name: phone, widget: string, required: false }
+          - { label: Copyright, name: copyright, widget: string }
+          - label: Social Links
+            name: social
+            widget: object
+            fields:
+              - { label: LinkedIn, name: linkedin, widget: string }
+              - { label: Twitter, name: twitter, widget: string }
+              - { label: Facebook, name: facebook, widget: string }
+              - { label: YouTube, name: youtube, widget: string }
+
+  - name: home
+    label: Home Page
+    files:
+      - name: homepage
+        label: Homepage Content
+        file: content/home.json
+        fields:
+          - label: Hero Slides
+            name: heroSlides
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: CTA Button Text, name: cta, widget: string }
+              - { label: CTA Link, name: ctaLink, widget: string }
+          - label: Highlights
+            name: highlights
+            widget: list
+            field: { label: Item, name: item, widget: string }
+          - label: Service Cards
+            name: services
+            widget: list
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Excerpt, name: excerpt, widget: text }
+              - { label: Link, name: link, widget: string }
+              - { label: Icon, name: icon, widget: string, hint: "workflow, users, truck, briefcase, lightbulb, handshake, target" }
+          - label: Call to Action
+            name: cta
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: text }
+              - { label: Button Text, name: buttonText, widget: string }
+              - { label: Button Link, name: buttonLink, widget: string }
+
+  - name: pages
+    label: All Pages
+    files:
+      - name: all-pages
+        label: Vision, Services, Contact & More
+        file: content/pages.json
+        fields:
+          - label: Vision Page
+            name: vision
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - label: Sections
+                name: sections
+                widget: list
+                fields:
+                  - { label: Heading, name: heading, widget: string }
+                  - { label: Body, name: body, widget: text }
+              - label: Values
+                name: values
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: string }
+          - label: Clients Page
+            name: clients
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Body, name: body, widget: text }
+              - label: Industries
+                name: industries
+                widget: list
+                field: { label: Industry, name: industry, widget: string }
+          - label: IT Professionals Page
+            name: itProfessionals
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Body, name: body, widget: text }
+              - label: Capabilities
+                name: capabilities
+                widget: list
+                field: { label: Capability, name: capability, widget: string }
+          - label: Logistics Page
+            name: logistics
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Body, name: body, widget: text }
+              - label: Features
+                name: features
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: string }
+          - label: Staffing Page
+            name: staffing
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Body, name: body, widget: text }
+              - label: Highlights
+                name: highlights
+                widget: list
+                field: { label: Highlight, name: highlight, widget: string }
+          - label: BPO Page
+            name: bpo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Body, name: body, widget: text }
+              - label: Benefits
+                name: benefits
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: string }
+          - label: Contact Page
+            name: contact
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Body, name: body, widget: text }
+              - { label: Email, name: email, widget: string }
