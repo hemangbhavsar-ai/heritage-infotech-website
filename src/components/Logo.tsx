@@ -22,9 +22,10 @@ export function Logo({ variant = 'dark', className = '', showTagline = false }: 
       src={src}
       alt={`${site.companyName}${showTagline ? ` — ${site.tagline}` : ''}`}
       className={className}
+      width={260}
+      height={42}
       loading="eager"
       decoding="async"
-      style={{ imageRendering: 'auto' }}
     />
   )
 }
