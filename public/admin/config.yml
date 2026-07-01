@@ -9,7 +9,7 @@ public_folder: "/images"
 
 site_url: https://heritage-infotech.netlify.app
 display_url: https://heritageinfotech.com
-logo_url: /images/logo/heritage-infotech-mark.svg
+logo_url: /images/logo/heritage-infotech-original.gif
 
 collections:
   - name: site

@@ -21,7 +21,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <div className="mb-4">
-              <Logo variant="dark" className="h-12 w-auto max-w-[260px]" />
+              <Logo variant="dark" className="h-12 w-auto max-w-[250px]" />
             </div>
             <p className="text-sm leading-relaxed text-slate-400">
               Delivering technology solutions, staffing excellence, and business process outsourcing

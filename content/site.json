@@ -2,10 +2,10 @@
   "companyName": "Heritage InfoTech LLC",
   "tagline": "Innovate. Collaborate. Deliver.",
   "logo": {
-    "dark": "/images/logo/heritage-infotech-logo-dark.svg",
-    "light": "/images/logo/heritage-infotech-logo-light.svg",
-    "mark": "/images/logo/heritage-infotech-mark.svg",
-    "letterhead": "/images/logo/heritage-infotech-logo-letterhead.png"
+    "dark": "/images/logo/heritage-infotech-original.gif",
+    "light": "/images/logo/heritage-infotech-original.gif",
+    "mark": "/images/logo/heritage-infotech-original.gif",
+    "letterhead": "/images/logo/heritage-infotech-original.png"
   },
   "email": "info@heritageinfotech.com",
   "phone": "(440) 281-2678",
