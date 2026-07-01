@@ -1,6 +1,9 @@
-import { CheckCircle2 } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { ArrowRight } from 'lucide-react'
 import { PageHero } from '../components/PageHero'
+import { Icon } from '../components/Icon'
 import { pages } from '../lib/content'
+import { serviceTopicPath } from '../lib/service-topics'
 
 export function ITProfessionalsPage() {
   const { itProfessionals } = pages
@@ -10,21 +13,24 @@ export function ITProfessionalsPage() {
       <PageHero title={itProfessionals.title} subtitle={itProfessionals.subtitle} />
       <section className="py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-12 lg:grid-cols-2">
-            <div>
-              <p className="text-lg leading-relaxed text-slate-600">{itProfessionals.body}</p>
-            </div>
-            <div className="rounded-xl border border-slate-200 bg-slate-50 p-8">
-              <h2 className="mb-6 text-xl font-semibold text-slate-900">Core Capabilities</h2>
-              <ul className="space-y-4">
-                {itProfessionals.capabilities.map((cap) => (
-                  <li key={cap} className="flex items-start gap-3">
-                    <CheckCircle2 className="mt-0.5 shrink-0 text-brand-500" size={20} />
-                    <span className="text-slate-700">{cap}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <p className="mx-auto mb-16 max-w-3xl text-lg leading-relaxed text-slate-600">{itProfessionals.body}</p>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {itProfessionals.topics.map((topic) => (
+              <Link
+                key={topic.slug}
+                to={serviceTopicPath('it-professionals', topic.slug)}
+                className="group rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-brand-300 hover:shadow-md"
+              >
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-brand-50 text-brand-600 transition group-hover:bg-brand-500 group-hover:text-white">
+                  <Icon name={topic.icon} size={24} />
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900">{topic.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-slate-600">{topic.summary}</p>
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">
+                  Learn more <ArrowRight size={14} />
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

@@ -14,6 +14,7 @@ import { BPOPage } from './pages/BPOPage'
 import { ContactPage } from './pages/ContactPage'
 import { EnquiryPage } from './pages/EnquiryPage'
 import { GetQuotePage } from './pages/GetQuotePage'
+import { ServiceTopicPage } from './pages/ServiceTopicPage'
 
 export default function App() {
   return (
@@ -32,9 +33,13 @@ export default function App() {
           <Route path="/about/clients/government" element={<IndustryPage slug="government" />} />
           <Route path="/about/clients/manufacturing" element={<IndustryPage slug="manufacturing" />} />
           <Route path="/services/it-professionals" element={<ITProfessionalsPage />} />
+          <Route path="/services/it-professionals/:slug" element={<ServiceTopicPage area="it-professionals" />} />
           <Route path="/services/cybersecurity" element={<CyberSecurityPage />} />
+          <Route path="/services/cybersecurity/:slug" element={<ServiceTopicPage area="cybersecurity" />} />
           <Route path="/services/logistics" element={<LogisticsPage />} />
+          <Route path="/services/logistics/:slug" element={<ServiceTopicPage area="logistics" />} />
           <Route path="/services/staffing" element={<StaffingPage />} />
+          <Route path="/services/staffing/:slug" element={<ServiceTopicPage area="staffing" />} />
           <Route path="/services/bpo" element={<BPOPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/enquiry" element={<EnquiryPage />} />

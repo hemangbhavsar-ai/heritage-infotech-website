@@ -2,8 +2,7 @@ import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { ChevronDown, Menu, X } from 'lucide-react'
 import { Logo } from './Logo'
-
-type NavChild = { label: string; path: string } | { divider: true; label: string }
+import { buildServicesNavChildren, type NavChild } from '../lib/services-nav'
 
 const navItems: Array<{ label: string; path?: string; children?: NavChild[] }> = [
   { label: 'Home', path: '/' },
@@ -25,13 +24,7 @@ const navItems: Array<{ label: string; path?: string; children?: NavChild[] }> =
   },
   {
     label: 'Services',
-    children: [
-      { label: 'IT Professional Services', path: '/services/it-professionals' },
-      { label: 'Cybersecurity & Quantum Readiness', path: '/services/cybersecurity' },
-      { label: 'Logistic Solutions Suite', path: '/services/logistics' },
-      { label: 'Staffing Solutions', path: '/services/staffing' },
-      { label: 'Business Process Outsourcing', path: '/services/bpo' },
-    ],
+    children: buildServicesNavChildren(),
   },
   {
     label: 'Contact',
@@ -78,7 +71,11 @@ export function Header() {
                 {openDropdown === item.label && (
                   <div
                     className={`absolute left-0 top-full rounded-md border border-slate-700 bg-slate-800 py-2 shadow-xl ${
-                      item.label === 'About Us' ? 'min-w-[280px]' : 'min-w-[260px]'
+                      item.label === 'Services'
+                        ? 'max-h-[70vh] min-w-[320px] overflow-y-auto'
+                        : item.label === 'About Us'
+                          ? 'min-w-[280px]'
+                          : 'min-w-[260px]'
                     }`}
                   >
                     {item.children.map((child, i) =>
@@ -94,8 +91,10 @@ export function Header() {
                           key={child.path}
                           to={child.path}
                           className={({ isActive }) =>
-                            `block px-4 py-2.5 text-sm transition hover:bg-slate-700 hover:text-white ${
-                              isActive ? 'bg-slate-700 text-brand-300' : 'text-slate-300'
+                            `block py-2.5 text-sm transition hover:bg-slate-700 hover:text-white ${
+                              child.indent ? 'pl-8 pr-4 text-slate-400' : 'px-4'
+                            } ${child.label === 'Overview' ? 'font-medium text-slate-200' : ''} ${
+                              isActive ? 'bg-slate-700 text-brand-300' : child.indent ? '' : 'text-slate-300'
                             }`
                           }
                         >
@@ -158,8 +157,10 @@ export function Header() {
                       to={child.path}
                       onClick={() => setMobileOpen(false)}
                       className={({ isActive }) =>
-                        `block rounded-md px-3 py-2.5 text-sm ${
-                          isActive ? 'bg-slate-800 text-brand-300' : 'text-slate-300 hover:bg-slate-800'
+                        `block rounded-md py-2.5 text-sm ${
+                          child.indent ? 'pl-6 pr-3 text-slate-400' : 'px-3'
+                        } ${child.label === 'Overview' ? 'font-medium text-slate-200' : ''} ${
+                          isActive ? 'bg-slate-800 text-brand-300' : child.indent ? 'hover:bg-slate-800' : 'text-slate-300 hover:bg-slate-800'
                         }`
                       }
                     >

@@ -1,6 +1,9 @@
-import { CheckCircle2 } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { ArrowRight } from 'lucide-react'
 import { PageHero } from '../components/PageHero'
+import { Icon } from '../components/Icon'
 import { pages } from '../lib/content'
+import { serviceTopicPath } from '../lib/service-topics'
 
 export function StaffingPage() {
   const { staffing } = pages
@@ -10,16 +13,26 @@ export function StaffingPage() {
       <PageHero title={staffing.title} subtitle={staffing.subtitle} />
       <section className="py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl">
-            <p className="text-lg leading-relaxed text-slate-600">{staffing.body}</p>
-            <ul className="mt-10 space-y-4">
-              {staffing.highlights.map((item) => (
-                <li key={item} className="flex items-start gap-3 rounded-lg bg-slate-50 p-4">
-                  <CheckCircle2 className="mt-0.5 shrink-0 text-brand-500" size={20} />
-                  <span className="text-slate-700">{item}</span>
-                </li>
-              ))}
-            </ul>
+          <p className="mx-auto mb-16 max-w-3xl text-lg leading-relaxed text-slate-600">{staffing.body}</p>
+          <div className="grid gap-6 sm:grid-cols-2">
+            {staffing.topics.map((topic) => (
+              <Link
+                key={topic.slug}
+                to={serviceTopicPath('staffing', topic.slug)}
+                className="group flex gap-5 rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-brand-300 hover:shadow-md"
+              >
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand-600 transition group-hover:bg-brand-500 group-hover:text-white">
+                  <Icon name={topic.icon} size={24} />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-slate-900">{topic.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-slate-600">{topic.summary}</p>
+                  <span className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-brand-600">
+                    Learn more <ArrowRight size={14} />
+                  </span>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

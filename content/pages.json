@@ -35,39 +35,201 @@
     "title": "IT Professional Services & Consulting",
     "subtitle": "National IT staffing and consulting excellence",
     "body": "Heritage InfoTech Technologies, Heritage InfoTech Staffing Group's technology specialty division, is a national IT staffing organization operating across industries. We provide contract, direct (permanent), consulting and project management services to top companies and their IT departments.",
-    "capabilities": [
-      "Staff Augmentation",
-      "Project & Business Solutions",
-      "Direct (Permanent) Placement",
-      "Consulting Services",
-      "Project Management",
-      "Microsoft Technology Solutions",
-      "ERP Solutions",
-      "Mobility Solutions",
-      "Applications Development"
+    "topics": [
+      {
+        "slug": "staff-augmentation",
+        "title": "Staff Augmentation",
+        "icon": "users",
+        "summary": "Scale your technology teams rapidly with pre-vetted IT professionals who integrate seamlessly into your existing workflows and delivery models.",
+        "paragraphs": [
+          "Heritage InfoTech's staff augmentation practice delivers experienced developers, architects, analysts, and infrastructure specialists on a contract basis — allowing you to respond to project surges, skill gaps, and strategic initiatives without the overhead of permanent hiring cycles. Our consultants are screened for technical depth, communication skills, and cultural fit before they join your team.",
+          "We manage the full engagement lifecycle from role definition and candidate presentation through onboarding and performance continuity. Whether you need a single specialist for a three-month sprint or a blended team across multiple disciplines, our national recruiting network ensures you receive qualified professionals on a timeline that matches your business priorities."
+        ]
+      },
+      {
+        "slug": "project-business-solutions",
+        "title": "Project & Business Solutions",
+        "icon": "briefcase",
+        "summary": "End-to-end project delivery teams that translate business requirements into technology outcomes with accountable milestones and measurable results.",
+        "paragraphs": [
+          "Our project and business solutions practice assembles cross-functional teams — business analysts, solution architects, developers, and QA engineers — to deliver defined scope within agreed timelines and budgets. Heritage InfoTech takes ownership of delivery accountability while keeping your stakeholders informed through structured governance and transparent reporting.",
+          "From legacy modernization and platform migrations to new product development and process automation, we align technology execution with your business case. Our teams bring industry-specific experience across healthcare, financial services, manufacturing, and government, ensuring solutions are designed with regulatory, security, and operational realities in mind."
+        ]
+      },
+      {
+        "slug": "direct-placement",
+        "title": "Direct (Permanent) Placement",
+        "icon": "handshake",
+        "summary": "Permanent hire search and placement for critical technology roles — from individual contributors to executive leadership positions.",
+        "paragraphs": [
+          "When your organization needs long-term talent investments, Heritage InfoTech's direct placement practice identifies, evaluates, and presents candidates who meet your technical requirements and organizational culture. We combine targeted sourcing, structured interviews, and reference validation to reduce time-to-hire while improving retention outcomes.",
+          "Our recruiters maintain active pipelines across software engineering, data science, cybersecurity, cloud architecture, ERP, and IT leadership disciplines. We partner with hiring managers to define role profiles, compensation benchmarks, and interview frameworks — delivering a professional search experience that reflects the standards your brand expects."
+        ]
+      },
+      {
+        "slug": "consulting-services",
+        "title": "Consulting Services",
+        "icon": "lightbulb",
+        "summary": "Strategic technology advisory to assess maturity, define roadmaps, and guide transformation initiatives across the enterprise.",
+        "paragraphs": [
+          "Heritage InfoTech consulting engagements begin with understanding where your technology organization stands today and where it needs to be tomorrow. Our advisors work alongside CIOs, CTOs, and program leaders to evaluate architecture, operating models, vendor landscapes, and talent strategies — producing actionable recommendations grounded in industry best practices.",
+          "Whether you are planning a cloud migration, evaluating ERP platforms, or establishing a cybersecurity program, our consultants bring hands-on implementation experience to every advisory engagement. We translate strategy into phased execution plans with clear dependencies, resource requirements, and success metrics your leadership team can track."
+        ]
+      },
+      {
+        "slug": "project-management",
+        "title": "Project Management",
+        "icon": "target",
+        "summary": "Certified project and program managers who drive on-time, on-budget delivery for complex technology initiatives.",
+        "paragraphs": [
+          "Effective technology transformation depends on disciplined project management. Heritage InfoTech provides PMP-certified and Agile-experienced project managers who establish governance frameworks, manage stakeholder communication, and maintain risk registers that keep initiatives on course through scope changes and organizational shifts.",
+          "Our project managers are adept across waterfall, hybrid, and Scrum methodologies — selecting the right approach based on your delivery environment rather than forcing a one-size-fits-all model. From vendor coordination and resource scheduling to executive status reporting, we ensure your programs maintain momentum and visibility at every stage."
+        ]
+      },
+      {
+        "slug": "microsoft-technology",
+        "title": "Microsoft Technology Solutions",
+        "icon": "cog",
+        "summary": "Deep expertise across the Microsoft ecosystem — Azure, Microsoft 365, Dynamics 365, Power Platform, and .NET development.",
+        "paragraphs": [
+          "As organizations standardize on Microsoft platforms, Heritage InfoTech delivers specialists certified and experienced in Azure cloud services, Microsoft 365 administration, Dynamics 365 implementations, and Power Platform low-code development. Our teams support migrations from on-premises infrastructure to Azure, Entra ID identity modernization, and Copilot readiness assessments.",
+          "We provide .NET developers, Azure architects, and Power Platform engineers who understand enterprise integration patterns, licensing optimization, and security baselines required for regulated industries. Whether extending an existing Dynamics deployment or building custom applications on Azure, our Microsoft practice accelerates your time to value."
+        ]
+      },
+      {
+        "slug": "erp-solutions",
+        "title": "ERP Solutions",
+        "icon": "workflow",
+        "summary": "ERP implementation, integration, and support across SAP, Oracle, Microsoft Dynamics, and adjacent supply chain platforms.",
+        "paragraphs": [
+          "Enterprise resource planning systems are the operational backbone of modern organizations. Heritage InfoTech staffs functional consultants, technical developers, and integration architects experienced in SAP S/4HANA, Oracle Cloud ERP, Microsoft Dynamics, and industry-specific extensions that connect finance, supply chain, HR, and manufacturing workflows.",
+          "Our ERP practice supports greenfield implementations, post-merger harmonization, upgrade programs, and ongoing application management. We emphasize data migration quality, change management, and testing rigor — the factors that determine whether ERP investments deliver the business outcomes executives expect."
+        ]
+      },
+      {
+        "slug": "mobility-solutions",
+        "title": "Mobility Solutions",
+        "icon": "smartphone",
+        "summary": "Mobile application development and enterprise mobility management for field workforce and customer-facing experiences.",
+        "paragraphs": [
+          "Mobile technology extends your enterprise to customers, partners, and field teams who need secure, responsive access to business systems anywhere. Heritage InfoTech delivers iOS, Android, and cross-platform developers alongside mobility architects who design API layers, offline synchronization, and device management policies that meet enterprise security standards.",
+          "From consumer-facing apps and sales force automation to technician dispatch and inventory capture solutions, our mobility teams integrate with your existing ERP, CRM, and logistics platforms. We support mobile device management rollout, app store deployment, and ongoing enhancement cycles that keep your mobile portfolio current."
+        ]
+      },
+      {
+        "slug": "applications-development",
+        "title": "Applications Development",
+        "icon": "cpu",
+        "summary": "Custom software engineering for web, cloud-native, and enterprise applications built to your specifications and scale requirements.",
+        "paragraphs": [
+          "Heritage InfoTech's applications development practice builds custom software that addresses business problems commercial off-the-shelf products cannot solve. Our engineering teams work in modern technology stacks — React, Node.js, Java, Python, and cloud-native microservices — following agile delivery practices with continuous integration and automated testing.",
+          "We engage through team augmentation, dedicated development pods, or full project delivery models depending on your internal capabilities and governance preferences. From MVP development for new product lines to modernization of legacy monoliths, we prioritize maintainable architecture, security by design, and documentation that supports long-term ownership by your organization."
+        ]
+      }
     ]
   },
   "logistics": {
     "title": "Logistic Solutions Suite",
     "subtitle": "Route Planning Software Suite",
     "body": "Operating an efficient fleet and mobile workforce that meets customer service expectations begins with proper planning for pickups, deliveries and/or service calls. Heritage InfoTech's Route Planning solutions give logistics professionals the tools to maximize fleet and mobile resource utilization and efficiency.",
-    "features": [
-      { "title": "Advanced Route Optimization", "description": "Optimize routes across a wide variety of planning scenarios to reduce costs and improve delivery times.", "icon": "route" },
-      { "title": "Compliance Management", "description": "Stay compliant with regulatory requirements while managing your mobile workforce.", "icon": "shield-check" },
-      { "title": "Performance Management", "description": "Track and improve fleet performance with real-time analytics and reporting.", "icon": "bar-chart" },
-      { "title": "Mobile Resource Management", "description": "Manage critical mobile resource challenges with enterprise-grade tools.", "icon": "smartphone" }
+    "topics": [
+      {
+        "slug": "advanced-route-optimization",
+        "title": "Advanced Route Optimization",
+        "icon": "route",
+        "summary": "Intelligent route planning that reduces miles driven, fuel consumption, and delivery windows while improving customer satisfaction.",
+        "paragraphs": [
+          "Heritage InfoTech's route optimization engine processes delivery constraints — time windows, vehicle capacity, driver hours, traffic patterns, and priority customers — to generate efficient routes that minimize cost per stop without sacrificing service quality. The platform supports dynamic re-routing when orders change, drivers call in, or real-time conditions shift throughout the day.",
+          "Logistics managers gain visibility into planned versus actual performance, enabling continuous refinement of routing parameters and territory design. Whether you operate a propane delivery fleet, parcel distribution network, or field service organization, our optimization algorithms adapt to your operational model and scale with seasonal demand fluctuations."
+        ]
+      },
+      {
+        "slug": "compliance-management",
+        "title": "Compliance Management",
+        "icon": "shield-check",
+        "summary": "Automated compliance tracking for DOT regulations, driver certifications, vehicle inspections, and industry-specific mandates.",
+        "paragraphs": [
+          "Regulatory compliance is non-negotiable for transportation and field service operations. Heritage InfoTech's compliance management module maintains auditable records of driver qualifications, hours-of-service logs, vehicle maintenance schedules, and hazmat certifications — alerting managers before documents expire or violations occur.",
+          "The system generates inspection-ready reports and integrates with telematics platforms to correlate driver behavior with compliance requirements. By centralizing compliance data alongside route and dispatch operations, your organization reduces administrative burden while maintaining the documentation standards regulators and enterprise customers expect."
+        ]
+      },
+      {
+        "slug": "performance-management",
+        "title": "Performance Management",
+        "icon": "bar-chart",
+        "summary": "Real-time dashboards and analytics that track fleet KPIs, driver productivity, and operational efficiency across your network.",
+        "paragraphs": [
+          "Data-driven logistics requires more than GPS tracking — it demands actionable analytics that connect route execution to business outcomes. Heritage InfoTech's performance management suite aggregates stops completed, on-time delivery rates, fuel efficiency, idle time, and customer feedback into dashboards tailored for dispatchers, operations managers, and executive leadership.",
+          "Benchmarking tools compare performance across depots, routes, and driver teams, highlighting improvement opportunities and recognizing top performers. Historical trend analysis supports capacity planning, contract negotiations with carriers, and continuous improvement programs that compound savings over time."
+        ]
+      },
+      {
+        "slug": "mobile-resource-management",
+        "title": "Mobile Resource Management",
+        "icon": "smartphone",
+        "summary": "Enterprise tools for dispatching, communicating with, and equipping your mobile workforce in the field.",
+        "paragraphs": [
+          "Your mobile workforce is the front line of customer experience. Heritage InfoTech's mobile resource management platform connects drivers and technicians with dispatch, customer information, navigation, proof-of-delivery capture, and two-way messaging through ruggedized devices or BYOD smartphones secured by enterprise policies.",
+          "Dispatchers assign and reassign work in real time while field personnel update job status, capture signatures, and document exceptions from the road. Integration with billing, CRM, and inventory systems ensures field activity flows directly into back-office processes — eliminating duplicate data entry and accelerating revenue recognition."
+        ]
+      }
     ]
   },
   "staffing": {
     "title": "Staffing Solutions",
     "subtitle": "MSP/VMS excellence with nationwide reach",
     "body": "Heritage InfoTech exists at the forefront of the MSP/VMS revolution, serving to embrace the process rather than follow suit of competitors. As a top supplier for the Managed Supplier Program, and operating an international network of talent that assures compliance, we have developed a transactional service delivery process.",
-    "highlights": [
-      "Managed Supplier Program (MSP) expertise",
-      "International talent network with compliance assurance",
-      "Transactional service delivery process",
-      "Contractors placed in all 50 states",
-      "National Recruiting & Delivery team"
+    "topics": [
+      {
+        "slug": "managed-supplier-program",
+        "title": "Managed Supplier Program (MSP)",
+        "icon": "briefcase",
+        "summary": "Full-lifecycle MSP program management that consolidates vendor relationships, standardizes processes, and optimizes contingent workforce spend.",
+        "paragraphs": [
+          "Heritage InfoTech serves as a trusted MSP partner for enterprise clients who need centralized governance over their contingent workforce programs. We manage vendor onboarding, rate benchmarking, statement-of-work administration, and supplier scorecarding — giving procurement and HR leaders a single point of accountability across hundreds of staffing suppliers.",
+          "Our MSP methodology emphasizes transparency, compliance, and measurable outcomes. Program dashboards provide real-time visibility into headcount, spend by category, tenure distributions, and diversity metrics — enabling data-driven decisions that reduce costs while maintaining access to the specialized talent your projects require."
+        ]
+      },
+      {
+        "slug": "international-talent-network",
+        "title": "International Talent Network",
+        "icon": "users",
+        "summary": "Global sourcing capabilities with rigorous compliance assurance for cross-border and remote technology talent engagements.",
+        "paragraphs": [
+          "Technology talent is a global marketplace, and Heritage InfoTech maintains an international network of recruiting partners and direct sourcing channels that extend your reach beyond local labor markets. Every candidate in our international pipeline undergoes compliance verification — work authorization, background screening, and contractual alignment — before presentation to your hiring teams.",
+          "We navigate the complexities of visa requirements, contractor classification, and data privacy regulations across jurisdictions so your organization can access specialized skills without assuming undue legal or operational risk. Our international practice supports both onshore placement and remote delivery models tailored to your workforce strategy."
+        ]
+      },
+      {
+        "slug": "transactional-delivery",
+        "title": "Transactional Service Delivery",
+        "icon": "workflow",
+        "summary": "Standardized, repeatable processes that ensure consistent quality and rapid turnaround for every staffing requisition.",
+        "paragraphs": [
+          "Speed and consistency define competitive staffing programs. Heritage InfoTech has engineered a transactional service delivery process that treats every requisition — from a single contractor to a team of fifty — with the same disciplined workflow: intake, sourcing, screening, submission, interview coordination, offer management, and onboarding.",
+          "Service level agreements define response times at each stage, and our delivery teams are measured against fill rates, submittal quality, and hiring manager satisfaction scores. This process discipline enables us to scale during peak demand periods without sacrificing the candidate experience or compliance rigor your program requires."
+        ]
+      },
+      {
+        "slug": "nationwide-placement",
+        "title": "Nationwide Placement — All 50 States",
+        "icon": "target",
+        "summary": "Coast-to-coast contractor and direct-hire placement supported by regional recruiting hubs and a national delivery center.",
+        "paragraphs": [
+          "Heritage InfoTech places technology professionals in all fifty states, coordinating local market expertise with national program standards. Regional recruiting teams understand compensation dynamics, talent availability, and industry concentrations in their territories while our National Recruiting & Delivery center ensures consistent processes, reporting, and compliance across the entire footprint.",
+          "Multi-state engagements — common in healthcare systems, financial institutions, and government contractors — benefit from our ability to deploy talent simultaneously across locations while maintaining unified invoicing, timesheet management, and performance reporting through a single program interface."
+        ]
+      },
+      {
+        "slug": "national-recruiting-delivery",
+        "title": "National Recruiting & Delivery Team",
+        "icon": "handshake",
+        "summary": "Dedicated program teams that serve as an extension of your HR and procurement organization for enterprise-scale staffing.",
+        "paragraphs": [
+          "Large staffing programs require more than a vendor portal — they require a partnership. Heritage InfoTech assigns dedicated account teams comprising program managers, recruiting leads, and compliance specialists who learn your organization's culture, technology stack, and hiring preferences over time. This embedded model reduces ramp-up time for new requisitions and improves candidate match quality with each engagement.",
+          "Our National Recruiting & Delivery team conducts quarterly business reviews, pipeline planning sessions, and workforce forecasting workshops that align staffing supply with your project portfolio. The result is a proactive partnership that anticipates your talent needs rather than simply reacting to open requisitions."
+        ]
+      }
     ]
   },
   "bpo": {
@@ -176,26 +338,46 @@
     "subtitle": "End-to-end Quantum Readiness as a Service",
     "body": "As quantum computing advances, organizations face an urgent need to assess and modernize their cryptographic infrastructure. Heritage InfoTech's Cybersecurity practice delivers comprehensive Quantum Readiness as a Service — from discovery and risk scoring through hybrid post-quantum cryptography (PQC) implementation — protecting your most sensitive data for decades to come.",
     "intro": "Our end-to-end approach ensures your organization is not only secure today but resilient against tomorrow's quantum threats, aligned with NIST PQC standards and industry-specific regulatory requirements.",
-    "services": [
+    "topics": [
       {
+        "slug": "quantum-readiness-assessments",
         "title": "Quantum Readiness Assessments",
-        "description": "Comprehensive organizational assessments evaluating quantum threat timelines, business impact, regulatory obligations, and migration readiness across all technology domains.",
-        "icon": "shield-check"
+        "icon": "shield-check",
+        "summary": "Comprehensive organizational assessments evaluating quantum threat timelines, business impact, regulatory obligations, and migration readiness.",
+        "paragraphs": [
+          "Quantum computing poses a fundamental threat to widely deployed public-key cryptography. Heritage InfoTech's quantum readiness assessments provide executive and technical stakeholders with a clear picture of organizational exposure — identifying which systems, data classes, and business processes depend on cryptography vulnerable to future quantum attacks and estimating realistic migration timelines based on your technology landscape.",
+          "Our assessment methodology aligns with NIST guidance and industry frameworks, producing board-ready reports that quantify risk in business terms alongside technical remediation roadmaps. We evaluate third-party dependencies, cloud service provider postures, and long-archived data sensitivity to ensure your quantum readiness program addresses the full scope of organizational exposure — not just perimeter infrastructure."
+        ]
       },
       {
+        "slug": "cryptographic-discovery",
         "title": "Cryptographic Discovery",
-        "description": "Automated and manual inventory of all cryptographic assets — certificates, keys, algorithms, protocols, and embedded cryptography across applications, infrastructure, and third-party dependencies.",
-        "icon": "search"
+        "icon": "search",
+        "summary": "Automated and manual inventory of all cryptographic assets across applications, infrastructure, and third-party dependencies.",
+        "paragraphs": [
+          "You cannot protect what you cannot see. Heritage InfoTech's cryptographic discovery engagements deploy automated scanning tools and expert manual analysis to build a comprehensive inventory of certificates, keys, algorithms, protocols, and embedded cryptography across your enterprise — including shadow IT, legacy applications, and vendor-supplied components that often escape standard asset management processes.",
+          "Discovery outputs are normalized into a cryptographic asset catalog with ownership assignments, algorithm classifications, and expiration tracking. This catalog becomes the foundation for risk scoring, migration prioritization, and ongoing monitoring — giving security and infrastructure teams a single source of truth for every cryptographic dependency in your environment."
+        ]
       },
       {
+        "slug": "post-quantum-risk-scoring",
         "title": "Post-Quantum Risk Scoring",
-        "description": "Quantified risk scoring model prioritizing assets by quantum vulnerability, data sensitivity, exposure window, and compliance criticality to drive actionable remediation roadmaps.",
-        "icon": "bar-chart"
+        "icon": "bar-chart",
+        "summary": "Quantified risk scoring that prioritizes assets by quantum vulnerability, data sensitivity, and compliance criticality.",
+        "paragraphs": [
+          "Not all cryptographic assets carry equal quantum risk. Heritage InfoTech applies a structured scoring model that weighs algorithm vulnerability, data confidentiality lifespan, regulatory exposure, and operational criticality to rank assets for remediation priority. This data-driven approach ensures your migration investment focuses on the systems that pose the greatest long-term risk to your organization.",
+          "Risk scores are mapped to actionable remediation roadmaps with phased timelines, resource estimates, and dependency sequencing. Executive dashboards communicate portfolio-level risk trends while technical teams receive work packages aligned to sprint cycles and change management windows — bridging the gap between security strategy and operational execution."
+        ]
       },
       {
+        "slug": "hybrid-pqc-resolutions",
         "title": "Hybrid PQC Resolutions",
-        "description": "Design and implementation of hybrid classical and post-quantum cryptographic solutions — including CRYSTALS-Kyber, Dilithium, and SPHINCS+ — enabling phased migration without business disruption.",
-        "icon": "lock"
+        "icon": "lock",
+        "summary": "Design and implementation of hybrid classical and post-quantum cryptographic solutions for phased migration without disruption.",
+        "paragraphs": [
+          "Migrating to post-quantum cryptography requires a transitional strategy that maintains interoperability with existing systems. Heritage InfoTech designs and implements hybrid solutions combining proven classical algorithms with NIST-selected post-quantum standards — including CRYSTALS-Kyber, Dilithium, and SPHINCS+ — enabling organizations to adopt quantum-resistant protection incrementally.",
+          "Our implementation teams work across certificate authorities, TLS termination points, code signing infrastructure, VPN gateways, and application-level encryption libraries. Each deployment is validated through interoperability testing and performance benchmarking to ensure security improvements do not compromise the availability or latency your business operations depend on."
+        ]
       }
     ],
     "capabilities": [

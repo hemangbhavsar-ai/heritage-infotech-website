@@ -146,6 +146,14 @@ export interface QuoteProcessStep {
   description: string
 }
 
+export interface ServiceTopic {
+  slug: string
+  title: string
+  icon: string
+  summary: string
+  paragraphs: string[]
+}
+
 export interface PagesContent {
   vision: {
     title: string
@@ -163,19 +171,19 @@ export interface PagesContent {
     title: string
     subtitle: string
     body: string
-    capabilities: string[]
+    topics: ServiceTopic[]
   }
   logistics: {
     title: string
     subtitle: string
     body: string
-    features: FeatureItem[]
+    topics: ServiceTopic[]
   }
   staffing: {
     title: string
     subtitle: string
     body: string
-    highlights: string[]
+    topics: ServiceTopic[]
   }
   bpo: {
     title: string
@@ -210,7 +218,7 @@ export interface PagesContent {
     subtitle: string
     body: string
     intro: string
-    services: FeatureItem[]
+    topics: ServiceTopic[]
     capabilities: string[]
   }
 }

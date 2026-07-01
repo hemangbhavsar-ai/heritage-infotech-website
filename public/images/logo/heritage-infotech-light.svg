@@ -1,25 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 100" fill="none" role="img" aria-label="Heritage InfoTech — Innovate. Collaborate. Deliver.">
   <path
-    d="M6 58C10 28 24 14 42 16C58 18 70 32 76 44"
+    d="M8 62C12 30 28 16 48 18C66 20 80 36 88 48"
     stroke="#EA580C"
-    stroke-width="5"
+    stroke-width="5.5"
     stroke-linecap="round"
     fill="none"
   />
   <path
-    d="M76 44C82 52 88 56 98 54"
+    d="M88 48C94 56 102 60 114 58"
     stroke="#F97316"
-    stroke-width="4"
+    stroke-width="4.5"
     stroke-linecap="round"
     fill="none"
     opacity="0.9"
   />
 
-  <text x="0" y="46" fill="#0C4A6E" font-family="Arial, Helvetica, system-ui, sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5">
+  <text
+    x="250"
+    y="48"
+    text-anchor="middle"
+    fill="#0C4A6E"
+    font-family="Arial, Helvetica, system-ui, sans-serif"
+    font-size="38"
+    font-weight="700"
+    letter-spacing="-0.3"
+  >
     Heritage InfoTech
   </text>
 
-  <text x="2" y="78" fill="#007A9E" font-family="Arial, Helvetica, system-ui, sans-serif" font-size="15" font-weight="600" letter-spacing="0.2">
-    Innovate . Collaborate . Deliver.
+  <text
+    x="250"
+    y="82"
+    text-anchor="middle"
+    fill="#007A9E"
+    font-family="Arial, Helvetica, system-ui, sans-serif"
+    font-size="17"
+    font-weight="600"
+    letter-spacing="0.35em"
+  >
+    INNOVATE · COLLABORATE · DELIVER
   </text>
 </svg>
