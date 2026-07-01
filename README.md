@@ -93,17 +93,16 @@ Every push to `main` triggers an automatic deploy via GitHub Actions.
 3. Built `dist/` folder deploys to Netlify production
 4. Live in ~2 minutes at https://heritage-infotech.netlify.app
 
-### Enable CMS Git Gateway (required for `/admin`)
+### CMS Admin (`/admin`) — Already Configured
 
-Decap CMS needs Netlify linked to the same GitHub repo:
+| Component | Status |
+|-----------|--------|
+| Netlify Identity | Enabled (invite-only) |
+| Git Gateway | Enabled |
+| GitHub repo linked | `hemangbhavsar-ai/heritage-infotech-website` |
+| Admin panel | https://heritage-infotech.netlify.app/admin |
 
-1. Open [Netlify Build Settings](https://app.netlify.com/projects/heritage-infotech/configuration/deploys#link-repository)
-2. Click **Link repository** → **GitHub** → select `heritage-infotech-website`
-3. Build settings (auto-detected from `netlify.toml`):
-   - Branch: `main`
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-4. Enable **Identity** → **Git Gateway** (see Admin section below)
+**First login:** Check email at `hemang.bhavsar@gmail.com` for a Netlify Identity invite, accept it, set a password, then visit `/admin`.
 
 ### Manual Deploy
 
