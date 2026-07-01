@@ -82,14 +82,28 @@ npm run dev         # terminal 2
 
 ## Continuous Deployment (GitHub → Netlify)
 
-Every push to `main` triggers an automatic Netlify rebuild.
+Every push to `main` triggers an automatic deploy via GitHub Actions.
 
-### Setup (already configured if repo is linked)
+**Repository:** https://github.com/hemangbhavsar-ai/heritage-infotech-website
 
-1. Code lives in GitHub: `heritage-infotech-website` repo
-2. Netlify watches the `main` branch
-3. Build command: `npm run build`
-4. Publish directory: `dist`
+### How it works
+
+1. Push code to `main` on GitHub
+2. GitHub Actions runs `npm run build`
+3. Built `dist/` folder deploys to Netlify production
+4. Live in ~2 minutes at https://heritage-infotech.netlify.app
+
+### Enable CMS Git Gateway (required for `/admin`)
+
+Decap CMS needs Netlify linked to the same GitHub repo:
+
+1. Open [Netlify Build Settings](https://app.netlify.com/projects/heritage-infotech/configuration/deploys#link-repository)
+2. Click **Link repository** → **GitHub** → select `heritage-infotech-website`
+3. Build settings (auto-detected from `netlify.toml`):
+   - Branch: `main`
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+4. Enable **Identity** → **Git Gateway** (see Admin section below)
 
 ### Manual Deploy
 
