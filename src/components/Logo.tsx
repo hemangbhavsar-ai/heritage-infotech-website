@@ -9,9 +9,9 @@ interface LogoProps {
 }
 
 const logoSources: Record<LogoVariant, string> = {
-  dark: '/images/logo/heritage-infotech-original.gif',
-  light: '/images/logo/heritage-infotech-original.gif',
-  mark: '/images/logo/heritage-infotech-original.gif',
+  dark: '/images/logo/heritage-infotech-header.svg',
+  light: '/images/logo/heritage-infotech-light.svg',
+  mark: '/images/logo/heritage-infotech-header.svg',
 }
 
 export function Logo({ variant = 'dark', className = '', showTagline = false }: LogoProps) {
@@ -24,6 +24,7 @@ export function Logo({ variant = 'dark', className = '', showTagline = false }: 
       className={className}
       loading="eager"
       decoding="async"
+      style={{ imageRendering: 'auto' }}
     />
   )
 }

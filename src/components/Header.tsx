@@ -54,8 +54,12 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-slate-900 text-white shadow-lg">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link to="/" className="group flex items-center" onClick={() => setMobileOpen(false)}>
-          <Logo variant="dark" className="h-10 w-auto max-w-[200px] sm:h-12 sm:max-w-[250px]" />
+        <Link
+          to="/"
+          className="group flex items-center rounded-lg bg-white/95 px-3 py-2 shadow-sm ring-1 ring-white/20 transition hover:bg-white"
+          onClick={() => setMobileOpen(false)}
+        >
+          <Logo variant="light" className="h-9 w-auto min-w-[180px] max-w-[220px] sm:h-10 sm:min-w-[220px] sm:max-w-[260px]" />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">

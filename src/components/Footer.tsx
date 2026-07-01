@@ -20,8 +20,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <div className="mb-4">
-              <Logo variant="dark" className="h-12 w-auto max-w-[250px]" />
+            <div className="mb-4 inline-flex rounded-lg bg-white/95 px-3 py-2 shadow-sm ring-1 ring-white/20">
+              <Logo variant="light" className="h-11 w-auto max-w-[250px]" />
             </div>
             <p className="text-sm leading-relaxed text-slate-400">
               Delivering technology solutions, staffing excellence, and business process outsourcing
