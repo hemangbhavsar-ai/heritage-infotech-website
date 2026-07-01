@@ -56,6 +56,68 @@ export interface FeatureItem {
   icon: string
 }
 
+export interface IndustryLink {
+  name: string
+  path: string
+  icon: string
+}
+
+export interface Milestone {
+  year: string
+  title: string
+  description: string
+}
+
+export interface TimelineContent {
+  title: string
+  subtitle: string
+  intro: string
+  milestones: Milestone[]
+}
+
+export interface Leader {
+  name: string
+  title: string
+  image: string
+  bio: string
+}
+
+export interface LeadershipContent {
+  title: string
+  subtitle: string
+  intro: string
+  members: Leader[]
+}
+
+export interface ClientProject {
+  area: string
+  icon: string
+  description: string
+}
+
+export interface IndustryClient {
+  name: string
+  icon: string
+  summary: string
+  projects: ClientProject[]
+}
+
+export interface IndustryPage {
+  title: string
+  subtitle: string
+  intro: string
+  icon: string
+  clients: IndustryClient[]
+}
+
+export interface IndustriesContent {
+  healthcare: IndustryPage
+  financial: IndustryPage
+  technology: IndustryPage
+  logistics: IndustryPage
+  government: IndustryPage
+}
+
 export interface PagesContent {
   vision: {
     title: string
@@ -67,7 +129,7 @@ export interface PagesContent {
     title: string
     subtitle: string
     body: string
-    industries: string[]
+    industries: IndustryLink[]
   }
   itProfessionals: {
     title: string
@@ -99,4 +161,14 @@ export interface PagesContent {
     body: string
     email: string
   }
+  cyberSecurity: {
+    title: string
+    subtitle: string
+    body: string
+    intro: string
+    services: FeatureItem[]
+    capabilities: string[]
+  }
 }
+
+export type IndustrySlug = keyof IndustriesContent

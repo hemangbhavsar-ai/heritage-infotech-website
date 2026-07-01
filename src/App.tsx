@@ -2,8 +2,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Layout } from './components/Layout'
 import { HomePage } from './pages/HomePage'
 import { VisionPage } from './pages/VisionPage'
+import { TimelinePage } from './pages/TimelinePage'
+import { LeadershipPage } from './pages/LeadershipPage'
 import { ClientsPage } from './pages/ClientsPage'
+import { IndustryPage } from './pages/IndustryPage'
 import { ITProfessionalsPage } from './pages/ITProfessionalsPage'
+import { CyberSecurityPage } from './pages/CyberSecurityPage'
 import { LogisticsPage } from './pages/LogisticsPage'
 import { StaffingPage } from './pages/StaffingPage'
 import { BPOPage } from './pages/BPOPage'
@@ -17,8 +21,16 @@ export default function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/about/vision" element={<VisionPage />} />
+          <Route path="/about/timeline" element={<TimelinePage />} />
+          <Route path="/about/leadership" element={<LeadershipPage />} />
           <Route path="/about/clients" element={<ClientsPage />} />
+          <Route path="/about/clients/healthcare" element={<IndustryPage slug="healthcare" />} />
+          <Route path="/about/clients/financial" element={<IndustryPage slug="financial" />} />
+          <Route path="/about/clients/technology" element={<IndustryPage slug="technology" />} />
+          <Route path="/about/clients/logistics" element={<IndustryPage slug="logistics" />} />
+          <Route path="/about/clients/government" element={<IndustryPage slug="government" />} />
           <Route path="/services/it-professionals" element={<ITProfessionalsPage />} />
+          <Route path="/services/cybersecurity" element={<CyberSecurityPage />} />
           <Route path="/services/logistics" element={<LogisticsPage />} />
           <Route path="/services/staffing" element={<StaffingPage />} />
           <Route path="/services/bpo" element={<BPOPage />} />

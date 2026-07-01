@@ -22,7 +22,13 @@
     "title": "Our Clients",
     "subtitle": "Trusted by organizations nationwide",
     "body": "From staff augmentation and project/business specific solutions to direct (permanent) placement services, Heritage InfoTech's dedicated team of recruiting and staffing experts consistently delivers quality professionals on a time-sensitive basis. Heritage InfoTech places contractors in all 50 states by seamlessly coordinating recruiting resources in local and regional markets with our National Recruiting & Delivery team.",
-    "industries": ["Healthcare & Pharma", "Financial Services", "Technology", "Logistics & Supply Chain", "Manufacturing", "Government"]
+    "industries": [
+      { "name": "Healthcare & Pharma", "path": "/about/clients/healthcare", "icon": "heart-pulse" },
+      { "name": "Financial Services", "path": "/about/clients/financial", "icon": "landmark" },
+      { "name": "Technology", "path": "/about/clients/technology", "icon": "cpu" },
+      { "name": "Logistics & Supply Chain", "path": "/about/clients/logistics", "icon": "truck" },
+      { "name": "Government", "path": "/about/clients/government", "icon": "building-2" }
+    ]
   },
   "itProfessionals": {
     "title": "IT Professional Services & Consulting",
@@ -79,5 +85,41 @@
     "subtitle": "We look forward to hearing from you",
     "body": "Please contact us at any of our locations. Our team is ready to discuss how Heritage InfoTech can support your business objectives.",
     "email": "info@heritageinfotech.com"
+  },
+  "cyberSecurity": {
+    "title": "Cybersecurity & Quantum Readiness",
+    "subtitle": "End-to-end Quantum Readiness as a Service",
+    "body": "As quantum computing advances, organizations face an urgent need to assess and modernize their cryptographic infrastructure. Heritage InfoTech's Cybersecurity practice delivers comprehensive Quantum Readiness as a Service — from discovery and risk scoring through hybrid post-quantum cryptography (PQC) implementation — protecting your most sensitive data for decades to come.",
+    "intro": "Our end-to-end approach ensures your organization is not only secure today but resilient against tomorrow's quantum threats, aligned with NIST PQC standards and industry-specific regulatory requirements.",
+    "services": [
+      {
+        "title": "Quantum Readiness Assessments",
+        "description": "Comprehensive organizational assessments evaluating quantum threat timelines, business impact, regulatory obligations, and migration readiness across all technology domains.",
+        "icon": "shield-check"
+      },
+      {
+        "title": "Cryptographic Discovery",
+        "description": "Automated and manual inventory of all cryptographic assets — certificates, keys, algorithms, protocols, and embedded cryptography across applications, infrastructure, and third-party dependencies.",
+        "icon": "search"
+      },
+      {
+        "title": "Post-Quantum Risk Scoring",
+        "description": "Quantified risk scoring model prioritizing assets by quantum vulnerability, data sensitivity, exposure window, and compliance criticality to drive actionable remediation roadmaps.",
+        "icon": "bar-chart"
+      },
+      {
+        "title": "Hybrid PQC Resolutions",
+        "description": "Design and implementation of hybrid classical and post-quantum cryptographic solutions — including CRYSTALS-Kyber, Dilithium, and SPHINCS+ — enabling phased migration without business disruption.",
+        "icon": "lock"
+      }
+    ],
+    "capabilities": [
+      "NIST SP 800-208 & FIPS 203/204/205 alignment",
+      "Certificate Authority and PKI modernization",
+      "Zero-trust architecture implementation",
+      "OT/IT convergence security for critical infrastructure",
+      "Continuous cryptographic asset monitoring",
+      "Executive and board-level quantum risk reporting"
+    ]
   }
 }

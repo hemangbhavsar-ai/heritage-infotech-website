@@ -1,6 +1,8 @@
 # Heritage InfoTech Website
 
-Modern, responsive consulting firm website built with React, Tailwind CSS, and Decap CMS.
+Modern consulting firm website — React, Tailwind CSS, Decap CMS, deployed on Netlify.
+
+**Live site:** https://heritage-infotech.netlify.app
 
 ## Quick Start
 
@@ -10,76 +12,133 @@ npm run dev      # http://localhost:5173
 npm run build    # production build → dist/
 ```
 
-## Pages
+## Site Map
 
 | Route | Content |
 |-------|---------|
-| `/` | Home with hero carousel, highlights, services |
-| `/about/vision` | Company vision and values |
-| `/about/clients` | Client industries |
-| `/services/it-professionals` | IT consulting & staffing |
-| `/services/logistics` | Route planning suite |
-| `/services/staffing` | MSP/VMS staffing |
-| `/services/bpo` | Business process outsourcing |
+| `/` | Home |
+| `/about/vision` | Company vision |
+| `/about/timeline` | Milestones 2013–2026 |
+| `/about/leadership` | Executive team |
+| `/about/clients` | Industries overview |
+| `/about/clients/healthcare` | Healthcare clients & projects |
+| `/about/clients/financial` | Financial services clients |
+| `/about/clients/technology` | Technology clients |
+| `/about/clients/logistics` | Logistics & supply chain |
+| `/about/clients/government` | Government clients |
+| `/services/cybersecurity` | Quantum Readiness as a Service |
+| `/services/*` | IT, Logistics, Staffing, BPO |
 | `/contact` | Contact information |
-| `/enquiry` | Enquiry form |
-| `/admin` | Content management (Decap CMS) |
+| `/enquiry` | Enquiry form (Netlify Forms) |
+| `/admin` | Content management panel |
 
 ## Content Management (Decap CMS)
 
-All editable content lives in `content/*.json`. Edit via the CMS admin or directly in files.
+All content lives in `content/*.json`. Images go in `public/images/`.
 
-### Local CMS Preview
+### Content Files
+
+| File | What it controls |
+|------|------------------|
+| `content/site.json` | Company name, email, social links |
+| `content/home.json` | Hero slides, highlights, service cards |
+| `content/timeline.json` | Company milestones |
+| `content/leadership.json` | Executive bios and photos |
+| `content/industries.json` | Client pages by industry |
+| `content/pages.json` | Vision, services, contact, cybersecurity |
+
+### Replace Leadership Photos
+
+1. Add real photos to `public/images/leadership/` (e.g. `shilpa-bhavsar.jpg`)
+2. Open `/admin` → **Leadership Team** → upload or update image paths
+3. Publish — site rebuilds automatically
+
+### Edit Content via Admin Panel
+
+**Production (recommended):**
+
+1. Go to **https://heritage-infotech.netlify.app/admin**
+2. Log in with your invited Netlify Identity email
+3. Select a collection (Site Settings, Home Page, Timeline, etc.)
+4. Edit fields → click **Publish**
+5. Netlify rebuilds the site in ~1 minute
+
+**Local preview:**
 
 ```bash
-npx decap-server    # in one terminal
-npm run dev         # in another terminal
+npx decap-server    # terminal 1
+npm run dev         # terminal 2
 # Open http://localhost:5173/admin
 ```
 
-### Production CMS (after Netlify deploy)
+### Enable Admin Access (one-time)
 
-1. Deploy to Netlify (see below)
-2. Enable **Identity** in Netlify dashboard → Invite Users
-3. Enable **Git Gateway** under Identity settings
-4. Visit `https://yoursite.com/admin` and log in
-5. Edit content → Publish → site rebuilds automatically
+1. [Netlify Dashboard](https://app.netlify.com/projects/heritage-infotech) → **Site configuration**
+2. **Identity** → Enable Identity
+3. **Identity → Services** → Enable **Git Gateway**
+4. **Identity → Invite users** → add `hemang.bhavsar@gmail.com` (or your email)
+5. Invited user sets password via email link
+6. Log in at `/admin`
 
-### What You Can Edit
+## Continuous Deployment (GitHub → Netlify)
 
-- **Site Settings** — company name, tagline, email, social links
-- **Home Page** — hero slides, highlights, service cards, CTA
-- **All Pages** — vision, clients, services, contact text
+Every push to `main` triggers an automatic Netlify rebuild.
 
-## Free Deployment Options (10–200 users/month)
+### Setup (already configured if repo is linked)
 
-| Platform | Cost | Best For | Notes |
-|----------|------|----------|-------|
-| **Netlify** (recommended) | Free | CMS + hosting | Includes Identity + Git Gateway for Decap CMS. 100 GB bandwidth/mo. |
-| **Cloudflare Pages** | Free | Speed & scale | Unlimited bandwidth. Use with Decap CMS via GitHub backend. |
-| **Vercel** | Free | Fast deploys | 100 GB bandwidth. Good alternative; CMS needs GitHub OAuth setup. |
-| **GitHub Pages** | Free | Simplest | No built-in CMS auth; edit JSON in GitHub UI. |
+1. Code lives in GitHub: `heritage-infotech-website` repo
+2. Netlify watches the `main` branch
+3. Build command: `npm run build`
+4. Publish directory: `dist`
 
-### Recommended: Netlify Deploy
+### Manual Deploy
 
-1. Push code to GitHub
-2. Go to [netlify.com](https://netlify.com) → Add new site → Import from Git
-3. Build command: `npm run build` | Publish directory: `dist`
-4. Deploy → Site Settings → Identity → Enable Identity
-5. Identity → Services → Enable Git Gateway
-6. Identity → Invite Users → add your email
-7. Domain: connect `heritageinfotech.com` in Domain Settings
+```bash
+npm run build
+npx netlify deploy --prod --dir=dist
+```
 
-### Connect Custom Domain
+## DNS Transfer to Netlify
 
-In your domain registrar, point DNS to Netlify:
-- `A` record → `75.2.60.5`
-- `CNAME` for `www` → `yoursite.netlify.app`
+Move `heritageinfotech.com` from your current registrar to Netlify:
+
+### Step 1 — Add domain in Netlify
+
+1. [Netlify Dashboard](https://app.netlify.com/projects/heritage-infotech) → **Domain management**
+2. **Add a domain** → enter `heritageinfotech.com`
+3. Also add `www.heritageinfotech.com`
+
+### Step 2 — Update DNS at your registrar
+
+Netlify will show exact records. Typically:
+
+| Type | Name | Value |
+|------|------|-------|
+| `A` | `@` | `75.2.60.5` |
+| `CNAME` | `www` | `heritage-infotech.netlify.app` |
+
+### Step 3 — Enable HTTPS
+
+Netlify auto-provisions a free Let's Encrypt certificate once DNS propagates (up to 48 hours).
+
+### Step 4 — Set primary domain
+
+In Netlify → **Domain management** → set `heritageinfotech.com` as primary and enable **Force HTTPS**.
+
+### Step 5 — Update CMS URLs
+
+After DNS is live, update `public/admin/config.yml`:
+
+```yaml
+site_url: https://heritageinfotech.com
+display_url: https://heritageinfotech.com
+```
 
 ## Tech Stack
 
 - React 19 + TypeScript + Vite
 - Tailwind CSS 4
 - React Router 7
-- Lucide React icons (professional UI icons)
-- Decap CMS (free, open-source, Git-based)
+- Lucide React icons
+- Decap CMS (Git-based, free)
+- Netlify (hosting, Identity, Forms, CD)

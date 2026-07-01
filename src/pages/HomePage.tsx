@@ -39,7 +39,7 @@ export function HomePage() {
               Comprehensive solutions tailored to your enterprise needs
             </p>
           </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {home.services.map((service) => (
               <ServiceCard key={service.id} service={service} />
             ))}

@@ -99,6 +99,7 @@ export function EnquiryPage() {
                   <option value="logistics">Logistic Solutions Suite</option>
                   <option value="staffing">Staffing Solutions</option>
                   <option value="bpo">Business Process Outsourcing</option>
+                  <option value="cybersecurity">Cybersecurity & Quantum Readiness</option>
                   <option value="other">Other</option>
                 </select>
               </div>

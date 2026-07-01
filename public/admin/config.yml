@@ -4,10 +4,10 @@ backend:
 
 local_backend: true
 
-media_folder: "public/uploads"
-public_folder: "/uploads"
+media_folder: "public/images"
+public_folder: "/images"
 
-site_url: https://heritageinfotech.com
+site_url: https://heritage-infotech.netlify.app
 display_url: https://heritageinfotech.com
 logo_url: /favicon.svg
 
@@ -60,7 +60,7 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Excerpt, name: excerpt, widget: text }
               - { label: Link, name: link, widget: string }
-              - { label: Icon, name: icon, widget: string, hint: "workflow, users, truck, briefcase, lightbulb, handshake, target" }
+              - { label: Icon, name: icon, widget: string }
           - label: Call to Action
             name: cta
             widget: object
@@ -70,11 +70,163 @@ collections:
               - { label: Button Text, name: buttonText, widget: string }
               - { label: Button Link, name: buttonLink, widget: string }
 
+  - name: about
+    label: About Us
+    files:
+      - name: timeline
+        label: Company Timeline
+        file: content/timeline.json
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Introduction, name: intro, widget: text }
+          - label: Milestones
+            name: milestones
+            widget: list
+            fields:
+              - { label: Year, name: year, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+
+      - name: leadership
+        label: Leadership Team
+        file: content/leadership.json
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Introduction, name: intro, widget: text }
+          - label: Team Members
+            name: members
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Photo, name: image, widget: image, hint: "Upload to public/images/leadership/" }
+              - { label: Bio, name: bio, widget: text }
+
+  - name: industries
+    label: Client Industries
+    files:
+      - name: all-industries
+        label: All Industry Pages
+        file: content/industries.json
+        fields:
+          - label: Healthcare
+            name: healthcare
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Introduction, name: intro, widget: text }
+              - { label: Icon, name: icon, widget: string }
+              - label: Clients
+                name: clients
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Icon, name: icon, widget: image }
+                  - { label: Summary, name: summary, widget: text }
+                  - label: Projects
+                    name: projects
+                    widget: list
+                    fields:
+                      - { label: Area, name: area, widget: string }
+                      - { label: Icon, name: icon, widget: string }
+                      - { label: Description, name: description, widget: text }
+          - label: Financial Services
+            name: financial
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Introduction, name: intro, widget: text }
+              - { label: Icon, name: icon, widget: string }
+              - label: Clients
+                name: clients
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Icon, name: icon, widget: image }
+                  - { label: Summary, name: summary, widget: text }
+                  - label: Projects
+                    name: projects
+                    widget: list
+                    fields:
+                      - { label: Area, name: area, widget: string }
+                      - { label: Icon, name: icon, widget: string }
+                      - { label: Description, name: description, widget: text }
+          - label: Technology
+            name: technology
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Introduction, name: intro, widget: text }
+              - { label: Icon, name: icon, widget: string }
+              - label: Clients
+                name: clients
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Icon, name: icon, widget: image }
+                  - { label: Summary, name: summary, widget: text }
+                  - label: Projects
+                    name: projects
+                    widget: list
+                    fields:
+                      - { label: Area, name: area, widget: string }
+                      - { label: Icon, name: icon, widget: string }
+                      - { label: Description, name: description, widget: text }
+          - label: Logistics
+            name: logistics
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Introduction, name: intro, widget: text }
+              - { label: Icon, name: icon, widget: string }
+              - label: Clients
+                name: clients
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Icon, name: icon, widget: image }
+                  - { label: Summary, name: summary, widget: text }
+                  - label: Projects
+                    name: projects
+                    widget: list
+                    fields:
+                      - { label: Area, name: area, widget: string }
+                      - { label: Icon, name: icon, widget: string }
+                      - { label: Description, name: description, widget: text }
+          - label: Government
+            name: government
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Introduction, name: intro, widget: text }
+              - { label: Icon, name: icon, widget: string }
+              - label: Clients
+                name: clients
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Icon, name: icon, widget: image }
+                  - { label: Summary, name: summary, widget: text }
+                  - label: Projects
+                    name: projects
+                    widget: list
+                    fields:
+                      - { label: Area, name: area, widget: string }
+                      - { label: Icon, name: icon, widget: string }
+                      - { label: Description, name: description, widget: text }
+
   - name: pages
-    label: All Pages
+    label: Services & Contact
     files:
       - name: all-pages
-        label: Vision, Services, Contact & More
+        label: Vision, Services, Contact
         file: content/pages.json
         fields:
           - label: Vision Page
@@ -96,7 +248,7 @@ collections:
                   - { label: Title, name: title, widget: string }
                   - { label: Description, name: description, widget: text }
                   - { label: Icon, name: icon, widget: string }
-          - label: Clients Page
+          - label: Clients Overview
             name: clients
             widget: object
             fields:
@@ -106,57 +258,29 @@ collections:
               - label: Industries
                 name: industries
                 widget: list
-                field: { label: Industry, name: industry, widget: string }
-          - label: IT Professionals Page
-            name: itProfessionals
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Path, name: path, widget: string }
+                  - { label: Icon, name: icon, widget: string }
+          - label: Cybersecurity Page
+            name: cyberSecurity
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Subtitle, name: subtitle, widget: string }
               - { label: Body, name: body, widget: text }
+              - { label: Introduction, name: intro, widget: text }
+              - label: Services
+                name: services
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: string }
               - label: Capabilities
                 name: capabilities
                 widget: list
                 field: { label: Capability, name: capability, widget: string }
-          - label: Logistics Page
-            name: logistics
-            widget: object
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Subtitle, name: subtitle, widget: string }
-              - { label: Body, name: body, widget: text }
-              - label: Features
-                name: features
-                widget: list
-                fields:
-                  - { label: Title, name: title, widget: string }
-                  - { label: Description, name: description, widget: text }
-                  - { label: Icon, name: icon, widget: string }
-          - label: Staffing Page
-            name: staffing
-            widget: object
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Subtitle, name: subtitle, widget: string }
-              - { label: Body, name: body, widget: text }
-              - label: Highlights
-                name: highlights
-                widget: list
-                field: { label: Highlight, name: highlight, widget: string }
-          - label: BPO Page
-            name: bpo
-            widget: object
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: Subtitle, name: subtitle, widget: string }
-              - { label: Body, name: body, widget: text }
-              - label: Benefits
-                name: benefits
-                widget: list
-                fields:
-                  - { label: Title, name: title, widget: string }
-                  - { label: Description, name: description, widget: text }
-                  - { label: Icon, name: icon, widget: string }
           - label: Contact Page
             name: contact
             widget: object

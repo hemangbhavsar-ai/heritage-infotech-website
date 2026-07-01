@@ -1,0 +1,77 @@
+{
+  "title": "Our Journey",
+  "subtitle": "A decade of innovation, growth, and trusted partnerships",
+  "intro": "Since our founding in 2013, Heritage InfoTech has evolved from a boutique IT staffing firm into a full-spectrum technology consulting partner serving Fortune 500 enterprises, healthcare systems, financial institutions, and government agencies across all 50 states.",
+  "milestones": [
+    {
+      "year": "2013",
+      "title": "Company Founded",
+      "description": "Shilpa Bhavsar establishes Heritage InfoTech LLC with a vision to deliver people-first technology solutions. Initial focus on IT professional services and contract staffing for Northeast Ohio enterprises."
+    },
+    {
+      "year": "2014",
+      "title": "First Enterprise Clients",
+      "description": "Secured inaugural contracts with regional healthcare systems and financial services firms. Built a core team of 25 specialized recruiters and solution architects."
+    },
+    {
+      "year": "2015",
+      "title": "Logistics Solutions Launch",
+      "description": "Introduced the Heritage Logistics Application Suite — route planning, fleet optimization, and mobile resource management tools tailored for distribution and field service operations."
+    },
+    {
+      "year": "2016",
+      "title": "National Staffing Expansion",
+      "description": "Launched National Recruiting & Delivery, enabling contractor placement across all 50 states. Achieved MSP/VMS supplier status with three major enterprise programs."
+    },
+    {
+      "year": "2017",
+      "title": "Healthcare Vertical Growth",
+      "description": "Expanded dedicated healthcare practice serving hospital systems, pharma, and life sciences. Delivered HIPAA-compliant integration and clinical data platform projects for tier-one health networks."
+    },
+    {
+      "year": "2018",
+      "title": "BPO Practice Established",
+      "description": "Opened Business Process Outsourcing division with delivery centers supporting front and back-office transformation for financial services and insurance clients."
+    },
+    {
+      "year": "2019",
+      "title": "Microsoft & ERP Partnerships",
+      "description": "Formalized Microsoft Technology Solutions practice. Delivered ERP modernization and cloud migration programs for mid-market and enterprise clients."
+    },
+    {
+      "year": "2020",
+      "title": "Remote Workforce Enablement",
+      "description": "Rapidly scaled virtual staffing and secure remote infrastructure solutions during global workplace transformation. Supported 40+ clients in zero-trust architecture deployments."
+    },
+    {
+      "year": "2021",
+      "title": "Government Sector Entry",
+      "description": "Awarded state and municipal technology contracts including revenue systems modernization and port authority digital infrastructure programs."
+    },
+    {
+      "year": "2022",
+      "title": "AI & Data Analytics Practice",
+      "description": "Launched dedicated AI, machine learning, and enterprise data engineering practice. Delivered predictive analytics and intelligent automation for healthcare and financial services clients."
+    },
+    {
+      "year": "2023",
+      "title": "Cybersecurity Division",
+      "description": "Hemang Bhavsar leads formation of the Cybersecurity practice, introducing vulnerability assessments, zero-trust frameworks, and security operations consulting for regulated industries."
+    },
+    {
+      "year": "2024",
+      "title": "Quantum Readiness Program",
+      "description": "Pioneered Quantum Readiness as a Service — cryptographic discovery, post-quantum risk scoring, and hybrid PQC migration roadmaps for enterprise and government clients."
+    },
+    {
+      "year": "2025",
+      "title": "500+ Professionals Placed",
+      "description": "Surpassed 500 concurrent contractor placements nationwide. Deepened partnerships with Pfizer, Cleveland Clinic, Fidelity, Ryder, and Port Authority of New York & New Jersey."
+    },
+    {
+      "year": "2026",
+      "title": "Next-Generation Consulting Platform",
+      "description": "Launching integrated consulting platform combining staffing, logistics, BPO, AI, and quantum-ready cybersecurity under one client engagement model — continuing our mission to innovate, collaborate, and deliver."
+    }
+  ]
+}

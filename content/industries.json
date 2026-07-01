@@ -1,0 +1,240 @@
+{
+  "healthcare": {
+    "title": "Healthcare Industries",
+    "subtitle": "Trusted technology partner for life sciences and health systems",
+    "intro": "Heritage InfoTech delivers HIPAA-compliant integration, clinical data platforms, AI-driven diagnostics support, and enterprise security for the nation's leading healthcare and pharmaceutical organizations.",
+    "icon": "heart-pulse",
+    "clients": [
+      {
+        "name": "Pfizer",
+        "icon": "/images/clients/pfizer.svg",
+        "summary": "Global pharmaceutical leader partnering with Heritage on clinical data integration and secure research informatics.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Deployed ML pipelines for clinical trial data normalization and adverse event pattern detection across multi-site research programs." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Built HL7 FHIR-compliant integration layer connecting laboratory information systems with enterprise data warehouses." },
+          { "area": "Data Engineering", "icon": "database", "description": "Designed governed data lake architecture for real-world evidence analytics with full lineage and audit trail capabilities." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented GxP-validated access controls, encryption at rest and in transit, and continuous HIPAA compliance monitoring." }
+        ]
+      },
+      {
+        "name": "Cleveland Clinic",
+        "icon": "/images/clients/cleveland-clinic.svg",
+        "summary": "World-renowned academic medical center leveraging Heritage for patient engagement platforms and clinical workflow automation.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed predictive readmission models integrated with Epic EHR workflows to support care coordination teams." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Connected ambulatory scheduling, revenue cycle, and telehealth platforms through an enterprise service bus architecture." },
+          { "area": "Data Engineering", "icon": "database", "description": "Established master patient index and clinical data repository supporting population health analytics initiatives." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Conducted zero-trust network segmentation for clinical IoT devices and medical imaging systems." }
+        ]
+      },
+      {
+        "name": "University Hospitals",
+        "icon": "/images/clients/university-hospitals.svg",
+        "summary": "Northeast Ohio health system engaging Heritage for ERP modernization and workforce technology solutions.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Piloted intelligent document processing for prior authorization workflows reducing manual review time by 40%." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated supply chain, HR, and finance systems following cloud ERP migration to Microsoft Dynamics." },
+          { "area": "Data Engineering", "icon": "database", "description": "Built operational dashboards aggregating bed management, staffing, and throughput metrics in real time." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Deployed identity governance and privileged access management aligned with HITRUST CSF requirements." }
+        ]
+      },
+      {
+        "name": "Mayo Clinic",
+        "icon": "/images/clients/mayo-clinic.svg",
+        "summary": "Premier integrated medical practice and research group supported by Heritage on research data platforms and secure collaboration tools.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported federated learning infrastructure enabling multi-institutional research without centralizing protected health data." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Architected API gateway connecting research registries, biobank systems, and genomic analysis platforms." },
+          { "area": "Data Engineering", "icon": "database", "description": "Implemented metadata catalog and data quality framework for precision medicine research datasets." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Established quantum-readiness assessment for long-term research archive cryptographic protocols." }
+        ]
+      },
+      {
+        "name": "Johns Hopkins Medicine",
+        "icon": "/images/clients/johns-hopkins.svg",
+        "summary": "Academic medical enterprise partnering on clinical informatics staffing and secure cloud infrastructure programs.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Staffed and supported NLP engineering team building clinical note extraction for quality measure reporting." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered interoperability solutions connecting inpatient and ambulatory EHR instances across the health system." },
+          { "area": "Data Engineering", "icon": "database", "description": "Supported enterprise data mesh initiative for research, clinical, and operational data domains." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Performed cryptographic inventory and hybrid PQC roadmap for research data encryption standards." }
+        ]
+      }
+    ]
+  },
+  "financial": {
+    "title": "Financial Services",
+    "subtitle": "Technology excellence for banking, asset management, and insurance",
+    "intro": "Heritage InfoTech supports financial institutions with regulatory-compliant integrations, core banking modernization, wealth management platforms, and enterprise-grade security programs.",
+    "icon": "landmark",
+    "clients": [
+      {
+        "name": "Flagstar Bank",
+        "icon": "/images/clients/flagstar.svg",
+        "summary": "One of the largest regional banks in the United States (formerly New York Community Bancorp), engaging Heritage for core integration and digital banking programs.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Implemented fraud detection models for real-time transaction monitoring across retail and commercial banking channels." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated loan origination, core banking, and CRM platforms during post-merger systems consolidation." },
+          { "area": "Data Engineering", "icon": "database", "description": "Built regulatory reporting data pipeline supporting CECL, BSA/AML, and FDIC call report automation." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Deployed SOX-aligned access controls and continuous vulnerability management for internet-facing banking applications." }
+        ]
+      },
+      {
+        "name": "Fidelity Investments",
+        "icon": "/images/clients/fidelity.svg",
+        "summary": "Global financial services leader partnering with Heritage on wealth management technology and data platform engineering.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported robo-advisory algorithm development and portfolio optimization model validation frameworks." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Connected retirement plan administration, trading, and client portal systems through event-driven architecture." },
+          { "area": "Data Engineering", "icon": "database", "description": "Designed customer 360 data platform unifying brokerage, retirement, and wealth management client records." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Executed cryptographic discovery program assessing quantum risk across certificate and key management infrastructure." }
+        ]
+      },
+      {
+        "name": "The Hartford",
+        "icon": "/images/clients/hartford.svg",
+        "summary": "Fortune 500 insurance and financial services company leveraging Heritage for group benefits technology and BPO operations.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed claims triage automation reducing manual processing for group disability and workers compensation lines." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated policy administration, billing, and employer portal systems for group benefits product lines." },
+          { "area": "Data Engineering", "icon": "database", "description": "Established actuarial data mart supporting pricing models and loss ratio analytics across commercial lines." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented data loss prevention and encryption standards meeting NAIC insurance data security model requirements." }
+        ]
+      },
+      {
+        "name": "Deloitte",
+        "icon": "/images/clients/deloitte.svg",
+        "summary": "Global professional services firm engaging Heritage as a specialized delivery partner for client technology transformation programs.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Provided specialized AI engineering teams for client-facing intelligent automation and document intelligence engagements." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered integration architects for multi-year ERP and CRM transformation programs across financial services clients." },
+          { "area": "Data Engineering", "icon": "database", "description": "Staffed cloud data engineers for enterprise data platform migrations on Azure and AWS for audit and advisory clients." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Supported cyber risk assessment and quantum readiness consulting workstreams for regulated industry clients." }
+        ]
+      }
+    ]
+  },
+  "technology": {
+    "title": "Technology",
+    "subtitle": "Powering innovation for software, cloud, and digital enterprises",
+    "intro": "Heritage InfoTech provides elite technology talent, cloud architecture, and product engineering support to leading software companies and digital transformation initiatives.",
+    "icon": "cpu",
+    "clients": [
+      {
+        "name": "Microsoft",
+        "icon": "/images/clients/microsoft.svg",
+        "summary": "Strategic technology partner engaging Heritage for Azure implementation specialists and enterprise solution architects.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Staffed Azure ML engineers for customer copilot and cognitive services implementation projects." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered Power Platform and Dynamics 365 integration specialists for enterprise client deployments." },
+          { "area": "Data Engineering", "icon": "database", "description": "Provided Synapse and Fabric data engineers for enterprise analytics modernization programs." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Supported zero-trust architecture implementations using Microsoft Entra and Defender suite." }
+        ]
+      },
+      {
+        "name": "Salesforce",
+        "icon": "/images/clients/salesforce.svg",
+        "summary": "CRM platform leader supported by Heritage-certified developers and integration architects.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Implemented Einstein Analytics and AI-driven lead scoring for financial services customer deployments." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Built MuleSoft API layers connecting Salesforce with legacy policy and banking core systems." },
+          { "area": "Data Engineering", "icon": "database", "description": "Designed Customer Data Platform architecture with unified identity resolution across B2B and B2C channels." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Configured shield platform encryption and event monitoring for healthcare and insurance clients." }
+        ]
+      },
+      {
+        "name": "Oracle",
+        "icon": "/images/clients/oracle.svg",
+        "summary": "Enterprise software giant partnering on ERP, database, and cloud infrastructure staffing programs.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported Oracle AI Vector Search implementations for enterprise knowledge management use cases." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered OIC integration specialists for cloud ERP and SCM migration programs." },
+          { "area": "Data Engineering", "icon": "database", "description": "Staffed database administrators and Exadata engineers for mission-critical OLTP and warehouse environments." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented database vault and unified auditing for PCI-DSS regulated payment processing environments." }
+        ]
+      }
+    ]
+  },
+  "logistics": {
+    "title": "Logistics & Supply Chain",
+    "subtitle": "Optimizing fleet, distribution, and field operations at scale",
+    "intro": "Heritage InfoTech's Logistics Solutions Suite and supply chain technology practice help transportation, distribution, and energy companies maximize fleet utilization and operational efficiency.",
+    "icon": "truck",
+    "clients": [
+      {
+        "name": "Ryder System",
+        "icon": "/images/clients/ryder.svg",
+        "summary": "Fortune 500 transportation and logistics leader using Heritage route planning and fleet management solutions.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Deployed demand forecasting models optimizing fleet allocation across dedicated transportation contracts." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated TMS, WMS, and telematics platforms enabling real-time shipment visibility for enterprise customers." },
+          { "area": "Data Engineering", "icon": "database", "description": "Built fleet performance data warehouse supporting fuel efficiency, driver safety, and asset utilization KPIs." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Secured IoT telematics data streams with end-to-end encryption and DOT compliance audit logging." }
+        ]
+      },
+      {
+        "name": "AmeriGas",
+        "icon": "/images/clients/amerigas.svg",
+        "summary": "Nation's largest propane distributor leveraging Heritage mobile resource management and route optimization tools.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Implemented dynamic route optimization using weather, demand, and tank-level sensor data for delivery scheduling." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Connected field service mobile apps with ERP, billing, and customer notification systems." },
+          { "area": "Data Engineering", "icon": "database", "description": "Established IoT data pipeline ingesting tank monitor readings from 1.5 million customer locations." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Deployed mobile device management and secure VPN architecture for 4,000+ field delivery technicians." }
+        ]
+      },
+      {
+        "name": "FedEx Supply Chain",
+        "icon": "/images/clients/fedex.svg",
+        "summary": "Global third-party logistics provider supported by Heritage on warehouse technology and integration programs.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported computer vision pilot for warehouse inventory scanning and automated cycle count validation." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Built EDI and API integration layer connecting WMS with client order management and carrier systems." },
+          { "area": "Data Engineering", "icon": "database", "description": "Designed supply chain control tower dashboards aggregating inbound, inventory, and outbound metrics." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented partner API security gateway with OAuth 2.0, rate limiting, and threat detection." }
+        ]
+      }
+    ]
+  },
+  "government": {
+    "title": "Government",
+    "subtitle": "Secure, compliant technology for state and municipal agencies",
+    "intro": "Heritage InfoTech delivers mission-critical systems modernization, revenue platform engineering, and cybersecurity programs for state cabinets, port authorities, and public sector organizations.",
+    "icon": "building-2",
+    "clients": [
+      {
+        "name": "Kentucky Department of Revenue",
+        "icon": "/images/clients/kentucky-revenue.svg",
+        "summary": "State revenue cabinet engaging Heritage for tax systems modernization and secure citizen services platforms.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed anomaly detection models identifying fraudulent tax return patterns while preserving taxpayer privacy." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Modernized integrations between tax processing, motor vehicle, and treasury disbursement systems." },
+          { "area": "Data Engineering", "icon": "database", "description": "Built revenue analytics platform supporting policy analysis, collection forecasting, and audit case management." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Achieved FedRAMP-aligned security controls for citizen-facing web applications and API services." }
+        ]
+      },
+      {
+        "name": "Port Authority of NY & NJ",
+        "icon": "/images/clients/port-authority.svg",
+        "summary": "Bi-state port authority partnering on airport and tunnel infrastructure technology and cybersecurity programs.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Piloted predictive maintenance analytics for tunnel ventilation and airport baggage handling systems." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated facility management, access control, and emergency notification systems across multi-site operations." },
+          { "area": "Data Engineering", "icon": "database", "description": "Established operational data hub consolidating passenger throughput, asset maintenance, and security event data." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Led quantum readiness cryptographic assessment for critical infrastructure OT/IT convergence environments." }
+        ]
+      },
+      {
+        "name": "State of Ohio IT",
+        "icon": "/images/clients/ohio-it.svg",
+        "summary": "State government technology agency supported by Heritage on shared services and workforce staffing programs.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported chatbot and virtual assistant deployment for citizen services portal reducing call center volume." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered integration middleware connecting Medicaid, unemployment, and licensing agency systems." },
+          { "area": "Data Engineering", "icon": "database", "description": "Built statewide data sharing framework enabling cross-agency analytics while enforcing data governance policies." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented statewide identity and access management with multi-factor authentication for 50,000+ state employees." }
+        ]
+      }
+    ]
+  }
+}

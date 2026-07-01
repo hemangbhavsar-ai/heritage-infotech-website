@@ -5,10 +5,11 @@ import { site } from '../lib/content'
 const footerLinks = [
   { label: 'Home', path: '/' },
   { label: 'Our Vision', path: '/about/vision' },
-  { label: 'Services', path: '/services/it-professionals' },
+  { label: 'Timeline', path: '/about/timeline' },
+  { label: 'Leadership', path: '/about/leadership' },
+  { label: 'Cybersecurity', path: '/services/cybersecurity' },
   { label: 'Clients', path: '/about/clients' },
   { label: 'Contact', path: '/contact' },
-  { label: 'Careers', path: '/enquiry' },
 ]
 
 export function Footer() {

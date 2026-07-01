@@ -19,7 +19,8 @@
     "Microsoft Technology Solutions",
     "ERP Solutions",
     "Mobility Solutions",
-    "Applications Development"
+    "Applications Development",
+    "Cybersecurity & Quantum Readiness"
   ],
   "services": [
     {
@@ -49,6 +50,13 @@
       "excerpt": "At the forefront of the MSP/VMS revolution, Heritage InfoTech delivers quality professionals on a time-sensitive basis across all 50 states.",
       "link": "/services/staffing",
       "icon": "briefcase"
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity & Quantum Readiness",
+      "excerpt": "End-to-end Quantum Readiness as a Service — cryptographic discovery, post-quantum risk scoring, and hybrid PQC resolutions protecting your enterprise against tomorrow's threats.",
+      "link": "/services/cybersecurity",
+      "icon": "shield-check"
     }
   ],
   "cta": {

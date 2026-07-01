@@ -3,19 +3,30 @@ import { Link, NavLink } from 'react-router-dom'
 import { ChevronDown, Menu, X } from 'lucide-react'
 import { site } from '../lib/content'
 
-const navItems = [
+type NavChild = { label: string; path: string } | { divider: true; label: string }
+
+const navItems: Array<{ label: string; path?: string; children?: NavChild[] }> = [
   { label: 'Home', path: '/' },
   {
     label: 'About Us',
     children: [
       { label: 'Our Vision', path: '/about/vision' },
-      { label: 'Clients', path: '/about/clients' },
+      { label: 'Timeline', path: '/about/timeline' },
+      { label: 'Leadership', path: '/about/leadership' },
+      { divider: true, label: 'Clients by Industry' },
+      { label: 'All Clients', path: '/about/clients' },
+      { label: 'Healthcare', path: '/about/clients/healthcare' },
+      { label: 'Financial Services', path: '/about/clients/financial' },
+      { label: 'Technology', path: '/about/clients/technology' },
+      { label: 'Logistics & Supply Chain', path: '/about/clients/logistics' },
+      { label: 'Government', path: '/about/clients/government' },
     ],
   },
   {
     label: 'Services',
     children: [
       { label: 'IT Professional Services', path: '/services/it-professionals' },
+      { label: 'Cybersecurity & Quantum Readiness', path: '/services/cybersecurity' },
       { label: 'Logistic Solutions Suite', path: '/services/logistics' },
       { label: 'Staffing Solutions', path: '/services/staffing' },
       { label: 'Business Process Outsourcing', path: '/services/bpo' },
@@ -29,6 +40,10 @@ const navItems = [
     ],
   },
 ]
+
+function isDivider(item: NavChild): item is { divider: true; label: string } {
+  return 'divider' in item
+}
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -61,20 +76,33 @@ export function Header() {
                   <ChevronDown size={14} />
                 </button>
                 {openDropdown === item.label && (
-                  <div className="absolute left-0 top-full min-w-[240px] rounded-md border border-slate-700 bg-slate-800 py-2 shadow-xl">
-                    {item.children.map((child) => (
-                      <NavLink
-                        key={child.path}
-                        to={child.path}
-                        className={({ isActive }) =>
-                          `block px-4 py-2.5 text-sm transition hover:bg-slate-700 hover:text-white ${
-                            isActive ? 'bg-slate-700 text-brand-300' : 'text-slate-300'
-                          }`
-                        }
-                      >
-                        {child.label}
-                      </NavLink>
-                    ))}
+                  <div
+                    className={`absolute left-0 top-full rounded-md border border-slate-700 bg-slate-800 py-2 shadow-xl ${
+                      item.label === 'About Us' ? 'min-w-[280px]' : 'min-w-[260px]'
+                    }`}
+                  >
+                    {item.children.map((child, i) =>
+                      isDivider(child) ? (
+                        <div
+                          key={`div-${i}`}
+                          className="mt-2 border-t border-slate-700 px-4 pb-1 pt-3 text-xs font-semibold uppercase tracking-wider text-brand-400"
+                        >
+                          {child.label}
+                        </div>
+                      ) : (
+                        <NavLink
+                          key={child.path}
+                          to={child.path}
+                          className={({ isActive }) =>
+                            `block px-4 py-2.5 text-sm transition hover:bg-slate-700 hover:text-white ${
+                              isActive ? 'bg-slate-700 text-brand-300' : 'text-slate-300'
+                            }`
+                          }
+                        >
+                          {child.label}
+                        </NavLink>
+                      ),
+                    )}
                   </div>
                 )}
               </div>
@@ -112,27 +140,33 @@ export function Header() {
       </div>
 
       {mobileOpen && (
-        <nav className="border-t border-slate-700 bg-slate-900 px-4 py-4 lg:hidden">
+        <nav className="max-h-[70vh] overflow-y-auto border-t border-slate-700 bg-slate-900 px-4 py-4 lg:hidden">
           {navItems.map((item) =>
             item.children ? (
               <div key={item.label} className="mb-2">
                 <div className="px-3 py-2 text-xs font-semibold uppercase tracking-wider text-brand-400">
                   {item.label}
                 </div>
-                {item.children.map((child) => (
-                  <NavLink
-                    key={child.path}
-                    to={child.path}
-                    onClick={() => setMobileOpen(false)}
-                    className={({ isActive }) =>
-                      `block rounded-md px-3 py-2.5 text-sm ${
-                        isActive ? 'bg-slate-800 text-brand-300' : 'text-slate-300 hover:bg-slate-800'
-                      }`
-                    }
-                  >
-                    {child.label}
-                  </NavLink>
-                ))}
+                {item.children.map((child, i) =>
+                  isDivider(child) ? (
+                    <div key={`mdiv-${i}`} className="px-3 py-2 text-xs font-medium text-slate-500">
+                      {child.label}
+                    </div>
+                  ) : (
+                    <NavLink
+                      key={child.path}
+                      to={child.path}
+                      onClick={() => setMobileOpen(false)}
+                      className={({ isActive }) =>
+                        `block rounded-md px-3 py-2.5 text-sm ${
+                          isActive ? 'bg-slate-800 text-brand-300' : 'text-slate-300 hover:bg-slate-800'
+                        }`
+                      }
+                    >
+                      {child.label}
+                    </NavLink>
+                  ),
+                )}
               </div>
             ) : (
               <NavLink
