@@ -1,6 +1,14 @@
+export interface SiteLogo {
+  dark: string
+  light: string
+  mark: string
+  letterhead: string
+}
+
 export interface SiteConfig {
   companyName: string
   tagline: string
+  logo?: SiteLogo
   email: string
   phone: string
   copyright: string

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 56" fill="none" role="img" aria-label="Heritage InfoTech">
+  <defs>
+    <linearGradient id="markGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#26b5e0"/>
+      <stop offset="1" stop-color="#007a9e"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="4" width="48" height="48" rx="10" fill="url(#markGrad)"/>
+  <path d="M14 38V18h5.2c2.4 0 4.1 1.3 4.1 3.4 0 1.4-.8 2.5-2 3.1L24.8 38h-3.1l-2.4-6.2H17.2V38H14zm3-8.8h2.4c1.2 0 1.9-.6 1.9-1.6 0-1-.7-1.6-1.9-1.6h-2.4v3.2zM26.5 38V18h3.2l4.8 12.4L39.3 18H42.5v20h-3.1V27.1l-4.9 10.9h-1.9l-4.9-10.9V38h-3.2z" fill="#fff"/>
+  <circle cx="30" cy="24" r="2" fill="#b3e6f5"/>
+  <circle cx="36" cy="30" r="1.5" fill="#b3e6f5" opacity="0.8"/>
+  <text x="60" y="26" fill="#ffffff" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="700" letter-spacing="-0.02em">Heritage</text>
+  <text x="158" y="26" fill="#4dc4e7" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="700" letter-spacing="-0.02em">InfoTech</text>
+  <text x="60" y="44" fill="#4dc4e7" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" letter-spacing="0.14em">INNOVATE · COLLABORATE · DELIVER</text>
+</svg>

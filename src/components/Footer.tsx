@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FacebookIcon, LinkedInIcon, TwitterIcon, YouTubeIcon } from './SocialIcons'
+import { Logo } from './Logo'
 import { site } from '../lib/content'
 
 const footerLinks = [
@@ -19,14 +20,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <div className="mb-4 flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-brand-500 font-bold text-white">
-                HI
-              </div>
-              <div>
-                <div className="font-semibold text-white">{site.companyName}</div>
-                <div className="text-sm text-brand-300">{site.tagline}</div>
-              </div>
+            <div className="mb-4">
+              <Logo variant="dark" className="h-12 w-auto max-w-[260px]" />
             </div>
             <p className="text-sm leading-relaxed text-slate-400">
               Delivering technology solutions, staffing excellence, and business process outsourcing

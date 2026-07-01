@@ -9,7 +9,7 @@ public_folder: "/images"
 
 site_url: https://heritage-infotech.netlify.app
 display_url: https://heritageinfotech.com
-logo_url: /favicon.svg
+logo_url: /images/logo/heritage-infotech-mark.svg
 
 collections:
   - name: site
@@ -21,6 +21,15 @@ collections:
         fields:
           - { label: Company Name, name: companyName, widget: string }
           - { label: Tagline, name: tagline, widget: string }
+          - label: Company Logo
+            name: logo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Logo (Dark Background / Header), name: dark, widget: image, hint: "SVG or PNG for navigation bar" }
+              - { label: Logo (Light Background / Letterhead), name: light, widget: image, hint: "SVG for web; use letterhead PNG for print" }
+              - { label: Logo Mark (Icon Only), name: mark, widget: image, hint: "Square icon for favicon and compact spaces" }
+              - { label: Letterhead Logo (Print), name: letterhead, widget: image, hint: "High-resolution PNG for company letterhead and documents" }
           - { label: Email, name: email, widget: string }
           - { label: Phone, name: phone, widget: string, required: false }
           - { label: Copyright, name: copyright, widget: string }

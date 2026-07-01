@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { ChevronDown, Menu, X } from 'lucide-react'
-import { site } from '../lib/content'
+import { Logo } from './Logo'
 
 type NavChild = { label: string; path: string } | { divider: true; label: string }
 
@@ -54,14 +54,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-slate-900 text-white shadow-lg">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link to="/" className="group flex items-center gap-3" onClick={() => setMobileOpen(false)}>
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-brand-500 font-bold text-white transition group-hover:bg-brand-400">
-            HI
-          </div>
-          <div className="hidden sm:block">
-            <div className="text-lg font-semibold leading-tight">Heritage InfoTech</div>
-            <div className="text-xs text-brand-300">{site.tagline}</div>
-          </div>
+        <Link to="/" className="group flex items-center" onClick={() => setMobileOpen(false)}>
+          <Logo variant="mark" className="h-10 w-10 sm:hidden" />
+          <Logo variant="dark" className="hidden h-11 w-auto max-w-[280px] sm:block lg:max-w-[320px]" />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
