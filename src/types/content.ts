@@ -116,6 +116,26 @@ export interface IndustriesContent {
   technology: IndustryPage
   logistics: IndustryPage
   government: IndustryPage
+  manufacturing: IndustryPage
+}
+
+export interface ContactLocation {
+  name: string
+  region: string
+  address: string
+  mapEmbed: string
+  isHeadquarters?: boolean
+}
+
+export interface QuoteOffering {
+  title: string
+  description: string
+  icon: string
+}
+
+export interface QuoteProcessStep {
+  title: string
+  description: string
 }
 
 export interface PagesContent {
@@ -160,6 +180,22 @@ export interface PagesContent {
     subtitle: string
     body: string
     email: string
+    phone?: string
+    locations?: ContactLocation[]
+  }
+  getQuote: {
+    title: string
+    subtitle: string
+    body: string
+    intro: string
+    offerings: QuoteOffering[]
+    processTitle: string
+    processSteps: QuoteProcessStep[]
+    ctaTitle: string
+    ctaBody: string
+    ctaNote: string
+    salesEmail: string
+    salesPhone: string
   }
   cyberSecurity: {
     title: string

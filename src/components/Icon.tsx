@@ -5,6 +5,7 @@ import {
   Building2,
   Cog,
   Cpu,
+  Factory,
   Database,
   Handshake,
   HeartPulse,
@@ -49,6 +50,7 @@ const iconMap: Record<string, LucideIcon> = {
   landmark: Landmark,
   cpu: Cpu,
   'building-2': Building2,
+  factory: Factory,
 }
 
 interface IconProps {

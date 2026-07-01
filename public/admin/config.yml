@@ -221,6 +221,28 @@ collections:
                       - { label: Area, name: area, widget: string }
                       - { label: Icon, name: icon, widget: string }
                       - { label: Description, name: description, widget: text }
+          - label: Manufacturing
+            name: manufacturing
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Introduction, name: intro, widget: text }
+              - { label: Icon, name: icon, widget: string }
+              - label: Clients
+                name: clients
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Icon, name: icon, widget: image }
+                  - { label: Summary, name: summary, widget: text }
+                  - label: Projects
+                    name: projects
+                    widget: list
+                    fields:
+                      - { label: Area, name: area, widget: string }
+                      - { label: Icon, name: icon, widget: string }
+                      - { label: Description, name: description, widget: text }
 
   - name: pages
     label: Services & Contact
@@ -289,3 +311,41 @@ collections:
               - { label: Subtitle, name: subtitle, widget: string }
               - { label: Body, name: body, widget: text }
               - { label: Email, name: email, widget: string }
+              - { label: Phone, name: phone, widget: string, required: false }
+              - label: Locations
+                name: locations
+                widget: list
+                required: false
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - { label: Region, name: region, widget: string }
+                  - { label: Address, name: address, widget: string }
+                  - { label: Google Maps Embed URL, name: mapEmbed, widget: string }
+                  - { label: Corporate Headquarters, name: isHeadquarters, widget: boolean, required: false }
+          - label: Get Quote Page
+            name: getQuote
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Body, name: body, widget: text }
+              - { label: Introduction, name: intro, widget: text }
+              - label: Service Offerings
+                name: offerings
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Icon, name: icon, widget: string }
+              - { label: Process Section Title, name: processTitle, widget: string }
+              - label: Process Steps
+                name: processSteps
+                widget: list
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Description, name: description, widget: text }
+              - { label: CTA Title, name: ctaTitle, widget: string }
+              - { label: CTA Body, name: ctaBody, widget: text }
+              - { label: CTA Note, name: ctaNote, widget: text }
+              - { label: Sales Email, name: salesEmail, widget: string }
+              - { label: Sales Phone, name: salesPhone, widget: string }

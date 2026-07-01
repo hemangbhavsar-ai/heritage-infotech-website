@@ -29,11 +29,13 @@ export function IndustryPage({ slug }: IndustryPageProps) {
                 className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"
               >
                 <div className="flex flex-col gap-6 border-b border-slate-100 bg-slate-50 p-6 sm:flex-row sm:items-center sm:p-8">
-                  <img
-                    src={client.icon}
-                    alt={`${client.name} logo`}
-                    className="h-16 w-16 shrink-0 rounded-xl shadow-sm"
-                  />
+                  <div className="flex h-20 w-36 shrink-0 items-center justify-center rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
+                    <img
+                      src={client.icon}
+                      alt={`${client.name} logo`}
+                      className="max-h-14 max-w-full object-contain"
+                    />
+                  </div>
                   <div>
                     <h2 className="text-2xl font-bold text-slate-900">{client.name}</h2>
                     <p className="mt-2 text-slate-600">{client.summary}</p>

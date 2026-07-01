@@ -20,6 +20,7 @@ const navItems: Array<{ label: string; path?: string; children?: NavChild[] }> =
       { label: 'Technology', path: '/about/clients/technology' },
       { label: 'Logistics & Supply Chain', path: '/about/clients/logistics' },
       { label: 'Government', path: '/about/clients/government' },
+      { label: 'Manufacturing', path: '/about/clients/manufacturing' },
     ],
   },
   {
@@ -35,6 +36,7 @@ const navItems: Array<{ label: string; path?: string; children?: NavChild[] }> =
   {
     label: 'Contact',
     children: [
+      { label: 'Get a Quote', path: '/get-quote' },
       { label: 'Enquiry Form', path: '/enquiry' },
       { label: 'Contact Us', path: '/contact' },
     ],
@@ -124,7 +126,7 @@ export function Header() {
         </nav>
 
         <Link
-          to="/enquiry"
+          to="/get-quote"
           className="hidden rounded-md bg-brand-500 px-5 py-2 text-sm font-semibold text-white transition hover:bg-brand-400 lg:inline-block"
         >
           Get a Quote
@@ -185,7 +187,7 @@ export function Header() {
             ),
           )}
           <Link
-            to="/enquiry"
+            to="/get-quote"
             onClick={() => setMobileOpen(false)}
             className="mt-4 block rounded-md bg-brand-500 px-4 py-3 text-center text-sm font-semibold text-white"
           >

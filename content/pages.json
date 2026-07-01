@@ -27,7 +27,8 @@
       { "name": "Financial Services", "path": "/about/clients/financial", "icon": "landmark" },
       { "name": "Technology", "path": "/about/clients/technology", "icon": "cpu" },
       { "name": "Logistics & Supply Chain", "path": "/about/clients/logistics", "icon": "truck" },
-      { "name": "Government", "path": "/about/clients/government", "icon": "building-2" }
+      { "name": "Government", "path": "/about/clients/government", "icon": "building-2" },
+      { "name": "Manufacturing", "path": "/about/clients/manufacturing", "icon": "factory" }
     ]
   },
   "itProfessionals": {
@@ -84,7 +85,91 @@
     "title": "Contact Us",
     "subtitle": "We look forward to hearing from you",
     "body": "Please contact us at any of our locations. Our team is ready to discuss how Heritage InfoTech can support your business objectives.",
-    "email": "info@heritageinfotech.com"
+    "email": "info@heritageinfotech.com",
+    "phone": "(440) 281-2678",
+    "locations": [
+      {
+        "name": "Corporate Headquarters",
+        "region": "Midwest",
+        "address": "1220 E 9th St, Cleveland, OH 44114",
+        "mapEmbed": "https://maps.google.com/maps?q=1220+E+9th+St,+Cleveland,+OH+44114&z=15&output=embed",
+        "isHeadquarters": true
+      },
+      {
+        "name": "West Coast Office",
+        "region": "West Coast",
+        "address": "101 California St, San Francisco, CA 94111",
+        "mapEmbed": "https://maps.google.com/maps?q=101+California+St,+San+Francisco,+CA+94111&z=15&output=embed"
+      },
+      {
+        "name": "East Coast Office",
+        "region": "East Coast",
+        "address": "1177 Avenue of the Americas, New York, NY 10036",
+        "mapEmbed": "https://maps.google.com/maps?q=1177+Avenue+of+the+Americas,+New+York,+NY+10036&z=15&output=embed"
+      }
+    ]
+  },
+  "getQuote": {
+    "title": "Get a Quote",
+    "subtitle": "Tailored solutions for your enterprise — speak with our sales team",
+    "body": "Every engagement at Heritage InfoTech begins with understanding your unique business objectives. We deliver IT staffing, consulting, logistics technology, cybersecurity, and business process outsourcing solutions designed around your requirements — not off-the-shelf packages.",
+    "intro": "Our consultants work alongside your leadership team to scope engagements, define deliverables, and build a partnership model that aligns with your timeline and goals. Pricing is customized to each engagement — reach out to our sales team for a confidential consultation.",
+    "offerings": [
+      {
+        "title": "IT Staffing & Consulting",
+        "description": "Contract, direct-hire, and project-based technology professionals — from developers and architects to project managers and security specialists.",
+        "icon": "users"
+      },
+      {
+        "title": "Cybersecurity & Quantum Readiness",
+        "description": "End-to-end quantum readiness assessments, cryptographic discovery, and hybrid post-quantum cryptography implementation programs.",
+        "icon": "shield-check"
+      },
+      {
+        "title": "Logistics Technology",
+        "description": "Route planning, fleet optimization, and mobile workforce management solutions configured for your operational requirements.",
+        "icon": "truck"
+      },
+      {
+        "title": "Staffing & MSP/VMS",
+        "description": "Managed supplier program expertise with nationwide recruiting and delivery across all 50 states.",
+        "icon": "briefcase"
+      },
+      {
+        "title": "Business Process Outsourcing",
+        "description": "Strategic front and back-office outsourcing to drive operational efficiency, growth, and innovation.",
+        "icon": "workflow"
+      },
+      {
+        "title": "Enterprise Integrations",
+        "description": "ERP, CRM, and cloud platform integration services for complex digital transformation initiatives.",
+        "icon": "cog"
+      }
+    ],
+    "processTitle": "How We Work With You",
+    "processSteps": [
+      {
+        "title": "Discovery Call",
+        "description": "Share your objectives, timeline, and team requirements with our sales consultants."
+      },
+      {
+        "title": "Solution Design",
+        "description": "We scope the engagement, define deliverables, and propose a tailored delivery model."
+      },
+      {
+        "title": "Proposal Review",
+        "description": "Review a customized proposal aligned to your business goals — no generic pricing tiers."
+      },
+      {
+        "title": "Partnership Launch",
+        "description": "Onboard your dedicated Heritage team and begin delivering measurable results."
+      }
+    ],
+    "ctaTitle": "Ready to Get Started?",
+    "ctaBody": "Connect with our sales team for a confidential consultation. We'll discuss your requirements and craft a solution tailored to your organization.",
+    "ctaNote": "Custom pricing for every engagement — no published rate cards. Our team will respond within one business day.",
+    "salesEmail": "info@heritageinfotech.com",
+    "salesPhone": "(440) 281-2678"
   },
   "cyberSecurity": {
     "title": "Cybersecurity & Quantum Readiness",

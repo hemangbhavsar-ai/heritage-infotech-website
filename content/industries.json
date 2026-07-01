@@ -7,7 +7,7 @@
     "clients": [
       {
         "name": "Pfizer",
-        "icon": "/images/clients/pfizer.svg",
+        "icon": "/images/clients/pfizer.png",
         "summary": "Global pharmaceutical leader partnering with Heritage on clinical data integration and secure research informatics.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Deployed ML pipelines for clinical trial data normalization and adverse event pattern detection across multi-site research programs." },
@@ -18,7 +18,7 @@
       },
       {
         "name": "Cleveland Clinic",
-        "icon": "/images/clients/cleveland-clinic.svg",
+        "icon": "/images/clients/cleveland-clinic.png",
         "summary": "World-renowned academic medical center leveraging Heritage for patient engagement platforms and clinical workflow automation.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed predictive readmission models integrated with Epic EHR workflows to support care coordination teams." },
@@ -29,7 +29,7 @@
       },
       {
         "name": "University Hospitals",
-        "icon": "/images/clients/university-hospitals.svg",
+        "icon": "/images/clients/university-hospitals.png",
         "summary": "Northeast Ohio health system engaging Heritage for ERP modernization and workforce technology solutions.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Piloted intelligent document processing for prior authorization workflows reducing manual review time by 40%." },
@@ -40,7 +40,7 @@
       },
       {
         "name": "Mayo Clinic",
-        "icon": "/images/clients/mayo-clinic.svg",
+        "icon": "/images/clients/mayo-clinic.png",
         "summary": "Premier integrated medical practice and research group supported by Heritage on research data platforms and secure collaboration tools.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported federated learning infrastructure enabling multi-institutional research without centralizing protected health data." },
@@ -51,7 +51,7 @@
       },
       {
         "name": "Johns Hopkins Medicine",
-        "icon": "/images/clients/johns-hopkins.svg",
+        "icon": "/images/clients/johns-hopkins.png",
         "summary": "Academic medical enterprise partnering on clinical informatics staffing and secure cloud infrastructure programs.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Staffed and supported NLP engineering team building clinical note extraction for quality measure reporting." },
@@ -70,7 +70,7 @@
     "clients": [
       {
         "name": "Flagstar Bank",
-        "icon": "/images/clients/flagstar.svg",
+        "icon": "/images/clients/flagstar.png",
         "summary": "One of the largest regional banks in the United States (formerly New York Community Bancorp), engaging Heritage for core integration and digital banking programs.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Implemented fraud detection models for real-time transaction monitoring across retail and commercial banking channels." },
@@ -81,7 +81,7 @@
       },
       {
         "name": "Fidelity Investments",
-        "icon": "/images/clients/fidelity.svg",
+        "icon": "/images/clients/fidelity.png",
         "summary": "Global financial services leader partnering with Heritage on wealth management technology and data platform engineering.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported robo-advisory algorithm development and portfolio optimization model validation frameworks." },
@@ -92,7 +92,7 @@
       },
       {
         "name": "The Hartford",
-        "icon": "/images/clients/hartford.svg",
+        "icon": "/images/clients/hartford.png",
         "summary": "Fortune 500 insurance and financial services company leveraging Heritage for group benefits technology and BPO operations.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed claims triage automation reducing manual processing for group disability and workers compensation lines." },
@@ -103,7 +103,7 @@
       },
       {
         "name": "Deloitte",
-        "icon": "/images/clients/deloitte.svg",
+        "icon": "/images/clients/deloitte.png",
         "summary": "Global professional services firm engaging Heritage as a specialized delivery partner for client technology transformation programs.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Provided specialized AI engineering teams for client-facing intelligent automation and document intelligence engagements." },
@@ -122,7 +122,7 @@
     "clients": [
       {
         "name": "Microsoft",
-        "icon": "/images/clients/microsoft.svg",
+        "icon": "/images/clients/microsoft.png",
         "summary": "Strategic technology partner engaging Heritage for Azure implementation specialists and enterprise solution architects.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Staffed Azure ML engineers for customer copilot and cognitive services implementation projects." },
@@ -133,7 +133,7 @@
       },
       {
         "name": "Salesforce",
-        "icon": "/images/clients/salesforce.svg",
+        "icon": "/images/clients/salesforce.png",
         "summary": "CRM platform leader supported by Heritage-certified developers and integration architects.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Implemented Einstein Analytics and AI-driven lead scoring for financial services customer deployments." },
@@ -144,7 +144,7 @@
       },
       {
         "name": "Oracle",
-        "icon": "/images/clients/oracle.svg",
+        "icon": "/images/clients/oracle.png",
         "summary": "Enterprise software giant partnering on ERP, database, and cloud infrastructure staffing programs.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported Oracle AI Vector Search implementations for enterprise knowledge management use cases." },
@@ -163,7 +163,7 @@
     "clients": [
       {
         "name": "Ryder System",
-        "icon": "/images/clients/ryder.svg",
+        "icon": "/images/clients/ryder.png",
         "summary": "Fortune 500 transportation and logistics leader using Heritage route planning and fleet management solutions.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Deployed demand forecasting models optimizing fleet allocation across dedicated transportation contracts." },
@@ -174,7 +174,7 @@
       },
       {
         "name": "AmeriGas",
-        "icon": "/images/clients/amerigas.svg",
+        "icon": "/images/clients/amerigas.png",
         "summary": "Nation's largest propane distributor leveraging Heritage mobile resource management and route optimization tools.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Implemented dynamic route optimization using weather, demand, and tank-level sensor data for delivery scheduling." },
@@ -185,7 +185,7 @@
       },
       {
         "name": "FedEx Supply Chain",
-        "icon": "/images/clients/fedex.svg",
+        "icon": "/images/clients/fedex.png",
         "summary": "Global third-party logistics provider supported by Heritage on warehouse technology and integration programs.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported computer vision pilot for warehouse inventory scanning and automated cycle count validation." },
@@ -204,8 +204,8 @@
     "clients": [
       {
         "name": "Kentucky Department of Revenue",
-        "icon": "/images/clients/kentucky-revenue.svg",
-        "summary": "State revenue cabinet engaging Heritage for tax systems modernization and secure citizen services platforms.",
+        "icon": "/images/clients/kentucky-revenue.png",
+        "summary": "Cabinet agency of the Commonwealth of Kentucky responsible for tax administration, engaging Heritage for tax systems modernization and secure citizen services platforms.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed anomaly detection models identifying fraudulent tax return patterns while preserving taxpayer privacy." },
           { "area": "Enterprise Integrations", "icon": "workflow", "description": "Modernized integrations between tax processing, motor vehicle, and treasury disbursement systems." },
@@ -215,7 +215,7 @@
       },
       {
         "name": "Port Authority of NY & NJ",
-        "icon": "/images/clients/port-authority.svg",
+        "icon": "/images/clients/port-authority.png",
         "summary": "Bi-state port authority partnering on airport and tunnel infrastructure technology and cybersecurity programs.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Piloted predictive maintenance analytics for tunnel ventilation and airport baggage handling systems." },
@@ -226,13 +226,43 @@
       },
       {
         "name": "State of Ohio IT",
-        "icon": "/images/clients/ohio-it.svg",
+        "icon": "/images/clients/ohio-it.png",
         "summary": "State government technology agency supported by Heritage on shared services and workforce staffing programs.",
         "projects": [
           { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported chatbot and virtual assistant deployment for citizen services portal reducing call center volume." },
           { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered integration middleware connecting Medicaid, unemployment, and licensing agency systems." },
           { "area": "Data Engineering", "icon": "database", "description": "Built statewide data sharing framework enabling cross-agency analytics while enforcing data governance policies." },
           { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented statewide identity and access management with multi-factor authentication for 50,000+ state employees." }
+        ]
+      }
+    ]
+  },
+  "manufacturing": {
+    "title": "Manufacturing",
+    "subtitle": "Digital transformation for global industrial and automotive leaders",
+    "intro": "Heritage InfoTech partners with world-class manufacturers to deliver ERP modernization, IoT integration, supply chain analytics, and workforce technology programs that drive operational excellence on the factory floor and across the enterprise.",
+    "icon": "factory",
+    "clients": [
+      {
+        "name": "BMW Group",
+        "icon": "/images/clients/bmw.png",
+        "summary": "Global automotive manufacturer engaging Heritage for connected vehicle platforms, manufacturing execution systems, and Industry 4.0 initiatives.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed predictive quality analytics for assembly line defect detection using sensor fusion and computer vision models." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated MES, SAP S/4HANA, and supplier portal systems across North American production facilities." },
+          { "area": "Data Engineering", "icon": "database", "description": "Built manufacturing data lake aggregating OT and IT telemetry for real-time OEE dashboards and supply chain visibility." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented zero-trust OT security architecture for connected factory floor and robotics control systems." }
+        ]
+      },
+      {
+        "name": "Parker Hannifin",
+        "icon": "/images/clients/parker-hannifin.png",
+        "summary": "Fortune 250 motion and control technologies leader partnering with Heritage on global ERP harmonization and engineering workforce programs.",
+        "projects": [
+          { "area": "AI & Machine Learning", "icon": "brain", "description": "Deployed demand sensing models optimizing inventory and production scheduling across diversified industrial product lines." },
+          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Connected engineering PLM, CRM, and Oracle ERP systems supporting the Win Strategy operating model." },
+          { "area": "Data Engineering", "icon": "database", "description": "Established enterprise analytics platform unifying financial, operational, and customer data across 40+ divisional business units." },
+          { "area": "Security & Compliance", "icon": "shield-check", "description": "Led IT/OT convergence security assessment and hybrid PQC readiness for intellectual property and design data protection." }
         ]
       }
     ]

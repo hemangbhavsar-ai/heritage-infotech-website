@@ -9,6 +9,7 @@ const footerLinks = [
   { label: 'Leadership', path: '/about/leadership' },
   { label: 'Cybersecurity', path: '/services/cybersecurity' },
   { label: 'Clients', path: '/about/clients' },
+  { label: 'Get a Quote', path: '/get-quote' },
   { label: 'Contact', path: '/contact' },
 ]
 

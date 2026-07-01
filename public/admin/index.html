@@ -12,7 +12,19 @@
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on('init', function (user) {
-        if (!user) {
+        var hash = window.location.hash || '';
+        if (
+          hash.indexOf('recovery_token') !== -1 ||
+          hash.indexOf('invite_token') !== -1 ||
+          hash.indexOf('confirmation_token') !== -1
+        ) {
+          var mode = hash.indexOf('recovery_token') !== -1
+            ? 'recovery'
+            : hash.indexOf('invite_token') !== -1
+              ? 'signup'
+              : 'login';
+          window.netlifyIdentity.open(mode);
+        } else if (!user) {
           window.netlifyIdentity.on('login', function () {
             document.location.href = '/admin/';
           });
