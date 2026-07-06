@@ -10,10 +10,50 @@
         "icon": "/images/clients/pfizer.png",
         "summary": "Global pharmaceutical leader partnering with Heritage on clinical data integration and secure research informatics.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Deployed ML pipelines for clinical trial data normalization and adverse event pattern detection across multi-site research programs." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Built HL7 FHIR-compliant integration layer connecting laboratory information systems with enterprise data warehouses." },
-          { "area": "Data Engineering", "icon": "database", "description": "Designed governed data lake architecture for real-world evidence analytics with full lineage and audit trail capabilities." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented GxP-validated access controls, encryption at rest and in transit, and continuous HIPAA compliance monitoring." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Deployed ML pipelines for clinical trial data normalization and adverse event pattern detection across multi-site research programs.",
+            "slug": "ai-machine-learning",
+            "summary": "Deployed ML pipelines for clinical trial data normalization and adverse event pattern detection across multi-site research programs.",
+            "paragraphs": [
+              "Deployed ML pipelines for clinical trial data normalization and adverse event pattern detection across multi-site research programs.",
+              "For Pfizer, Heritage InfoTech applied industry-specific AI engineering practices within the Healthcare Industries sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Built HL7 FHIR-compliant integration layer connecting laboratory information systems with enterprise data warehouses.",
+            "slug": "enterprise-integrations",
+            "summary": "Built HL7 FHIR-compliant integration layer connecting laboratory information systems with enterprise data warehouses.",
+            "paragraphs": [
+              "Built HL7 FHIR-compliant integration layer connecting laboratory information systems with enterprise data warehouses.",
+              "The Pfizer engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Healthcare Industries environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Designed governed data lake architecture for real-world evidence analytics with full lineage and audit trail capabilities.",
+            "slug": "data-engineering",
+            "summary": "Designed governed data lake architecture for real-world evidence analytics with full lineage and audit trail capabilities.",
+            "paragraphs": [
+              "Designed governed data lake architecture for real-world evidence analytics with full lineage and audit trail capabilities.",
+              "Heritage InfoTech established data engineering standards for Pfizer that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Healthcare Industries organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Implemented GxP-validated access controls, encryption at rest and in transit, and continuous HIPAA compliance monitoring.",
+            "slug": "security-compliance",
+            "summary": "Implemented GxP-validated access controls, encryption at rest and in transit, and continuous HIPAA compliance monitoring.",
+            "paragraphs": [
+              "Implemented GxP-validated access controls, encryption at rest and in transit, and continuous HIPAA compliance monitoring.",
+              "Working with Pfizer, Heritage InfoTech implemented security controls aligned with Healthcare Industries regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -21,10 +61,50 @@
         "icon": "/images/clients/cleveland-clinic.png",
         "summary": "World-renowned academic medical center leveraging Heritage for patient engagement platforms and clinical workflow automation.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed predictive readmission models integrated with Epic EHR workflows to support care coordination teams." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Connected ambulatory scheduling, revenue cycle, and telehealth platforms through an enterprise service bus architecture." },
-          { "area": "Data Engineering", "icon": "database", "description": "Established master patient index and clinical data repository supporting population health analytics initiatives." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Conducted zero-trust network segmentation for clinical IoT devices and medical imaging systems." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Developed predictive readmission models integrated with Epic EHR workflows to support care coordination teams.",
+            "slug": "ai-machine-learning",
+            "summary": "Developed predictive readmission models integrated with Epic EHR workflows to support care coordination teams.",
+            "paragraphs": [
+              "Developed predictive readmission models integrated with Epic EHR workflows to support care coordination teams.",
+              "For Cleveland Clinic, Heritage InfoTech applied industry-specific AI engineering practices within the Healthcare Industries sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Connected ambulatory scheduling, revenue cycle, and telehealth platforms through an enterprise service bus architecture.",
+            "slug": "enterprise-integrations",
+            "summary": "Connected ambulatory scheduling, revenue cycle, and telehealth platforms through an enterprise service bus architecture.",
+            "paragraphs": [
+              "Connected ambulatory scheduling, revenue cycle, and telehealth platforms through an enterprise service bus architecture.",
+              "The Cleveland Clinic engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Healthcare Industries environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Established master patient index and clinical data repository supporting population health analytics initiatives.",
+            "slug": "data-engineering",
+            "summary": "Established master patient index and clinical data repository supporting population health analytics initiatives.",
+            "paragraphs": [
+              "Established master patient index and clinical data repository supporting population health analytics initiatives.",
+              "Heritage InfoTech established data engineering standards for Cleveland Clinic that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Healthcare Industries organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Conducted zero-trust network segmentation for clinical IoT devices and medical imaging systems.",
+            "slug": "security-compliance",
+            "summary": "Conducted zero-trust network segmentation for clinical IoT devices and medical imaging systems.",
+            "paragraphs": [
+              "Conducted zero-trust network segmentation for clinical IoT devices and medical imaging systems.",
+              "Working with Cleveland Clinic, Heritage InfoTech implemented security controls aligned with Healthcare Industries regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -32,10 +112,50 @@
         "icon": "/images/clients/university-hospitals.png",
         "summary": "Northeast Ohio health system engaging Heritage for ERP modernization and workforce technology solutions.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Piloted intelligent document processing for prior authorization workflows reducing manual review time by 40%." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated supply chain, HR, and finance systems following cloud ERP migration to Microsoft Dynamics." },
-          { "area": "Data Engineering", "icon": "database", "description": "Built operational dashboards aggregating bed management, staffing, and throughput metrics in real time." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Deployed identity governance and privileged access management aligned with HITRUST CSF requirements." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Piloted intelligent document processing for prior authorization workflows reducing manual review time by 40%.",
+            "slug": "ai-machine-learning",
+            "summary": "Piloted intelligent document processing for prior authorization workflows reducing manual review time by 40%.",
+            "paragraphs": [
+              "Piloted intelligent document processing for prior authorization workflows reducing manual review time by 40%.",
+              "For University Hospitals, Heritage InfoTech applied industry-specific AI engineering practices within the Healthcare Industries sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Integrated supply chain, HR, and finance systems following cloud ERP migration to Microsoft Dynamics.",
+            "slug": "enterprise-integrations",
+            "summary": "Integrated supply chain, HR, and finance systems following cloud ERP migration to Microsoft Dynamics.",
+            "paragraphs": [
+              "Integrated supply chain, HR, and finance systems following cloud ERP migration to Microsoft Dynamics.",
+              "The University Hospitals engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Healthcare Industries environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Built operational dashboards aggregating bed management, staffing, and throughput metrics in real time.",
+            "slug": "data-engineering",
+            "summary": "Built operational dashboards aggregating bed management, staffing, and throughput metrics in real time.",
+            "paragraphs": [
+              "Built operational dashboards aggregating bed management, staffing, and throughput metrics in real time.",
+              "Heritage InfoTech established data engineering standards for University Hospitals that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Healthcare Industries organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Deployed identity governance and privileged access management aligned with HITRUST CSF requirements.",
+            "slug": "security-compliance",
+            "summary": "Deployed identity governance and privileged access management aligned with HITRUST CSF requirements.",
+            "paragraphs": [
+              "Deployed identity governance and privileged access management aligned with HITRUST CSF requirements.",
+              "Working with University Hospitals, Heritage InfoTech implemented security controls aligned with Healthcare Industries regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -43,10 +163,50 @@
         "icon": "/images/clients/mayo-clinic.png",
         "summary": "Premier integrated medical practice and research group supported by Heritage on research data platforms and secure collaboration tools.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported federated learning infrastructure enabling multi-institutional research without centralizing protected health data." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Architected API gateway connecting research registries, biobank systems, and genomic analysis platforms." },
-          { "area": "Data Engineering", "icon": "database", "description": "Implemented metadata catalog and data quality framework for precision medicine research datasets." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Established quantum-readiness assessment for long-term research archive cryptographic protocols." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Supported federated learning infrastructure enabling multi-institutional research without centralizing protected health data.",
+            "slug": "ai-machine-learning",
+            "summary": "Supported federated learning infrastructure enabling multi-institutional research without centralizing protected health data.",
+            "paragraphs": [
+              "Supported federated learning infrastructure enabling multi-institutional research without centralizing protected health data.",
+              "For Mayo Clinic, Heritage InfoTech applied industry-specific AI engineering practices within the Healthcare Industries sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Architected API gateway connecting research registries, biobank systems, and genomic analysis platforms.",
+            "slug": "enterprise-integrations",
+            "summary": "Architected API gateway connecting research registries, biobank systems, and genomic analysis platforms.",
+            "paragraphs": [
+              "Architected API gateway connecting research registries, biobank systems, and genomic analysis platforms.",
+              "The Mayo Clinic engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Healthcare Industries environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Implemented metadata catalog and data quality framework for precision medicine research datasets.",
+            "slug": "data-engineering",
+            "summary": "Implemented metadata catalog and data quality framework for precision medicine research datasets.",
+            "paragraphs": [
+              "Implemented metadata catalog and data quality framework for precision medicine research datasets.",
+              "Heritage InfoTech established data engineering standards for Mayo Clinic that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Healthcare Industries organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Established quantum-readiness assessment for long-term research archive cryptographic protocols.",
+            "slug": "security-compliance",
+            "summary": "Established quantum-readiness assessment for long-term research archive cryptographic protocols.",
+            "paragraphs": [
+              "Established quantum-readiness assessment for long-term research archive cryptographic protocols.",
+              "Working with Mayo Clinic, Heritage InfoTech implemented security controls aligned with Healthcare Industries regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -54,10 +214,50 @@
         "icon": "/images/clients/johns-hopkins.png",
         "summary": "Academic medical enterprise partnering on clinical informatics staffing and secure cloud infrastructure programs.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Staffed and supported NLP engineering team building clinical note extraction for quality measure reporting." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered interoperability solutions connecting inpatient and ambulatory EHR instances across the health system." },
-          { "area": "Data Engineering", "icon": "database", "description": "Supported enterprise data mesh initiative for research, clinical, and operational data domains." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Performed cryptographic inventory and hybrid PQC roadmap for research data encryption standards." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Staffed and supported NLP engineering team building clinical note extraction for quality measure reporting.",
+            "slug": "ai-machine-learning",
+            "summary": "Staffed and supported NLP engineering team building clinical note extraction for quality measure reporting.",
+            "paragraphs": [
+              "Staffed and supported NLP engineering team building clinical note extraction for quality measure reporting.",
+              "For Johns Hopkins Medicine, Heritage InfoTech applied industry-specific AI engineering practices within the Healthcare Industries sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Delivered interoperability solutions connecting inpatient and ambulatory EHR instances across the health system.",
+            "slug": "enterprise-integrations",
+            "summary": "Delivered interoperability solutions connecting inpatient and ambulatory EHR instances across the health system.",
+            "paragraphs": [
+              "Delivered interoperability solutions connecting inpatient and ambulatory EHR instances across the health system.",
+              "The Johns Hopkins Medicine engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Healthcare Industries environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Supported enterprise data mesh initiative for research, clinical, and operational data domains.",
+            "slug": "data-engineering",
+            "summary": "Supported enterprise data mesh initiative for research, clinical, and operational data domains.",
+            "paragraphs": [
+              "Supported enterprise data mesh initiative for research, clinical, and operational data domains.",
+              "Heritage InfoTech established data engineering standards for Johns Hopkins Medicine that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Healthcare Industries organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Performed cryptographic inventory and hybrid PQC roadmap for research data encryption standards.",
+            "slug": "security-compliance",
+            "summary": "Performed cryptographic inventory and hybrid PQC roadmap for research data encryption standards.",
+            "paragraphs": [
+              "Performed cryptographic inventory and hybrid PQC roadmap for research data encryption standards.",
+              "Working with Johns Hopkins Medicine, Heritage InfoTech implemented security controls aligned with Healthcare Industries regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       }
     ]
@@ -73,10 +273,50 @@
         "icon": "/images/clients/flagstar.png",
         "summary": "One of the largest regional banks in the United States (formerly New York Community Bancorp), engaging Heritage for core integration and digital banking programs.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Implemented fraud detection models for real-time transaction monitoring across retail and commercial banking channels." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated loan origination, core banking, and CRM platforms during post-merger systems consolidation." },
-          { "area": "Data Engineering", "icon": "database", "description": "Built regulatory reporting data pipeline supporting CECL, BSA/AML, and FDIC call report automation." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Deployed SOX-aligned access controls and continuous vulnerability management for internet-facing banking applications." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Implemented fraud detection models for real-time transaction monitoring across retail and commercial banking channels.",
+            "slug": "ai-machine-learning",
+            "summary": "Implemented fraud detection models for real-time transaction monitoring across retail and commercial banking channels.",
+            "paragraphs": [
+              "Implemented fraud detection models for real-time transaction monitoring across retail and commercial banking channels.",
+              "For Flagstar Bank, Heritage InfoTech applied industry-specific AI engineering practices within the Financial Services sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Integrated loan origination, core banking, and CRM platforms during post-merger systems consolidation.",
+            "slug": "enterprise-integrations",
+            "summary": "Integrated loan origination, core banking, and CRM platforms during post-merger systems consolidation.",
+            "paragraphs": [
+              "Integrated loan origination, core banking, and CRM platforms during post-merger systems consolidation.",
+              "The Flagstar Bank engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Financial Services environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Built regulatory reporting data pipeline supporting CECL, BSA/AML, and FDIC call report automation.",
+            "slug": "data-engineering",
+            "summary": "Built regulatory reporting data pipeline supporting CECL, BSA/AML, and FDIC call report automation.",
+            "paragraphs": [
+              "Built regulatory reporting data pipeline supporting CECL, BSA/AML, and FDIC call report automation.",
+              "Heritage InfoTech established data engineering standards for Flagstar Bank that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Financial Services organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Deployed SOX-aligned access controls and continuous vulnerability management for internet-facing banking applications.",
+            "slug": "security-compliance",
+            "summary": "Deployed SOX-aligned access controls and continuous vulnerability management for internet-facing banking applications.",
+            "paragraphs": [
+              "Deployed SOX-aligned access controls and continuous vulnerability management for internet-facing banking applications.",
+              "Working with Flagstar Bank, Heritage InfoTech implemented security controls aligned with Financial Services regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -84,10 +324,50 @@
         "icon": "/images/clients/fidelity.png",
         "summary": "Global financial services leader partnering with Heritage on wealth management technology and data platform engineering.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported robo-advisory algorithm development and portfolio optimization model validation frameworks." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Connected retirement plan administration, trading, and client portal systems through event-driven architecture." },
-          { "area": "Data Engineering", "icon": "database", "description": "Designed customer 360 data platform unifying brokerage, retirement, and wealth management client records." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Executed cryptographic discovery program assessing quantum risk across certificate and key management infrastructure." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Supported robo-advisory algorithm development and portfolio optimization model validation frameworks.",
+            "slug": "ai-machine-learning",
+            "summary": "Supported robo-advisory algorithm development and portfolio optimization model validation frameworks.",
+            "paragraphs": [
+              "Supported robo-advisory algorithm development and portfolio optimization model validation frameworks.",
+              "For Fidelity Investments, Heritage InfoTech applied industry-specific AI engineering practices within the Financial Services sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Connected retirement plan administration, trading, and client portal systems through event-driven architecture.",
+            "slug": "enterprise-integrations",
+            "summary": "Connected retirement plan administration, trading, and client portal systems through event-driven architecture.",
+            "paragraphs": [
+              "Connected retirement plan administration, trading, and client portal systems through event-driven architecture.",
+              "The Fidelity Investments engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Financial Services environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Designed customer 360 data platform unifying brokerage, retirement, and wealth management client records.",
+            "slug": "data-engineering",
+            "summary": "Designed customer 360 data platform unifying brokerage, retirement, and wealth management client records.",
+            "paragraphs": [
+              "Designed customer 360 data platform unifying brokerage, retirement, and wealth management client records.",
+              "Heritage InfoTech established data engineering standards for Fidelity Investments that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Financial Services organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Executed cryptographic discovery program assessing quantum risk across certificate and key management infrastructure.",
+            "slug": "security-compliance",
+            "summary": "Executed cryptographic discovery program assessing quantum risk across certificate and key management infrastructure.",
+            "paragraphs": [
+              "Executed cryptographic discovery program assessing quantum risk across certificate and key management infrastructure.",
+              "Working with Fidelity Investments, Heritage InfoTech implemented security controls aligned with Financial Services regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -95,10 +375,50 @@
         "icon": "/images/clients/hartford.png",
         "summary": "Fortune 500 insurance and financial services company leveraging Heritage for group benefits technology and BPO operations.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed claims triage automation reducing manual processing for group disability and workers compensation lines." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated policy administration, billing, and employer portal systems for group benefits product lines." },
-          { "area": "Data Engineering", "icon": "database", "description": "Established actuarial data mart supporting pricing models and loss ratio analytics across commercial lines." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented data loss prevention and encryption standards meeting NAIC insurance data security model requirements." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Developed claims triage automation reducing manual processing for group disability and workers compensation lines.",
+            "slug": "ai-machine-learning",
+            "summary": "Developed claims triage automation reducing manual processing for group disability and workers compensation lines.",
+            "paragraphs": [
+              "Developed claims triage automation reducing manual processing for group disability and workers compensation lines.",
+              "For The Hartford, Heritage InfoTech applied industry-specific AI engineering practices within the Financial Services sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Integrated policy administration, billing, and employer portal systems for group benefits product lines.",
+            "slug": "enterprise-integrations",
+            "summary": "Integrated policy administration, billing, and employer portal systems for group benefits product lines.",
+            "paragraphs": [
+              "Integrated policy administration, billing, and employer portal systems for group benefits product lines.",
+              "The The Hartford engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Financial Services environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Established actuarial data mart supporting pricing models and loss ratio analytics across commercial lines.",
+            "slug": "data-engineering",
+            "summary": "Established actuarial data mart supporting pricing models and loss ratio analytics across commercial lines.",
+            "paragraphs": [
+              "Established actuarial data mart supporting pricing models and loss ratio analytics across commercial lines.",
+              "Heritage InfoTech established data engineering standards for The Hartford that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Financial Services organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Implemented data loss prevention and encryption standards meeting NAIC insurance data security model requirements.",
+            "slug": "security-compliance",
+            "summary": "Implemented data loss prevention and encryption standards meeting NAIC insurance data security model requirements.",
+            "paragraphs": [
+              "Implemented data loss prevention and encryption standards meeting NAIC insurance data security model requirements.",
+              "Working with The Hartford, Heritage InfoTech implemented security controls aligned with Financial Services regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -106,10 +426,50 @@
         "icon": "/images/clients/deloitte.png",
         "summary": "Global professional services firm engaging Heritage as a specialized delivery partner for client technology transformation programs.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Provided specialized AI engineering teams for client-facing intelligent automation and document intelligence engagements." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered integration architects for multi-year ERP and CRM transformation programs across financial services clients." },
-          { "area": "Data Engineering", "icon": "database", "description": "Staffed cloud data engineers for enterprise data platform migrations on Azure and AWS for audit and advisory clients." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Supported cyber risk assessment and quantum readiness consulting workstreams for regulated industry clients." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Provided specialized AI engineering teams for client-facing intelligent automation and document intelligence engagements.",
+            "slug": "ai-machine-learning",
+            "summary": "Provided specialized AI engineering teams for client-facing intelligent automation and document intelligence engagements.",
+            "paragraphs": [
+              "Provided specialized AI engineering teams for client-facing intelligent automation and document intelligence engagements.",
+              "For Deloitte, Heritage InfoTech applied industry-specific AI engineering practices within the Financial Services sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Delivered integration architects for multi-year ERP and CRM transformation programs across financial services clients.",
+            "slug": "enterprise-integrations",
+            "summary": "Delivered integration architects for multi-year ERP and CRM transformation programs across financial services clients.",
+            "paragraphs": [
+              "Delivered integration architects for multi-year ERP and CRM transformation programs across financial services clients.",
+              "The Deloitte engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Financial Services environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Staffed cloud data engineers for enterprise data platform migrations on Azure and AWS for audit and advisory clients.",
+            "slug": "data-engineering",
+            "summary": "Staffed cloud data engineers for enterprise data platform migrations on Azure and AWS for audit and advisory clients.",
+            "paragraphs": [
+              "Staffed cloud data engineers for enterprise data platform migrations on Azure and AWS for audit and advisory clients.",
+              "Heritage InfoTech established data engineering standards for Deloitte that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Financial Services organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Supported cyber risk assessment and quantum readiness consulting workstreams for regulated industry clients.",
+            "slug": "security-compliance",
+            "summary": "Supported cyber risk assessment and quantum readiness consulting workstreams for regulated industry clients.",
+            "paragraphs": [
+              "Supported cyber risk assessment and quantum readiness consulting workstreams for regulated industry clients.",
+              "Working with Deloitte, Heritage InfoTech implemented security controls aligned with Financial Services regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       }
     ]
@@ -125,10 +485,50 @@
         "icon": "/images/clients/microsoft.png",
         "summary": "Strategic technology partner engaging Heritage for Azure implementation specialists and enterprise solution architects.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Staffed Azure ML engineers for customer copilot and cognitive services implementation projects." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered Power Platform and Dynamics 365 integration specialists for enterprise client deployments." },
-          { "area": "Data Engineering", "icon": "database", "description": "Provided Synapse and Fabric data engineers for enterprise analytics modernization programs." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Supported zero-trust architecture implementations using Microsoft Entra and Defender suite." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Staffed Azure ML engineers for customer copilot and cognitive services implementation projects.",
+            "slug": "ai-machine-learning",
+            "summary": "Staffed Azure ML engineers for customer copilot and cognitive services implementation projects.",
+            "paragraphs": [
+              "Staffed Azure ML engineers for customer copilot and cognitive services implementation projects.",
+              "For Microsoft, Heritage InfoTech applied industry-specific AI engineering practices within the Technology sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Delivered Power Platform and Dynamics 365 integration specialists for enterprise client deployments.",
+            "slug": "enterprise-integrations",
+            "summary": "Delivered Power Platform and Dynamics 365 integration specialists for enterprise client deployments.",
+            "paragraphs": [
+              "Delivered Power Platform and Dynamics 365 integration specialists for enterprise client deployments.",
+              "The Microsoft engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Technology environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Provided Synapse and Fabric data engineers for enterprise analytics modernization programs.",
+            "slug": "data-engineering",
+            "summary": "Provided Synapse and Fabric data engineers for enterprise analytics modernization programs.",
+            "paragraphs": [
+              "Provided Synapse and Fabric data engineers for enterprise analytics modernization programs.",
+              "Heritage InfoTech established data engineering standards for Microsoft that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Technology organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Supported zero-trust architecture implementations using Microsoft Entra and Defender suite.",
+            "slug": "security-compliance",
+            "summary": "Supported zero-trust architecture implementations using Microsoft Entra and Defender suite.",
+            "paragraphs": [
+              "Supported zero-trust architecture implementations using Microsoft Entra and Defender suite.",
+              "Working with Microsoft, Heritage InfoTech implemented security controls aligned with Technology regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -136,10 +536,50 @@
         "icon": "/images/clients/salesforce.png",
         "summary": "CRM platform leader supported by Heritage-certified developers and integration architects.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Implemented Einstein Analytics and AI-driven lead scoring for financial services customer deployments." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Built MuleSoft API layers connecting Salesforce with legacy policy and banking core systems." },
-          { "area": "Data Engineering", "icon": "database", "description": "Designed Customer Data Platform architecture with unified identity resolution across B2B and B2C channels." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Configured shield platform encryption and event monitoring for healthcare and insurance clients." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Implemented Einstein Analytics and AI-driven lead scoring for financial services customer deployments.",
+            "slug": "ai-machine-learning",
+            "summary": "Implemented Einstein Analytics and AI-driven lead scoring for financial services customer deployments.",
+            "paragraphs": [
+              "Implemented Einstein Analytics and AI-driven lead scoring for financial services customer deployments.",
+              "For Salesforce, Heritage InfoTech applied industry-specific AI engineering practices within the Technology sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Built MuleSoft API layers connecting Salesforce with legacy policy and banking core systems.",
+            "slug": "enterprise-integrations",
+            "summary": "Built MuleSoft API layers connecting Salesforce with legacy policy and banking core systems.",
+            "paragraphs": [
+              "Built MuleSoft API layers connecting Salesforce with legacy policy and banking core systems.",
+              "The Salesforce engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Technology environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Designed Customer Data Platform architecture with unified identity resolution across B2B and B2C channels.",
+            "slug": "data-engineering",
+            "summary": "Designed Customer Data Platform architecture with unified identity resolution across B2B and B2C channels.",
+            "paragraphs": [
+              "Designed Customer Data Platform architecture with unified identity resolution across B2B and B2C channels.",
+              "Heritage InfoTech established data engineering standards for Salesforce that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Technology organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Configured shield platform encryption and event monitoring for healthcare and insurance clients.",
+            "slug": "security-compliance",
+            "summary": "Configured shield platform encryption and event monitoring for healthcare and insurance clients.",
+            "paragraphs": [
+              "Configured shield platform encryption and event monitoring for healthcare and insurance clients.",
+              "Working with Salesforce, Heritage InfoTech implemented security controls aligned with Technology regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -147,10 +587,50 @@
         "icon": "/images/clients/oracle.png",
         "summary": "Enterprise software giant partnering on ERP, database, and cloud infrastructure staffing programs.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported Oracle AI Vector Search implementations for enterprise knowledge management use cases." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered OIC integration specialists for cloud ERP and SCM migration programs." },
-          { "area": "Data Engineering", "icon": "database", "description": "Staffed database administrators and Exadata engineers for mission-critical OLTP and warehouse environments." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented database vault and unified auditing for PCI-DSS regulated payment processing environments." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Supported Oracle AI Vector Search implementations for enterprise knowledge management use cases.",
+            "slug": "ai-machine-learning",
+            "summary": "Supported Oracle AI Vector Search implementations for enterprise knowledge management use cases.",
+            "paragraphs": [
+              "Supported Oracle AI Vector Search implementations for enterprise knowledge management use cases.",
+              "For Oracle, Heritage InfoTech applied industry-specific AI engineering practices within the Technology sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Delivered OIC integration specialists for cloud ERP and SCM migration programs.",
+            "slug": "enterprise-integrations",
+            "summary": "Delivered OIC integration specialists for cloud ERP and SCM migration programs.",
+            "paragraphs": [
+              "Delivered OIC integration specialists for cloud ERP and SCM migration programs.",
+              "The Oracle engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Technology environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Staffed database administrators and Exadata engineers for mission-critical OLTP and warehouse environments.",
+            "slug": "data-engineering",
+            "summary": "Staffed database administrators and Exadata engineers for mission-critical OLTP and warehouse environments.",
+            "paragraphs": [
+              "Staffed database administrators and Exadata engineers for mission-critical OLTP and warehouse environments.",
+              "Heritage InfoTech established data engineering standards for Oracle that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Technology organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Implemented database vault and unified auditing for PCI-DSS regulated payment processing environments.",
+            "slug": "security-compliance",
+            "summary": "Implemented database vault and unified auditing for PCI-DSS regulated payment processing environments.",
+            "paragraphs": [
+              "Implemented database vault and unified auditing for PCI-DSS regulated payment processing environments.",
+              "Working with Oracle, Heritage InfoTech implemented security controls aligned with Technology regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       }
     ]
@@ -166,10 +646,50 @@
         "icon": "/images/clients/ryder.png",
         "summary": "Fortune 500 transportation and logistics leader using Heritage route planning and fleet management solutions.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Deployed demand forecasting models optimizing fleet allocation across dedicated transportation contracts." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated TMS, WMS, and telematics platforms enabling real-time shipment visibility for enterprise customers." },
-          { "area": "Data Engineering", "icon": "database", "description": "Built fleet performance data warehouse supporting fuel efficiency, driver safety, and asset utilization KPIs." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Secured IoT telematics data streams with end-to-end encryption and DOT compliance audit logging." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Deployed demand forecasting models optimizing fleet allocation across dedicated transportation contracts.",
+            "slug": "ai-machine-learning",
+            "summary": "Deployed demand forecasting models optimizing fleet allocation across dedicated transportation contracts.",
+            "paragraphs": [
+              "Deployed demand forecasting models optimizing fleet allocation across dedicated transportation contracts.",
+              "For Ryder System, Heritage InfoTech applied industry-specific AI engineering practices within the Logistics & Supply Chain sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Integrated TMS, WMS, and telematics platforms enabling real-time shipment visibility for enterprise customers.",
+            "slug": "enterprise-integrations",
+            "summary": "Integrated TMS, WMS, and telematics platforms enabling real-time shipment visibility for enterprise customers.",
+            "paragraphs": [
+              "Integrated TMS, WMS, and telematics platforms enabling real-time shipment visibility for enterprise customers.",
+              "The Ryder System engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Logistics & Supply Chain environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Built fleet performance data warehouse supporting fuel efficiency, driver safety, and asset utilization KPIs.",
+            "slug": "data-engineering",
+            "summary": "Built fleet performance data warehouse supporting fuel efficiency, driver safety, and asset utilization KPIs.",
+            "paragraphs": [
+              "Built fleet performance data warehouse supporting fuel efficiency, driver safety, and asset utilization KPIs.",
+              "Heritage InfoTech established data engineering standards for Ryder System that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Logistics & Supply Chain organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Secured IoT telematics data streams with end-to-end encryption and DOT compliance audit logging.",
+            "slug": "security-compliance",
+            "summary": "Secured IoT telematics data streams with end-to-end encryption and DOT compliance audit logging.",
+            "paragraphs": [
+              "Secured IoT telematics data streams with end-to-end encryption and DOT compliance audit logging.",
+              "Working with Ryder System, Heritage InfoTech implemented security controls aligned with Logistics & Supply Chain regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -177,10 +697,50 @@
         "icon": "/images/clients/amerigas.png",
         "summary": "Nation's largest propane distributor leveraging Heritage mobile resource management and route optimization tools.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Implemented dynamic route optimization using weather, demand, and tank-level sensor data for delivery scheduling." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Connected field service mobile apps with ERP, billing, and customer notification systems." },
-          { "area": "Data Engineering", "icon": "database", "description": "Established IoT data pipeline ingesting tank monitor readings from 1.5 million customer locations." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Deployed mobile device management and secure VPN architecture for 4,000+ field delivery technicians." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Implemented dynamic route optimization using weather, demand, and tank-level sensor data for delivery scheduling.",
+            "slug": "ai-machine-learning",
+            "summary": "Implemented dynamic route optimization using weather, demand, and tank-level sensor data for delivery scheduling.",
+            "paragraphs": [
+              "Implemented dynamic route optimization using weather, demand, and tank-level sensor data for delivery scheduling.",
+              "For AmeriGas, Heritage InfoTech applied industry-specific AI engineering practices within the Logistics & Supply Chain sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Connected field service mobile apps with ERP, billing, and customer notification systems.",
+            "slug": "enterprise-integrations",
+            "summary": "Connected field service mobile apps with ERP, billing, and customer notification systems.",
+            "paragraphs": [
+              "Connected field service mobile apps with ERP, billing, and customer notification systems.",
+              "The AmeriGas engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Logistics & Supply Chain environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Established IoT data pipeline ingesting tank monitor readings from 1.5 million customer locations.",
+            "slug": "data-engineering",
+            "summary": "Established IoT data pipeline ingesting tank monitor readings from 1.5 million customer locations.",
+            "paragraphs": [
+              "Established IoT data pipeline ingesting tank monitor readings from 1.5 million customer locations.",
+              "Heritage InfoTech established data engineering standards for AmeriGas that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Logistics & Supply Chain organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Deployed mobile device management and secure VPN architecture for 4,000+ field delivery technicians.",
+            "slug": "security-compliance",
+            "summary": "Deployed mobile device management and secure VPN architecture for 4,000+ field delivery technicians.",
+            "paragraphs": [
+              "Deployed mobile device management and secure VPN architecture for 4,000+ field delivery technicians.",
+              "Working with AmeriGas, Heritage InfoTech implemented security controls aligned with Logistics & Supply Chain regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -188,10 +748,50 @@
         "icon": "/images/clients/fedex.png",
         "summary": "Global third-party logistics provider supported by Heritage on warehouse technology and integration programs.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported computer vision pilot for warehouse inventory scanning and automated cycle count validation." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Built EDI and API integration layer connecting WMS with client order management and carrier systems." },
-          { "area": "Data Engineering", "icon": "database", "description": "Designed supply chain control tower dashboards aggregating inbound, inventory, and outbound metrics." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented partner API security gateway with OAuth 2.0, rate limiting, and threat detection." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Supported computer vision pilot for warehouse inventory scanning and automated cycle count validation.",
+            "slug": "ai-machine-learning",
+            "summary": "Supported computer vision pilot for warehouse inventory scanning and automated cycle count validation.",
+            "paragraphs": [
+              "Supported computer vision pilot for warehouse inventory scanning and automated cycle count validation.",
+              "For FedEx Supply Chain, Heritage InfoTech applied industry-specific AI engineering practices within the Logistics & Supply Chain sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Built EDI and API integration layer connecting WMS with client order management and carrier systems.",
+            "slug": "enterprise-integrations",
+            "summary": "Built EDI and API integration layer connecting WMS with client order management and carrier systems.",
+            "paragraphs": [
+              "Built EDI and API integration layer connecting WMS with client order management and carrier systems.",
+              "The FedEx Supply Chain engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Logistics & Supply Chain environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Designed supply chain control tower dashboards aggregating inbound, inventory, and outbound metrics.",
+            "slug": "data-engineering",
+            "summary": "Designed supply chain control tower dashboards aggregating inbound, inventory, and outbound metrics.",
+            "paragraphs": [
+              "Designed supply chain control tower dashboards aggregating inbound, inventory, and outbound metrics.",
+              "Heritage InfoTech established data engineering standards for FedEx Supply Chain that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Logistics & Supply Chain organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Implemented partner API security gateway with OAuth 2.0, rate limiting, and threat detection.",
+            "slug": "security-compliance",
+            "summary": "Implemented partner API security gateway with OAuth 2.0, rate limiting, and threat detection.",
+            "paragraphs": [
+              "Implemented partner API security gateway with OAuth 2.0, rate limiting, and threat detection.",
+              "Working with FedEx Supply Chain, Heritage InfoTech implemented security controls aligned with Logistics & Supply Chain regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       }
     ]
@@ -207,10 +807,50 @@
         "icon": "/images/clients/kentucky-revenue.png",
         "summary": "Cabinet agency of the Commonwealth of Kentucky responsible for tax administration, engaging Heritage for tax systems modernization and secure citizen services platforms.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed anomaly detection models identifying fraudulent tax return patterns while preserving taxpayer privacy." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Modernized integrations between tax processing, motor vehicle, and treasury disbursement systems." },
-          { "area": "Data Engineering", "icon": "database", "description": "Built revenue analytics platform supporting policy analysis, collection forecasting, and audit case management." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Achieved FedRAMP-aligned security controls for citizen-facing web applications and API services." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Developed anomaly detection models identifying fraudulent tax return patterns while preserving taxpayer privacy.",
+            "slug": "ai-machine-learning",
+            "summary": "Developed anomaly detection models identifying fraudulent tax return patterns while preserving taxpayer privacy.",
+            "paragraphs": [
+              "Developed anomaly detection models identifying fraudulent tax return patterns while preserving taxpayer privacy.",
+              "For Kentucky Department of Revenue, Heritage InfoTech applied industry-specific AI engineering practices within the Government sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Modernized integrations between tax processing, motor vehicle, and treasury disbursement systems.",
+            "slug": "enterprise-integrations",
+            "summary": "Modernized integrations between tax processing, motor vehicle, and treasury disbursement systems.",
+            "paragraphs": [
+              "Modernized integrations between tax processing, motor vehicle, and treasury disbursement systems.",
+              "The Kentucky Department of Revenue engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Government environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Built revenue analytics platform supporting policy analysis, collection forecasting, and audit case management.",
+            "slug": "data-engineering",
+            "summary": "Built revenue analytics platform supporting policy analysis, collection forecasting, and audit case management.",
+            "paragraphs": [
+              "Built revenue analytics platform supporting policy analysis, collection forecasting, and audit case management.",
+              "Heritage InfoTech established data engineering standards for Kentucky Department of Revenue that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Government organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Achieved FedRAMP-aligned security controls for citizen-facing web applications and API services.",
+            "slug": "security-compliance",
+            "summary": "Achieved FedRAMP-aligned security controls for citizen-facing web applications and API services.",
+            "paragraphs": [
+              "Achieved FedRAMP-aligned security controls for citizen-facing web applications and API services.",
+              "Working with Kentucky Department of Revenue, Heritage InfoTech implemented security controls aligned with Government regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -218,10 +858,50 @@
         "icon": "/images/clients/port-authority.png",
         "summary": "Bi-state port authority partnering on airport and tunnel infrastructure technology and cybersecurity programs.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Piloted predictive maintenance analytics for tunnel ventilation and airport baggage handling systems." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated facility management, access control, and emergency notification systems across multi-site operations." },
-          { "area": "Data Engineering", "icon": "database", "description": "Established operational data hub consolidating passenger throughput, asset maintenance, and security event data." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Led quantum readiness cryptographic assessment for critical infrastructure OT/IT convergence environments." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Piloted predictive maintenance analytics for tunnel ventilation and airport baggage handling systems.",
+            "slug": "ai-machine-learning",
+            "summary": "Piloted predictive maintenance analytics for tunnel ventilation and airport baggage handling systems.",
+            "paragraphs": [
+              "Piloted predictive maintenance analytics for tunnel ventilation and airport baggage handling systems.",
+              "For Port Authority of NY & NJ, Heritage InfoTech applied industry-specific AI engineering practices within the Government sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Integrated facility management, access control, and emergency notification systems across multi-site operations.",
+            "slug": "enterprise-integrations",
+            "summary": "Integrated facility management, access control, and emergency notification systems across multi-site operations.",
+            "paragraphs": [
+              "Integrated facility management, access control, and emergency notification systems across multi-site operations.",
+              "The Port Authority of NY & NJ engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Government environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Established operational data hub consolidating passenger throughput, asset maintenance, and security event data.",
+            "slug": "data-engineering",
+            "summary": "Established operational data hub consolidating passenger throughput, asset maintenance, and security event data.",
+            "paragraphs": [
+              "Established operational data hub consolidating passenger throughput, asset maintenance, and security event data.",
+              "Heritage InfoTech established data engineering standards for Port Authority of NY & NJ that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Government organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Led quantum readiness cryptographic assessment for critical infrastructure OT/IT convergence environments.",
+            "slug": "security-compliance",
+            "summary": "Led quantum readiness cryptographic assessment for critical infrastructure OT/IT convergence environments.",
+            "paragraphs": [
+              "Led quantum readiness cryptographic assessment for critical infrastructure OT/IT convergence environments.",
+              "Working with Port Authority of NY & NJ, Heritage InfoTech implemented security controls aligned with Government regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -229,10 +909,50 @@
         "icon": "/images/clients/ohio-it.png",
         "summary": "State government technology agency supported by Heritage on shared services and workforce staffing programs.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Supported chatbot and virtual assistant deployment for citizen services portal reducing call center volume." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Delivered integration middleware connecting Medicaid, unemployment, and licensing agency systems." },
-          { "area": "Data Engineering", "icon": "database", "description": "Built statewide data sharing framework enabling cross-agency analytics while enforcing data governance policies." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented statewide identity and access management with multi-factor authentication for 50,000+ state employees." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Supported chatbot and virtual assistant deployment for citizen services portal reducing call center volume.",
+            "slug": "ai-machine-learning",
+            "summary": "Supported chatbot and virtual assistant deployment for citizen services portal reducing call center volume.",
+            "paragraphs": [
+              "Supported chatbot and virtual assistant deployment for citizen services portal reducing call center volume.",
+              "For State of Ohio IT, Heritage InfoTech applied industry-specific AI engineering practices within the Government sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Delivered integration middleware connecting Medicaid, unemployment, and licensing agency systems.",
+            "slug": "enterprise-integrations",
+            "summary": "Delivered integration middleware connecting Medicaid, unemployment, and licensing agency systems.",
+            "paragraphs": [
+              "Delivered integration middleware connecting Medicaid, unemployment, and licensing agency systems.",
+              "The State of Ohio IT engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Government environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Built statewide data sharing framework enabling cross-agency analytics while enforcing data governance policies.",
+            "slug": "data-engineering",
+            "summary": "Built statewide data sharing framework enabling cross-agency analytics while enforcing data governance policies.",
+            "paragraphs": [
+              "Built statewide data sharing framework enabling cross-agency analytics while enforcing data governance policies.",
+              "Heritage InfoTech established data engineering standards for State of Ohio IT that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Government organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Implemented statewide identity and access management with multi-factor authentication for 50,000+ state employees.",
+            "slug": "security-compliance",
+            "summary": "Implemented statewide identity and access management with multi-factor authentication for 50,000+ state employees.",
+            "paragraphs": [
+              "Implemented statewide identity and access management with multi-factor authentication for 50,000+ state employees.",
+              "Working with State of Ohio IT, Heritage InfoTech implemented security controls aligned with Government regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       }
     ]
@@ -248,10 +968,50 @@
         "icon": "/images/clients/bmw.png",
         "summary": "Global automotive manufacturer engaging Heritage for connected vehicle platforms, manufacturing execution systems, and Industry 4.0 initiatives.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Developed predictive quality analytics for assembly line defect detection using sensor fusion and computer vision models." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Integrated MES, SAP S/4HANA, and supplier portal systems across North American production facilities." },
-          { "area": "Data Engineering", "icon": "database", "description": "Built manufacturing data lake aggregating OT and IT telemetry for real-time OEE dashboards and supply chain visibility." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Implemented zero-trust OT security architecture for connected factory floor and robotics control systems." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Developed predictive quality analytics for assembly line defect detection using sensor fusion and computer vision models.",
+            "slug": "ai-machine-learning",
+            "summary": "Developed predictive quality analytics for assembly line defect detection using sensor fusion and computer vision models.",
+            "paragraphs": [
+              "Developed predictive quality analytics for assembly line defect detection using sensor fusion and computer vision models.",
+              "For BMW Group, Heritage InfoTech applied industry-specific AI engineering practices within the Manufacturing sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Integrated MES, SAP S/4HANA, and supplier portal systems across North American production facilities.",
+            "slug": "enterprise-integrations",
+            "summary": "Integrated MES, SAP S/4HANA, and supplier portal systems across North American production facilities.",
+            "paragraphs": [
+              "Integrated MES, SAP S/4HANA, and supplier portal systems across North American production facilities.",
+              "The BMW Group engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Manufacturing environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Built manufacturing data lake aggregating OT and IT telemetry for real-time OEE dashboards and supply chain visibility.",
+            "slug": "data-engineering",
+            "summary": "Built manufacturing data lake aggregating OT and IT telemetry for real-time OEE dashboards and supply chain visibility.",
+            "paragraphs": [
+              "Built manufacturing data lake aggregating OT and IT telemetry for real-time OEE dashboards and supply chain visibility.",
+              "Heritage InfoTech established data engineering standards for BMW Group that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Manufacturing organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Implemented zero-trust OT security architecture for connected factory floor and robotics control systems.",
+            "slug": "security-compliance",
+            "summary": "Implemented zero-trust OT security architecture for connected factory floor and robotics control systems.",
+            "paragraphs": [
+              "Implemented zero-trust OT security architecture for connected factory floor and robotics control systems.",
+              "Working with BMW Group, Heritage InfoTech implemented security controls aligned with Manufacturing regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       },
       {
@@ -259,10 +1019,50 @@
         "icon": "/images/clients/parker-hannifin.png",
         "summary": "Fortune 250 motion and control technologies leader partnering with Heritage on global ERP harmonization and engineering workforce programs.",
         "projects": [
-          { "area": "AI & Machine Learning", "icon": "brain", "description": "Deployed demand sensing models optimizing inventory and production scheduling across diversified industrial product lines." },
-          { "area": "Enterprise Integrations", "icon": "workflow", "description": "Connected engineering PLM, CRM, and Oracle ERP systems supporting the Win Strategy operating model." },
-          { "area": "Data Engineering", "icon": "database", "description": "Established enterprise analytics platform unifying financial, operational, and customer data across 40+ divisional business units." },
-          { "area": "Security & Compliance", "icon": "shield-check", "description": "Led IT/OT convergence security assessment and hybrid PQC readiness for intellectual property and design data protection." }
+          {
+            "area": "AI & Machine Learning",
+            "icon": "brain",
+            "description": "Deployed demand sensing models optimizing inventory and production scheduling across diversified industrial product lines.",
+            "slug": "ai-machine-learning",
+            "summary": "Deployed demand sensing models optimizing inventory and production scheduling across diversified industrial product lines.",
+            "paragraphs": [
+              "Deployed demand sensing models optimizing inventory and production scheduling across diversified industrial product lines.",
+              "For Parker Hannifin, Heritage InfoTech applied industry-specific AI engineering practices within the Manufacturing sector — ensuring models are trained on governed datasets, validated for production reliability, and integrated into workflows where clinicians, analysts, and operators can act on insights with confidence."
+            ]
+          },
+          {
+            "area": "Enterprise Integrations",
+            "icon": "workflow",
+            "description": "Connected engineering PLM, CRM, and Oracle ERP systems supporting the Win Strategy operating model.",
+            "slug": "enterprise-integrations",
+            "summary": "Connected engineering PLM, CRM, and Oracle ERP systems supporting the Win Strategy operating model.",
+            "paragraphs": [
+              "Connected engineering PLM, CRM, and Oracle ERP systems supporting the Win Strategy operating model.",
+              "The Parker Hannifin engagement demonstrates Heritage InfoTech's ability to deliver resilient integration architectures in Manufacturing environments — with API governance, error handling, and monitoring that maintain uptime across mission-critical transaction volumes."
+            ]
+          },
+          {
+            "area": "Data Engineering",
+            "icon": "database",
+            "description": "Established enterprise analytics platform unifying financial, operational, and customer data across 40+ divisional business units.",
+            "slug": "data-engineering",
+            "summary": "Established enterprise analytics platform unifying financial, operational, and customer data across 40+ divisional business units.",
+            "paragraphs": [
+              "Established enterprise analytics platform unifying financial, operational, and customer data across 40+ divisional business units.",
+              "Heritage InfoTech established data engineering standards for Parker Hannifin that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Manufacturing organization with a scalable foundation for current and future data initiatives."
+            ]
+          },
+          {
+            "area": "Security & Compliance",
+            "icon": "shield-check",
+            "description": "Led IT/OT convergence security assessment and hybrid PQC readiness for intellectual property and design data protection.",
+            "slug": "security-compliance",
+            "summary": "Led IT/OT convergence security assessment and hybrid PQC readiness for intellectual property and design data protection.",
+            "paragraphs": [
+              "Led IT/OT convergence security assessment and hybrid PQC readiness for intellectual property and design data protection.",
+              "Working with Parker Hannifin, Heritage InfoTech implemented security controls aligned with Manufacturing regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
+            ]
+          }
         ]
       }
     ]

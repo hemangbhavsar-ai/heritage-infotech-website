@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { ChevronDown, Menu, X } from 'lucide-react'
 import { LogoBadge } from './LogoBadge'
+import { buildClientsNavChildren } from '../lib/clients-nav'
 import { buildServicesNavChildren, type NavChild } from '../lib/services-nav'
 
 const navItems: Array<{ label: string; path?: string; children?: NavChild[] }> = [
@@ -12,15 +13,11 @@ const navItems: Array<{ label: string; path?: string; children?: NavChild[] }> =
       { label: 'Our Vision', path: '/about/vision' },
       { label: 'Timeline', path: '/about/timeline' },
       { label: 'Leadership', path: '/about/leadership' },
-      { divider: true, label: 'Clients by Industry' },
-      { label: 'All Clients', path: '/about/clients' },
-      { label: 'Healthcare', path: '/about/clients/healthcare' },
-      { label: 'Financial Services', path: '/about/clients/financial' },
-      { label: 'Technology', path: '/about/clients/technology' },
-      { label: 'Logistics & Supply Chain', path: '/about/clients/logistics' },
-      { label: 'Government', path: '/about/clients/government' },
-      { label: 'Manufacturing', path: '/about/clients/manufacturing' },
     ],
+  },
+  {
+    label: 'Clients by Industry',
+    children: buildClientsNavChildren(),
   },
   {
     label: 'Services',
@@ -69,9 +66,11 @@ export function Header() {
                     className={`absolute left-0 top-full rounded-md border border-slate-700 bg-slate-800 py-2 shadow-xl ${
                       item.label === 'Services'
                         ? 'max-h-[70vh] min-w-[320px] overflow-y-auto'
-                        : item.label === 'About Us'
-                          ? 'min-w-[280px]'
-                          : 'min-w-[260px]'
+                        : item.label === 'Clients by Industry'
+                          ? 'min-w-[300px]'
+                          : item.label === 'About Us'
+                            ? 'min-w-[220px]'
+                            : 'min-w-[260px]'
                     }`}
                   >
                     {item.children.map((child, i) =>

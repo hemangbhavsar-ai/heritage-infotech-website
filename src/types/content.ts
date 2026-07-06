@@ -99,8 +99,11 @@ export interface LeadershipContent {
 
 export interface ClientProject {
   area: string
+  slug?: string
   icon: string
   description: string
+  summary?: string
+  paragraphs?: string[]
 }
 
 export interface IndustryClient {
