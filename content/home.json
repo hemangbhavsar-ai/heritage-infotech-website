@@ -14,49 +14,79 @@
     }
   ],
   "highlights": [
+    "AI & Machine Learning",
+    "Enterprise Integrations",
+    "Data Engineering",
+    "FPGA & Data Processing Units (Verilog)",
+    "Cybersecurity & Quantum Readiness",
+    "IT Professional Services",
     "Logistics Solutions Suite",
     "Staffing Solutions",
-    "Microsoft Technology Solutions",
-    "ERP Solutions",
-    "Mobility Solutions",
-    "Applications Development",
-    "Cybersecurity & Quantum Readiness"
+    "Business Process Outsourcing"
   ],
   "services": [
     {
-      "id": "bpo",
-      "title": "Business Process Outsourcing",
-      "excerpt": "Global companies are increasingly embracing outsourcing across a wider range of front and back-office processes to help transform their businesses. In addition to significant cost savings, BPO has become a lever for driving business growth and innovation.",
-      "link": "/services/bpo",
-      "icon": "workflow"
-    },
-    {
       "id": "it-professionals",
-      "title": "IT Professionals",
-      "excerpt": "Leading companies know that a commitment to human capital is a key competitive advantage. Attracting, developing and retaining talent has always been crucial to an organization's success.",
+      "title": "IT Professional Services",
+      "excerpt": "National technology staffing and consulting — contract, direct-hire, and project-based experts who integrate with your teams to deliver results across software, infrastructure, and digital transformation initiatives.",
       "link": "/services/it-professionals",
       "icon": "users"
     },
     {
+      "id": "ai-machine-learning",
+      "title": "AI & Machine Learning",
+      "excerpt": "Production-ready intelligent automation, predictive analytics, and MLOps solutions that help enterprises move from experimentation to measurable outcomes — applied across healthcare, finance, manufacturing, and government.",
+      "link": "/about/clients/technology/ai-machine-learning",
+      "icon": "brain"
+    },
+    {
+      "id": "enterprise-integrations",
+      "title": "Enterprise Integrations",
+      "excerpt": "Unified connectivity across legacy systems, cloud platforms, and partner ecosystems — API gateways, event-driven architectures, and integration middleware that keep mission-critical data flowing reliably at enterprise scale.",
+      "link": "/about/clients/technology/enterprise-integrations",
+      "icon": "workflow"
+    },
+    {
+      "id": "data-engineering",
+      "title": "Data Engineering",
+      "excerpt": "Governed data lakes, warehouses, pipelines, and real-time analytics platforms built with lineage, quality controls, and metadata management — the foundation your AI, reporting, and compliance programs depend on.",
+      "link": "/about/clients/technology/data-engineering",
+      "icon": "database"
+    },
+    {
+      "id": "engineering-solutions",
+      "title": "Engineering & Data Processing Solutions",
+      "excerpt": "Real-world hardware and systems engineering including FPGA design, data processing unit development in Verilog, embedded systems, and OT/IT convergence — delivering industrial-grade solutions for manufacturing, automotive, and critical infrastructure clients.",
+      "link": "/about/clients/manufacturing",
+      "icon": "cpu"
+    },
+    {
       "id": "logistics",
       "title": "Logistics App Suites",
-      "excerpt": "Information to help you manage critical mobile resource management challenges including compliance, route planning and performance management.",
+      "excerpt": "Route optimization, fleet management, compliance tracking, and mobile workforce tools configured for your operational model — maximizing utilization and service levels across distribution and field service networks.",
       "link": "/services/logistics",
       "icon": "truck"
     },
     {
       "id": "staffing",
       "title": "Staffing Solutions",
-      "excerpt": "At the forefront of the MSP/VMS revolution, Heritage InfoTech delivers quality professionals on a time-sensitive basis across all 50 states.",
+      "excerpt": "MSP/VMS program excellence with nationwide recruiting and delivery — placing qualified technology and engineering professionals across all 50 states on a time-sensitive, compliance-assured basis.",
       "link": "/services/staffing",
       "icon": "briefcase"
     },
     {
       "id": "cybersecurity",
       "title": "Cybersecurity & Quantum Readiness",
-      "excerpt": "End-to-end Quantum Readiness as a Service — cryptographic discovery, post-quantum risk scoring, and hybrid PQC resolutions protecting your enterprise against tomorrow's threats.",
+      "excerpt": "End-to-end quantum readiness assessments, cryptographic discovery, post-quantum risk scoring, and hybrid PQC implementation — protecting sensitive data and infrastructure against evolving threats.",
       "link": "/services/cybersecurity",
       "icon": "shield-check"
+    },
+    {
+      "id": "bpo",
+      "title": "Business Process Outsourcing",
+      "excerpt": "Strategic front and back-office outsourcing that drives operational efficiency, cost optimization, and business growth — extending your capabilities through global delivery models and process automation.",
+      "link": "/services/bpo",
+      "icon": "cog"
     }
   ],
   "cta": {
