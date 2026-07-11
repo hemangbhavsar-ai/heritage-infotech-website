@@ -17,14 +17,14 @@ export function LeadershipPage() {
                 key={member.name}
                 className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition hover:border-brand-300 hover:shadow-md"
               >
-                <div className="mx-auto h-44 w-full max-w-[220px] overflow-hidden rounded-t-xl bg-slate-100 sm:h-48">
+                <div className="h-52 w-full overflow-hidden rounded-t-xl bg-slate-200 sm:h-56">
                   <img
                     src={member.image}
                     alt={member.name}
                     loading="lazy"
                     decoding="async"
-                    className="h-full w-full object-cover object-center"
-                    style={{ objectPosition: member.imagePosition || 'center 20%' }}
+                    className="h-full w-full object-cover"
+                    style={{ objectPosition: member.imagePosition || 'center 30%' }}
                   />
                 </div>
                 <div className="p-6">

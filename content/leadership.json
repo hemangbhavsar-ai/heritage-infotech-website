@@ -6,13 +6,15 @@
     {
       "name": "Shilpa Bhavsar",
       "title": "Founder & Chief Executive Officer",
-      "image": "/images/leadership/shilpa-bhavsar.svg",
+      "image": "/images/leadership/shilpa-bhavsar.jpg",
+      "imagePosition": "center 25%",
       "bio": "Shilpa founded Heritage InfoTech in 2013 with a conviction that technology consulting must begin with people. Under her leadership, the firm has grown from a regional staffing boutique into a national consulting organization serving healthcare, financial services, logistics, and government sectors. She sets the strategic vision for client partnerships, culture, and long-term growth."
     },
     {
       "name": "Hemang Bhavsar",
       "title": "Chief Technology Officer",
-      "image": "/images/leadership/hemang-bhavsar.svg",
+      "image": "/images/leadership/hemang-bhavsar.jpg",
+      "imagePosition": "center 30%",
       "linkedin": "https://www.linkedin.com/in/hemang-b-370216174",
       "bio": "Hemang oversees all technology strategy, solution architecture, and the firm's Cybersecurity and Quantum Readiness practices. With deep expertise in enterprise integration, cloud platforms, and post-quantum cryptography, he ensures every Heritage engagement is built on secure, scalable, and future-ready foundations."
     },
@@ -20,28 +22,28 @@
       "name": "Robert Mitchell",
       "title": "Chief Operating Officer",
       "image": "/images/leadership/robert-mitchell.jpg",
-      "imagePosition": "center 15%",
+      "imagePosition": "center 35%",
       "bio": "Robert brings 22 years of operational excellence from global consulting and managed services environments. He leads service delivery, MSP/VMS program management, and client success operations — ensuring Heritage InfoTech consistently meets SLA commitments across all 50 states."
     },
     {
       "name": "Sarah Chen",
       "title": "Chief Financial Officer",
       "image": "/images/leadership/sarah-chen.jpg",
-      "imagePosition": "center 18%",
+      "imagePosition": "center 40%",
       "bio": "Sarah directs financial strategy, compliance, and enterprise risk management. A CPA with prior leadership roles in financial services and insurance, she ensures fiscal discipline and transparent governance that supports sustainable growth and client trust."
     },
     {
       "name": "James Whitfield",
       "title": "Senior Director, Human Resources",
       "image": "/images/leadership/james-whitfield.jpg",
-      "imagePosition": "center 15%",
+      "imagePosition": "center 20%",
       "bio": "James leads talent acquisition strategy, employee engagement, and workforce compliance programs. He architected Heritage's National Recruiting & Delivery model and maintains the firm's commitment to diversity, inclusion, and professional development at every level."
     },
     {
       "name": "Maria Okonkwo",
       "title": "Vice President, Cybersecurity",
       "image": "/images/leadership/maria-okonkwo.jpg",
-      "imagePosition": "center 18%",
+      "imagePosition": "center 45%",
       "bio": "Maria heads the Cybersecurity division including Quantum Readiness as a Service. A CISSP and former security architect for Fortune 100 financial institutions, she leads cryptographic discovery, risk scoring, hybrid PQC implementations, and zero-trust security programs for regulated enterprise clients."
     }
   ]
