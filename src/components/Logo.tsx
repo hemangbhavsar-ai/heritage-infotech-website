@@ -5,27 +5,29 @@ type LogoVariant = 'dark' | 'light' | 'mark'
 interface LogoProps {
   variant?: LogoVariant
   className?: string
-  showTagline?: boolean
 }
+
+export const LOGO_HEADER_PATH = '/images/logo/newlogo-heritageinfotech-header.jpg'
+export const LOGO_HEADER_WIDTH = 283
+export const LOGO_HEADER_HEIGHT = 94
 
 const logoSources: Record<LogoVariant, string> = {
-  dark: '/images/logo/heritage-infotech-header.svg',
-  light: '/images/logo/heritage-infotech-light.svg',
-  mark: '/images/logo/heritage-infotech-header.svg',
+  dark: LOGO_HEADER_PATH,
+  light: LOGO_HEADER_PATH,
+  mark: LOGO_HEADER_PATH,
 }
 
-export function Logo({ variant = 'dark', className = '', showTagline = false }: LogoProps) {
+export function Logo({ variant = 'dark', className = '' }: LogoProps) {
   const src = site.logo?.[variant] || logoSources[variant]
 
   return (
     <img
       src={src}
-      alt={`${site.companyName}${showTagline ? ` — ${site.tagline}` : ''}`}
-      className={className}
-      width={260}
-      height={42}
-      loading="eager"
+      alt="Heritage InfoTech"
+      width={LOGO_HEADER_WIDTH}
+      height={LOGO_HEADER_HEIGHT}
       decoding="async"
+      className={className}
     />
   )
 }

@@ -17,16 +17,29 @@ export function LeadershipPage() {
                 key={member.name}
                 className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition hover:border-brand-300 hover:shadow-md"
               >
-                <div className="aspect-[5/6] overflow-hidden bg-slate-100">
+                <div className="mx-auto h-44 w-full max-w-[220px] overflow-hidden rounded-t-xl bg-slate-100 sm:h-48">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="h-full w-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    className="h-full w-full object-cover object-center"
+                    style={{ objectPosition: member.imagePosition || 'center 20%' }}
                   />
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-semibold text-slate-900">{member.name}</h3>
                   <p className="mt-1 text-sm font-medium text-brand-600">{member.title}</p>
+                  {member.linkedin && (
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-2 inline-block text-xs font-medium text-slate-500 transition hover:text-brand-600 hover:underline"
+                    >
+                      View LinkedIn profile
+                    </a>
+                  )}
                   <p className="mt-4 text-sm leading-relaxed text-slate-600">{member.bio}</p>
                 </div>
               </article>

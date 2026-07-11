@@ -35,10 +35,35 @@ export interface ServiceCard {
   icon: string
 }
 
+export interface QuantumResourceLink {
+  label: string
+  url: string
+}
+
+export interface QuantumReadinessTile {
+  slug: string
+  title: string
+  summary: string
+  image: string
+  link: string
+  icon: string
+}
+
+export interface QuantumReadinessSection {
+  title: string
+  subtitle: string
+  intro: string
+  learnMoreLink: string
+  tiles: QuantumReadinessTile[]
+  standards: string[]
+  resources: QuantumResourceLink[]
+}
+
 export interface HomeContent {
   heroSlides: HeroSlide[]
   highlights: string[]
   services: ServiceCard[]
+  quantumReadiness: QuantumReadinessSection
   cta: {
     title: string
     subtitle: string
@@ -87,6 +112,9 @@ export interface Leader {
   name: string
   title: string
   image: string
+  /** CSS object-position for portrait cropping, e.g. "center 20%" */
+  imagePosition?: string
+  linkedin?: string
   bio: string
 }
 

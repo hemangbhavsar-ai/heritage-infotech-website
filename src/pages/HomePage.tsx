@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { CheckCircle2 } from 'lucide-react'
 import { HeroCarousel } from '../components/HeroCarousel'
+import { QuantumReadinessSection } from '../components/QuantumReadinessSection'
 import { ServiceCard } from '../components/ServiceCard'
 import { home } from '../lib/content'
 
@@ -46,6 +47,8 @@ export function HomePage() {
           </div>
         </div>
       </section>
+
+      <QuantumReadinessSection section={home.quantumReadiness} />
 
       <section className="bg-brand-600 py-16 text-white sm:py-20">
         <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">

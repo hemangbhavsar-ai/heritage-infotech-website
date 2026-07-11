@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { ChevronDown, Menu, X } from 'lucide-react'
-import { LogoBadge } from './LogoBadge'
+import { SiteLogo } from './SiteLogo'
 import { buildClientsNavChildren } from '../lib/clients-nav'
 import { buildServicesNavChildren, type NavChild } from '../lib/services-nav'
 
@@ -43,10 +43,8 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-slate-900 text-white shadow-lg">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link to="/" className="group transition hover:opacity-95" onClick={() => setMobileOpen(false)}>
-          <LogoBadge />
-        </Link>
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+        <SiteLogo className="transition hover:opacity-95" onClick={() => setMobileOpen(false)} />
 
         <nav className="hidden items-center gap-1 lg:flex">
           {navItems.map((item) =>

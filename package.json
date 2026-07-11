@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preview:local": "npm run build && vite preview --port 5173 --strictPort"
   },
   "dependencies": {
     "lucide-react": "^1.22.0",

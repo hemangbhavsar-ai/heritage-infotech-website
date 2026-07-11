@@ -89,6 +89,70 @@
       "icon": "cog"
     }
   ],
+  "quantumReadiness": {
+    "title": "Cybersecurity & Quantum Readiness",
+    "subtitle": "Quantum Readiness as a Service — aligned with NIST PQC standards",
+    "intro": "Quantum computing threatens widely deployed RSA, ECC, and TLS cryptography. Heritage InfoTech helps regulated enterprises inventory cryptographic assets, quantify post-quantum risk, and implement hybrid PQC migration paths — without disrupting mission-critical operations.",
+    "learnMoreLink": "/services/cybersecurity",
+    "tiles": [
+      {
+        "slug": "quantum-readiness-assessments",
+        "title": "Quantum Readiness Assessments",
+        "summary": "Executive and technical assessments mapping quantum threat timelines, regulatory obligations, and phased migration readiness across your enterprise.",
+        "image": "/images/cybersecurity/quantum-readiness.jpg",
+        "link": "/services/cybersecurity/quantum-readiness-assessments",
+        "icon": "shield-check"
+      },
+      {
+        "slug": "cryptographic-discovery",
+        "title": "Cryptographic Discovery",
+        "summary": "Automated and expert-led inventory of certificates, keys, algorithms, and embedded cryptography — including shadow IT and third-party dependencies.",
+        "image": "/images/cybersecurity/cryptographic-discovery.jpg",
+        "link": "/services/cybersecurity/cryptographic-discovery",
+        "icon": "search"
+      },
+      {
+        "slug": "post-quantum-risk-scoring",
+        "title": "Post-Quantum Risk Scoring",
+        "summary": "Data-driven prioritization by algorithm vulnerability, data lifespan, compliance exposure, and operational criticality — with board-ready reporting.",
+        "image": "/images/cybersecurity/post-quantum-risk.jpg",
+        "link": "/services/cybersecurity/post-quantum-risk-scoring",
+        "icon": "bar-chart"
+      },
+      {
+        "slug": "hybrid-pqc-resolutions",
+        "title": "Hybrid PQC Resolutions",
+        "summary": "Phased deployment of hybrid classical + NIST-selected PQC algorithms (CRYSTALS-Kyber, Dilithium, SPHINCS+) across PKI, TLS, and application encryption.",
+        "image": "/images/cybersecurity/hybrid-pqc.jpg",
+        "link": "/services/cybersecurity/hybrid-pqc-resolutions",
+        "icon": "lock"
+      }
+    ],
+    "standards": [
+      "NIST Post-Quantum Cryptography (PQC) standards",
+      "NIST FIPS 203, 204, and 205",
+      "NIST SP 800-208 hybrid key establishment",
+      "CISA Post-Quantum Cryptography readiness guidance"
+    ],
+    "resources": [
+      {
+        "label": "NIST Post-Quantum Cryptography Project",
+        "url": "https://csrc.nist.gov/projects/post-quantum-cryptography"
+      },
+      {
+        "label": "NIST SP 800-208 (Hybrid Key Exchange)",
+        "url": "https://csrc.nist.gov/publications/detail/sp/800-208/final"
+      },
+      {
+        "label": "CISA Post-Quantum Cryptography Initiative",
+        "url": "https://www.cisa.gov/quantum"
+      },
+      {
+        "label": "NSA Cybersecurity Advisory — Quantum Readiness",
+        "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3588999/"
+      }
+    ]
+  },
   "cta": {
     "title": "Ready to Transform Your Business?",
     "subtitle": "Partner with Heritage InfoTech for technology solutions that deliver measurable results.",

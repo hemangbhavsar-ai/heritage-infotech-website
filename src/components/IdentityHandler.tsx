@@ -20,8 +20,21 @@ function hasAuthTokenInHash() {
   )
 }
 
+function shouldLoadIdentityWidget() {
+  const onAdmin = window.location.pathname.startsWith('/admin')
+  const onLocalhost =
+    window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+
+  // Local preview of the public site should not load Netlify Identity — it is only
+  // needed for /admin and auth callbacks, and the external script can destabilize Safari.
+  if (onLocalhost && !onAdmin && !hasAuthTokenInHash()) return false
+
+  return true
+}
+
 export function IdentityHandler() {
   useEffect(() => {
+    if (!shouldLoadIdentityWidget()) return
     if (document.getElementById('netlify-identity-widget')) return
 
     const script = document.createElement('script')

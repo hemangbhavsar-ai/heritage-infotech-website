@@ -48,16 +48,40 @@ export function Footer() {
               {site.email}
             </a>
             <div className="mt-4 flex gap-3">
-              <a href={site.social.linkedin} className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500" aria-label="LinkedIn">
+              <a
+                href={site.social.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500"
+                aria-label="LinkedIn"
+              >
                 <LinkedInIcon />
               </a>
-              <a href={site.social.twitter} className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500" aria-label="Twitter">
+              <a
+                href={site.social.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500"
+                aria-label="X (Twitter)"
+              >
                 <TwitterIcon />
               </a>
-              <a href={site.social.facebook} className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500" aria-label="Facebook">
+              <a
+                href={site.social.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500"
+                aria-label="Facebook"
+              >
                 <FacebookIcon />
               </a>
-              <a href={site.social.youtube} className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500" aria-label="YouTube">
+              <a
+                href={site.social.youtube}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500"
+                aria-label="YouTube"
+              >
                 <YouTubeIcon />
               </a>
             </div>

@@ -70,6 +70,35 @@ collections:
               - { label: Excerpt, name: excerpt, widget: text }
               - { label: Link, name: link, widget: string }
               - { label: Icon, name: icon, widget: string }
+          - label: Quantum Readiness Section
+            name: quantumReadiness
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Introduction, name: intro, widget: text }
+              - { label: Learn More Link, name: learnMoreLink, widget: string }
+              - label: Capability Tiles
+                name: tiles
+                widget: list
+                fields:
+                  - { label: Slug, name: slug, widget: string }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Summary, name: summary, widget: text }
+                  - { label: Image, name: image, widget: image, media_folder: public/images/cybersecurity, public_folder: /images/cybersecurity }
+                  - { label: Link, name: link, widget: string }
+                  - { label: Icon, name: icon, widget: string }
+              - label: Standards
+                name: standards
+                widget: list
+                field: { label: Standard, name: standard, widget: string }
+              - label: External Resources
+                name: resources
+                widget: list
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: url, widget: string }
           - label: Call to Action
             name: cta
             widget: object
@@ -110,7 +139,19 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Title, name: title, widget: string }
-              - { label: Photo, name: image, widget: image, hint: "Upload to public/images/leadership/" }
+              - { label: LinkedIn Profile URL, name: linkedin, widget: string, required: false }
+              - label: Photo
+                name: image
+                widget: image
+                media_folder: public/images/leadership
+                public_folder: /images/leadership
+                hint: "Upload a square portrait (600×600 px or larger). Displayed as a round profile photo on the left."
+              - label: Photo Crop Position
+                name: imagePosition
+                widget: string
+                required: false
+                default: "center 20%"
+                hint: 'Adjust vertical framing if needed — e.g. "center top", "center 30%", "center center"'
               - { label: Bio, name: bio, widget: text }
 
   - name: industries
