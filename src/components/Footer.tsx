@@ -14,6 +14,11 @@ const footerLinks = [
   { label: 'Contact', path: '/contact' },
 ]
 
+function handleSocialPlaceholderClick(event: React.MouseEvent<HTMLAnchorElement>) {
+  event.preventDefault()
+  window.location.reload()
+}
+
 export function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300">
@@ -49,38 +54,38 @@ export function Footer() {
             </a>
             <div className="mt-4 flex gap-3">
               <a
-                href={site.social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={handleSocialPlaceholderClick}
                 className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500"
-                aria-label="LinkedIn"
+                aria-label="LinkedIn (coming soon)"
+                title="Social links coming soon"
               >
                 <LinkedInIcon />
               </a>
               <a
-                href={site.social.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={handleSocialPlaceholderClick}
                 className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500"
-                aria-label="X (Twitter)"
+                aria-label="X (Twitter) (coming soon)"
+                title="Social links coming soon"
               >
                 <TwitterIcon />
               </a>
               <a
-                href={site.social.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={handleSocialPlaceholderClick}
                 className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500"
-                aria-label="Facebook"
+                aria-label="Facebook (coming soon)"
+                title="Social links coming soon"
               >
                 <FacebookIcon />
               </a>
               <a
-                href={site.social.youtube}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={handleSocialPlaceholderClick}
                 className="rounded-md bg-slate-800 p-2 transition hover:bg-brand-500"
-                aria-label="YouTube"
+                aria-label="YouTube (coming soon)"
+                title="Social links coming soon"
               >
                 <YouTubeIcon />
               </a>

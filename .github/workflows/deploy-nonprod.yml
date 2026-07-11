@@ -1,8 +1,8 @@
 name: Deploy Non-Prod (Netlify)
 
 on:
-  push:
-    branches: [main]
+  # Manual only — each published non-prod deploy costs ~15 Netlify credits.
+  # Push code to main freely; deploy to nonprod when you are ready to review.
   workflow_dispatch:
 
 concurrency:
