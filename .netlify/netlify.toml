@@ -28,6 +28,30 @@ NODE_VERSION = "20"
 [build.services]
 
 [[redirects]]
+from = "/admin"
+to = "/admin/"
+status = 301.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
+
+[[redirects]]
+from = "/config.yml"
+to = "/admin/config.yml"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
+
+[[redirects]]
 from = "/admin/*"
 to = "/admin/index.html"
 status = 200.0

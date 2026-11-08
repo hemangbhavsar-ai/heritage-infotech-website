@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { ArrowRight, CheckCircle2 } from 'lucide-react'
 import { PageHero } from '../components/PageHero'
 import { Icon } from '../components/Icon'
+import { HndlSection } from '../components/HndlSection'
 import { pages } from '../lib/content'
 import { serviceTopicPath } from '../lib/service-topics'
 
@@ -14,7 +15,13 @@ export function CyberSecurityPage() {
       <section className="py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <p className="mx-auto mb-6 max-w-3xl text-lg leading-relaxed text-slate-600">{cyberSecurity.body}</p>
-          <p className="mx-auto mb-16 max-w-3xl text-center text-slate-600">{cyberSecurity.intro}</p>
+          <p className="mx-auto mb-10 max-w-3xl text-center text-slate-600">{cyberSecurity.intro}</p>
+
+          {cyberSecurity.hndl && (
+            <div className="mx-auto mb-16 max-w-3xl text-left">
+              <HndlSection section={cyberSecurity.hndl} />
+            </div>
+          )}
 
           <div className="mb-16 grid gap-8 sm:grid-cols-2">
             {cyberSecurity.topics.map((topic) => (

@@ -3,6 +3,16 @@
   publish = "dist"
 
 [[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301
+
+[[redirects]]
+  from = "/config.yml"
+  to = "/admin/config.yml"
+  status = 200
+
+[[redirects]]
   from = "/admin/*"
   to = "/admin/index.html"
   status = 200
@@ -14,3 +24,13 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+# Reminder: these /admin headers are in git but not live until the next published deploy.
+# Do not burn 15 credits for a headers-only release.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "no-referrer"
+    X-Content-Type-Options = "nosniff"

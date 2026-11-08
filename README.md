@@ -1,157 +1,145 @@
 # Heritage InfoTech Website
 
-Modern consulting firm website — React, Tailwind CSS, Decap CMS, deployed on Netlify.
+React + Vite marketing site with Decap CMS. Manual Netlify deploys (Free plan credits).
 
-**Live site:** https://heritage-infotech.netlify.app
+| Environment | URL |
+|---|---|
+| Production | https://heritageinfotech.com |
+| Non-prod | https://heritage-infotech-nonprod.netlify.app |
+| Dev subdomain | https://dev.heritageinfotech.com |
+| Local | http://localhost:5173 |
 
-## Quick Start
+Repo: https://github.com/hemangbhavsar-ai/heritage-infotech-website
+
+## Run locally
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173
-npm run build    # production build → dist/
+npm run dev          # public site → http://localhost:5173
 ```
 
-## Site Map
-
-| Route | Content |
-|-------|---------|
-| `/` | Home |
-| `/about/vision` | Company vision |
-| `/about/timeline` | Milestones 2013–2026 |
-| `/about/leadership` | Executive team |
-| `/about/clients` | Industries overview |
-| `/about/clients/healthcare` | Healthcare clients & projects |
-| `/about/clients/financial` | Financial services clients |
-| `/about/clients/technology` | Technology clients |
-| `/about/clients/logistics` | Logistics & supply chain |
-| `/about/clients/government` | Government clients |
-| `/services/cybersecurity` | Quantum Readiness as a Service |
-| `/services/*` | IT, Logistics, Staffing, BPO |
-| `/contact` | Contact information |
-| `/enquiry` | Enquiry form (Netlify Forms) |
-| `/admin` | Content management panel |
-
-## Content Management (Decap CMS)
-
-All content lives in `content/*.json`. Images go in `public/images/`.
-
-### Content Files
-
-| File | What it controls |
-|------|------------------|
-| `content/site.json` | Company name, email, social links |
-| `content/home.json` | Hero slides, highlights, service cards |
-| `content/timeline.json` | Company milestones |
-| `content/leadership.json` | Executive bios and photos |
-| `content/industries.json` | Client pages by industry |
-| `content/pages.json` | Vision, services, contact, cybersecurity |
-
-### Replace Leadership Photos
-
-1. Add real photos to `public/images/leadership/` (e.g. `shilpa-bhavsar.jpg`)
-2. Open `/admin` → **Leadership Team** → upload or update image paths
-3. Publish — site rebuilds automatically
-
-### Edit Content via Admin Panel
-
-**Production (recommended):**
-
-1. Go to **https://heritage-infotech.netlify.app/admin**
-2. Log in with your invited Netlify Identity email
-3. Select a collection (Site Settings, Home Page, Timeline, etc.)
-4. Edit fields → click **Publish**
-5. Netlify rebuilds the site in ~1 minute
-
-**Local preview:**
+In a **second** terminal:
 
 ```bash
-npx decap-server    # terminal 1
-npm run dev         # terminal 2
-# Open http://localhost:5173/admin
+npx decap-server     # local CMS backend → port 8081
 ```
 
-### Enable Admin Access (one-time)
+Then open:
 
-1. [Netlify Dashboard](https://app.netlify.com/projects/heritage-infotech) → **Site configuration**
-2. **Identity** → Enable Identity
-3. **Identity → Services** → Enable **Git Gateway**
-4. **Identity → Invite users** → add `hemang.bhavsar@gmail.com` (or your email)
-5. Invited user sets password via email link
-6. Log in at `/admin`
+- Site: http://localhost:5173
+- Leadership: http://localhost:5173/about/leadership
+- Admin: http://localhost:5173/admin → click **Login** (no email/password)
 
-## Continuous Deployment (GitHub → Netlify)
+Always use `/admin/` (trailing slash). `/admin` redirects there.
 
-Every push to `main` triggers an automatic deploy via GitHub Actions.
+```bash
+npm run test:e2e     # Playwright crawl of public pages + local admin
+npm run build        # production build → dist/
+```
 
-**Repository:** https://github.com/hemangbhavsar-ai/heritage-infotech-website
+## Edit content (CMS)
 
-### How it works
+Content lives in `content/*.json`. Images live in `public/images/`.
 
-1. Push code to `main` on GitHub
-2. GitHub Actions runs `npm run build`
-3. Built `dist/` folder deploys to Netlify production
-4. Live in ~2 minutes at https://heritage-infotech.netlify.app
+| File | Controls |
+|---|---|
+| `content/site.json` | Company name, phone, email, logos |
+| `content/home.json` | Hero banner (carousel), highlights, services, quantum section, CTA |
+| `content/leadership.json` | Executive bios and photo paths |
+| `content/timeline.json` | Company milestones |
+| `content/industries.json` | Client pages by industry |
+| `content/pages.json` | Vision, services, contact, quote |
 
-### CMS Admin (`/admin`) — Already Configured
+**Local:** `/admin` → Login → edit → Publish (writes files on disk).
 
-| Component | Status |
-|-----------|--------|
-| Netlify Identity | Enabled (invite-only) |
-| Git Gateway | Enabled |
-| GitHub repo linked | `hemangbhavsar-ai/heritage-infotech-website` |
-| Admin panel | https://heritage-infotech.netlify.app/admin |
+- Hero banner (the scrolling home banner / carousel): **Home Page → Homepage Content → Hero Banner**
+- Leadership photos: **About Us → Leadership Team** (initials SVGs are placeholders; upload JPGs later)
 
-**First login:** Check email at `hemang.bhavsar@gmail.com` for a Netlify Identity invite, accept it, set a password, then visit `/admin`.
+**Published admin** uses Netlify Identity (invite-only) + Git Gateway.
 
-### Manual Deploy
+- Prod: https://heritageinfotech.com/admin
+- Non-prod: https://heritage-infotech-nonprod.netlify.app/admin (or https://dev.heritageinfotech.com/admin after HTTPS)
+
+Invite users in the Netlify project → Identity. Prod and non-prod have **separate** logins. After invite, set password, then sign in.
+
+If Git Gateway cannot save, reconnect it: Netlify project → Identity → Services → Git Gateway.
+
+## Push code (Git)
+
+```bash
+git add -A
+git commit -m "Describe the change"
+git push origin main
+```
+
+Pushing to GitHub does **not** publish the site. Auto-builds are **off** on both Netlify projects (`stop_builds: true`) so Free-plan credits are not spent on every commit.
+
+## Publish to Netlify
+
+**Free plan = 300 credits / month (hard cap).**  
+A **published** deploy costs **15 credits** (prod or non-prod). Drafts/previews cost **0**. Failed/cancelled deploys cost **0**. Bandwidth is 20 credits/GB; requests are 2 credits / 10k.
+
+Typical month for this site: 1–3 publishes + light traffic ≈ 50–90 credits.
+
+**August 2026 (so far):** 2 published deploys (non-prod + prod on 13 Aug) = **30 credits**. Bandwidth ~16.9 MB (~0.3 credits). Netlify Analytics is off, so there is no exact request counter; at 2 credits / 10k requests, traffic is tiny. **About 270 of 300 credits left** until 1 Sep 2026.
+
+**Do not spend 15 credits just for `/admin` security headers.** Those headers are already in `netlify.toml` and will go live on the **next real content deploy**. Reminder: next time we publish, mention “ship `/admin` headers (X-Robots-Tag, X-Frame-Options, nosniff).”
+
+### Option A — GitHub Actions (manual)
+
+1. GitHub repo → **Actions**
+2. **Deploy Non-Prod (Netlify)** → Run workflow → review https://dev.heritageinfotech.com
+3. **Deploy Production (Netlify)** → Run workflow (needs approval)
+
+### Option B — CLI
 
 ```bash
 npm run build
-npx netlify deploy --prod --dir=dist
+
+# Non-prod (15 credits when published)
+npx netlify deploy --dir=dist --site=heritage-infotech-nonprod --prod
+
+# Production (15 credits) — only after non-prod looks good
+npx netlify deploy --dir=dist --site=heritage-infotech --prod
 ```
 
-## DNS Transfer to Netlify
+Do **not** turn auto-publish back on. That would spend 15 credits on every push.
 
-Move `heritageinfotech.com` from your current registrar to Netlify:
+## DNS (Cloudflare)
 
-### Step 1 — Add domain in Netlify
+Registrar/DNS: Cloudflare (`heritageinfotech.com`).
 
-1. [Netlify Dashboard](https://app.netlify.com/projects/heritage-infotech) → **Domain management**
-2. **Add a domain** → enter `heritageinfotech.com`
-3. Also add `www.heritageinfotech.com`
+| Host | Record | Target |
+|---|---|---|
+| `@` | A | Netlify IPs (prod) |
+| `www` | CNAME | `heritage-infotech.netlify.app` |
+| `dev` | CNAME | `heritage-infotech-nonprod.netlify.app` — **DNS only** (grey cloud) |
 
-### Step 2 — Update DNS at your registrar
+Netlify projects:
 
-Netlify will show exact records. Typically:
+- `heritage-infotech` → `heritageinfotech.com`
+- `heritage-infotech-nonprod` → `dev.heritageinfotech.com`
 
-| Type | Name | Value |
-|------|------|-------|
-| `A` | `@` | `75.2.60.5` |
-| `CNAME` | `www` | `heritage-infotech.netlify.app` |
+Let’s Encrypt on `dev` can take a few minutes after the CNAME exists. Until then use https://heritage-infotech-nonprod.netlify.app.
 
-### Step 3 — Enable HTTPS
+## CI / CD
 
-Netlify auto-provisions a free Let's Encrypt certificate once DNS propagates (up to 48 hours).
+| Item | Behavior |
+|---|---|
+| `.github/workflows/deploy-nonprod.yml` | Manual only (`workflow_dispatch`) |
+| `.github/workflows/deploy-prod.yml` | Manual only + GitHub environment approval |
+| Netlify Git auto-build | Off on both sites |
+| Secrets | `NETLIFY_AUTH_TOKEN`, `NETLIFY_SITE_ID`, `NETLIFY_SITE_ID_NONPROD` |
 
-### Step 4 — Set primary domain
+## Tech stack
 
-In Netlify → **Domain management** → set `heritageinfotech.com` as primary and enable **Force HTTPS**.
-
-### Step 5 — Update CMS URLs
-
-After DNS is live, update `public/admin/config.yml`:
-
-```yaml
-site_url: https://heritageinfotech.com
-display_url: https://heritageinfotech.com
-```
-
-## Tech Stack
-
-- React 19 + TypeScript + Vite
+- React 19 + TypeScript + Vite 8
 - Tailwind CSS 4
 - React Router 7
-- Lucide React icons
-- Decap CMS (Git-based, free)
-- Netlify (hosting, Identity, Forms, CD)
+- Lucide icons
+- Decap CMS 3 (`public/admin/`) + `decap-server` locally
+- Playwright e2e (`npm run test:e2e`)
+- Netlify: hosting, Identity, Git Gateway, Forms
+- Cloudflare: DNS for `heritageinfotech.com` and `dev`
+
+Phone (site-wide): `1 (888) 734-3240`

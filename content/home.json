@@ -11,6 +11,34 @@
       "subtitle": "Easy to use, configured based on your enterprise needs.",
       "cta": "View Logistics Suite",
       "ctaLink": "/services/logistics"
+    },
+    {
+      "title": "Quantum Readiness Assessments",
+      "subtitle": "Map quantum threat timelines, regulatory obligations, and a phased NIST PQC migration plan.",
+      "cta": "View Assessments",
+      "ctaLink": "/services/cybersecurity/quantum-readiness-assessments",
+      "image": "/images/cybersecurity/quantum-readiness.jpg"
+    },
+    {
+      "title": "Cryptographic Discovery",
+      "subtitle": "Inventory certificates, keys, algorithms, and shadow cryptography across the enterprise.",
+      "cta": "View Discovery",
+      "ctaLink": "/services/cybersecurity/cryptographic-discovery",
+      "image": "/images/cybersecurity/cryptographic-discovery.jpg"
+    },
+    {
+      "title": "HNDL Exposure and Risk Ranking",
+      "subtitle": "Rank exposure by data sensitivity and secrecy lifetime — with board-ready reporting.",
+      "cta": "View Risk Scoring",
+      "ctaLink": "/services/cybersecurity/post-quantum-risk-scoring",
+      "image": "/images/cybersecurity/post-quantum-risk.jpg"
+    },
+    {
+      "title": "Hybrid PQC Migration Planning and Support",
+      "subtitle": "Phased migration planning for hybrid classical + NIST-standard PQC (ML-KEM, ML-DSA, SLH-DSA).",
+      "cta": "View Hybrid PQC",
+      "ctaLink": "/services/cybersecurity/hybrid-pqc-resolutions",
+      "image": "/images/cybersecurity/hybrid-pqc.jpg"
     }
   ],
   "highlights": [
@@ -77,7 +105,7 @@
     {
       "id": "cybersecurity",
       "title": "Cybersecurity & Quantum Readiness",
-      "excerpt": "End-to-end quantum readiness assessments, cryptographic discovery, post-quantum risk scoring, and hybrid PQC implementation — protecting sensitive data and infrastructure against evolving threats.",
+      "excerpt": "End-to-end quantum readiness assessments, cryptographic discovery, HNDL exposure and risk ranking, and hybrid PQC migration planning — protecting sensitive data and infrastructure against evolving threats.",
       "link": "/services/cybersecurity",
       "icon": "shield-check"
     },
@@ -92,7 +120,7 @@
   "quantumReadiness": {
     "title": "Cybersecurity & Quantum Readiness",
     "subtitle": "Quantum Readiness as a Service — aligned with NIST PQC standards",
-    "intro": "Quantum computing threatens widely deployed RSA, ECC, and TLS cryptography. Heritage InfoTech helps regulated enterprises inventory cryptographic assets, quantify post-quantum risk, and implement hybrid PQC migration paths — without disrupting mission-critical operations.",
+    "intro": "Quantum computing threatens widely deployed RSA, ECC, and TLS cryptography. Heritage InfoTech helps regulated enterprises inventory cryptographic assets, rank harvest-now-decrypt-later exposure, and plan hybrid PQC migration paths — without disrupting mission-critical operations.",
     "learnMoreLink": "/services/cybersecurity",
     "tiles": [
       {
@@ -106,23 +134,23 @@
       {
         "slug": "cryptographic-discovery",
         "title": "Cryptographic Discovery",
-        "summary": "Automated and expert-led inventory of certificates, keys, algorithms, and embedded cryptography — including shadow IT and third-party dependencies.",
+        "summary": "Expert-led inventory, supported by our tooling, of certificates, keys, algorithms, and embedded cryptography across applications, infrastructure, and third-party dependencies.",
         "image": "/images/cybersecurity/cryptographic-discovery.jpg",
         "link": "/services/cybersecurity/cryptographic-discovery",
         "icon": "search"
       },
       {
         "slug": "post-quantum-risk-scoring",
-        "title": "Post-Quantum Risk Scoring",
-        "summary": "Data-driven prioritization by algorithm vulnerability, data lifespan, compliance exposure, and operational criticality — with board-ready reporting.",
+        "title": "HNDL Exposure and Risk Ranking",
+        "summary": "Prioritizes what to migrate first by linking quantum-vulnerable cryptography to the sensitive data it protects, weighted by how long that data must stay confidential, and flags where evidence is incomplete instead of assuming it's safe.",
         "image": "/images/cybersecurity/post-quantum-risk.jpg",
         "link": "/services/cybersecurity/post-quantum-risk-scoring",
         "icon": "bar-chart"
       },
       {
         "slug": "hybrid-pqc-resolutions",
-        "title": "Hybrid PQC Resolutions",
-        "summary": "Phased deployment of hybrid classical + NIST-selected PQC algorithms (CRYSTALS-Kyber, Dilithium, SPHINCS+) across PKI, TLS, and application encryption.",
+        "title": "Hybrid PQC Migration Planning and Support",
+        "summary": "Phased migration planning for hybrid classical + NIST-standard PQC algorithms (ML-KEM, ML-DSA, SLH-DSA) across PKI, TLS, and application encryption.",
         "image": "/images/cybersecurity/hybrid-pqc.jpg",
         "link": "/services/cybersecurity/hybrid-pqc-resolutions",
         "icon": "lock"
@@ -132,7 +160,10 @@
       "NIST Post-Quantum Cryptography (PQC) standards",
       "NIST FIPS 203, 204, and 205",
       "NIST SP 800-208 hybrid key establishment",
-      "CISA Post-Quantum Cryptography readiness guidance"
+      "CISA Post-Quantum Cryptography readiness guidance",
+      "NIST IR 8547 (PQC transition timeline)",
+      "NSA CNSA 2.0",
+      "OMB M-23-02 (cryptographic inventory)"
     ],
     "resources": [
       {

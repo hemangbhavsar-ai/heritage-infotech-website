@@ -49,9 +49,17 @@ export function Footer() {
 
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Connect</h3>
-            <a href={`mailto:${site.email}`} className="text-sm text-brand-400 hover:text-brand-300">
+            <a href={`mailto:${site.email}`} className="block text-sm text-brand-400 hover:text-brand-300">
               {site.email}
             </a>
+            {site.phone && (
+              <a
+                href={`tel:${site.phone.replace(/\D/g, '')}`}
+                className="mt-2 block text-sm text-slate-300 transition hover:text-brand-400"
+              >
+                {site.phone}
+              </a>
+            )}
             <div className="mt-4 flex gap-3">
               <a
                 href="#"

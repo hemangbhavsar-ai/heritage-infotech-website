@@ -25,6 +25,7 @@ export interface HeroSlide {
   subtitle: string
   cta: string
   ctaLink: string
+  image?: string
 }
 
 export interface ServiceCard {
@@ -177,12 +178,41 @@ export interface QuoteProcessStep {
   description: string
 }
 
+export interface TopicTable {
+  headers: string[]
+  rows: string[][]
+}
+
+export interface TopicBlock {
+  heading: string
+  paragraphs?: string[]
+  bullets?: string[]
+  table?: TopicTable
+}
+
+export interface HndlSectionContent {
+  title: string
+  paragraphs: string[]
+  complement?: string
+  note?: string
+  noteLinkLabel?: string
+  noteLink?: string
+}
+
 export interface ServiceTopic {
   slug: string
   title: string
   icon: string
   summary: string
   paragraphs: string[]
+  metaTitle?: string
+  metaDescription?: string
+  sampleEngagement?: string
+  blocks?: TopicBlock[]
+  hndl?: HndlSectionContent
+  closingNote?: string
+  closingNoteLinkLabel?: string
+  closingNoteLink?: string
 }
 
 export interface PagesContent {
@@ -251,6 +281,7 @@ export interface PagesContent {
     intro: string
     topics: ServiceTopic[]
     capabilities: string[]
+    hndl?: HndlSectionContent
   }
 }
 

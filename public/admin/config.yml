@@ -7,8 +7,8 @@ local_backend: true
 media_folder: "public/images"
 public_folder: "/images"
 
-site_url: https://heritage-infotech.netlify.app
-display_url: https://heritageinfotech.com
+site_url: /
+display_url: /
 logo_url: /images/logo/heritage-infotech-light.svg
 
 collections:
@@ -49,14 +49,17 @@ collections:
         label: Homepage Content
         file: content/home.json
         fields:
-          - label: Hero Slides
+          - label: Hero Banner (carousel)
             name: heroSlides
-            widget: list
+            label_singular: Slide
+            summary: "{{title}}"
+            hint: "The scrolling banner at the top of the home page. Add, remove, or drag to reorder slides. Each slide needs a title, short subtitle, button text, and an internal link (example: /services/cybersecurity)."
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Subtitle, name: subtitle, widget: text }
-              - { label: CTA Button Text, name: cta, widget: string }
-              - { label: CTA Link, name: ctaLink, widget: string }
+              - { label: Button Text, name: cta, widget: string }
+              - { label: Button Link, name: ctaLink, widget: string, hint: "Internal path, e.g. /services/logistics" }
+              - { label: Background Image, name: image, widget: image, required: false, hint: "Optional photo behind the slide. Leave empty to keep the default dark gradient." }
           - label: Highlights
             name: highlights
             widget: list

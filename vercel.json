@@ -1,6 +1,11 @@
 {
+  "redirects": [
+    { "source": "/admin", "destination": "/admin/", "permanent": true }
+  ],
   "rewrites": [
-    { "source": "/admin/(.*)", "destination": "/admin/index.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/config.yml", "destination": "/admin/config.yml" },
+    { "source": "/admin", "destination": "/admin/index.html" },
+    { "source": "/admin/", "destination": "/admin/index.html" },
+    { "source": "/((?!admin/).*)", "destination": "/index.html" }
   ]
 }

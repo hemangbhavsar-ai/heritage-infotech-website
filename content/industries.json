@@ -195,17 +195,6 @@
               "Implemented metadata catalog and data quality framework for precision medicine research datasets.",
               "Heritage InfoTech established data engineering standards for Mayo Clinic that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Healthcare Industries organization with a scalable foundation for current and future data initiatives."
             ]
-          },
-          {
-            "area": "Security & Compliance",
-            "icon": "shield-check",
-            "description": "Established quantum-readiness assessment for long-term research archive cryptographic protocols.",
-            "slug": "security-compliance",
-            "summary": "Established quantum-readiness assessment for long-term research archive cryptographic protocols.",
-            "paragraphs": [
-              "Established quantum-readiness assessment for long-term research archive cryptographic protocols.",
-              "Working with Mayo Clinic, Heritage InfoTech implemented security controls aligned with Healthcare Industries regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
-            ]
           }
         ]
       },
@@ -245,17 +234,6 @@
             "paragraphs": [
               "Supported enterprise data mesh initiative for research, clinical, and operational data domains.",
               "Heritage InfoTech established data engineering standards for Johns Hopkins Medicine that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Healthcare Industries organization with a scalable foundation for current and future data initiatives."
-            ]
-          },
-          {
-            "area": "Security & Compliance",
-            "icon": "shield-check",
-            "description": "Performed cryptographic inventory and hybrid PQC roadmap for research data encryption standards.",
-            "slug": "security-compliance",
-            "summary": "Performed cryptographic inventory and hybrid PQC roadmap for research data encryption standards.",
-            "paragraphs": [
-              "Performed cryptographic inventory and hybrid PQC roadmap for research data encryption standards.",
-              "Working with Johns Hopkins Medicine, Heritage InfoTech implemented security controls aligned with Healthcare Industries regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
             ]
           }
         ]
@@ -356,17 +334,6 @@
               "Designed customer 360 data platform unifying brokerage, retirement, and wealth management client records.",
               "Heritage InfoTech established data engineering standards for Fidelity Investments that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Financial Services organization with a scalable foundation for current and future data initiatives."
             ]
-          },
-          {
-            "area": "Security & Compliance",
-            "icon": "shield-check",
-            "description": "Executed cryptographic discovery program assessing quantum risk across certificate and key management infrastructure.",
-            "slug": "security-compliance",
-            "summary": "Executed cryptographic discovery program assessing quantum risk across certificate and key management infrastructure.",
-            "paragraphs": [
-              "Executed cryptographic discovery program assessing quantum risk across certificate and key management infrastructure.",
-              "Working with Fidelity Investments, Heritage InfoTech implemented security controls aligned with Financial Services regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
-            ]
           }
         ]
       },
@@ -462,11 +429,11 @@
           {
             "area": "Security & Compliance",
             "icon": "shield-check",
-            "description": "Supported cyber risk assessment and quantum readiness consulting workstreams for regulated industry clients.",
+            "description": "Supported cyber risk assessment consulting workstreams for regulated industry clients.",
             "slug": "security-compliance",
-            "summary": "Supported cyber risk assessment and quantum readiness consulting workstreams for regulated industry clients.",
+            "summary": "Supported cyber risk assessment consulting workstreams for regulated industry clients.",
             "paragraphs": [
-              "Supported cyber risk assessment and quantum readiness consulting workstreams for regulated industry clients.",
+              "Supported cyber risk assessment consulting workstreams for regulated industry clients.",
               "Working with Deloitte, Heritage InfoTech implemented security controls aligned with Financial Services regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
             ]
           }
@@ -890,17 +857,6 @@
               "Established operational data hub consolidating passenger throughput, asset maintenance, and security event data.",
               "Heritage InfoTech established data engineering standards for Port Authority of NY & NJ that support enterprise analytics, regulatory reporting, and cross-functional data sharing — providing the Government organization with a scalable foundation for current and future data initiatives."
             ]
-          },
-          {
-            "area": "Security & Compliance",
-            "icon": "shield-check",
-            "description": "Led quantum readiness cryptographic assessment for critical infrastructure OT/IT convergence environments.",
-            "slug": "security-compliance",
-            "summary": "Led quantum readiness cryptographic assessment for critical infrastructure OT/IT convergence environments.",
-            "paragraphs": [
-              "Led quantum readiness cryptographic assessment for critical infrastructure OT/IT convergence environments.",
-              "Working with Port Authority of NY & NJ, Heritage InfoTech implemented security controls aligned with Government regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
-            ]
           }
         ]
       },
@@ -1055,11 +1011,11 @@
           {
             "area": "Security & Compliance",
             "icon": "shield-check",
-            "description": "Led IT/OT convergence security assessment and hybrid PQC readiness for intellectual property and design data protection.",
+            "description": "Led IT/OT convergence security assessment for intellectual property and design data protection.",
             "slug": "security-compliance",
-            "summary": "Led IT/OT convergence security assessment and hybrid PQC readiness for intellectual property and design data protection.",
+            "summary": "Led IT/OT convergence security assessment for intellectual property and design data protection.",
             "paragraphs": [
-              "Led IT/OT convergence security assessment and hybrid PQC readiness for intellectual property and design data protection.",
+              "Led IT/OT convergence security assessment for intellectual property and design data protection.",
               "Working with Parker Hannifin, Heritage InfoTech implemented security controls aligned with Manufacturing regulatory expectations — combining technical safeguards, policy frameworks, and continuous monitoring to protect sensitive assets and demonstrate compliance to auditors and stakeholders."
             ]
           }
